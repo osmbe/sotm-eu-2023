@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DeceptiConf - A community-driven design conference</title>
+        <title>State of the Map EU 2023</title>
         <meta
           name="description"
           content="At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected."
