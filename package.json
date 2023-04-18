@@ -1,6 +1,5 @@
 {
-  "name": "tailwindui-keynote",
-  "version": "0.1.0",
+  "name": "sotm-eu-2023",
   "private": true,
   "scripts": {
     "dev": "next dev",
