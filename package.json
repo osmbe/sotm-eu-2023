@@ -22,7 +22,7 @@
   "devDependencies": {
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
-    "prettier": "^2.8.7",
+    "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.7",
     "sharp": "^0.32.0"
   }
