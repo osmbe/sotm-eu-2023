@@ -5,6 +5,20 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background.jpg'
+import LogoAntwerpYellow from '@/images/icons/Antwerp_Icon_Yellow.svg'
+import LogoNetherlandsYellow from '@/images/icons/Netherlands_Icon_Yellow.svg'
+import LogoParisYellow from '@/images/icons/Paris_Icon_Yellow.svg'
+import LogoRomeYellow from '@/images/icons/Rome_Icon_Yellow.svg'
+import LogoAntwerpBlue from '@/images/icons/Antwerp_Icon_Blue.svg'
+import LogoNetherlandsBlue from '@/images/icons/Netherlands_Icon_Blue.svg'
+import LogoParisBlue from '@/images/icons/Paris_Icon_Blue.svg'
+import LogoRomeBlue from '@/images/icons/Rome_Icon_Blue.svg'
+
+function randomLogo() {
+  const logos = [LogoAntwerpYellow, LogoNetherlandsYellow, LogoParisYellow, LogoRomeYellow, LogoAntwerpBlue, LogoNetherlandsBlue, LogoParisBlue, LogoRomeBlue]
+  const index = Math.random() * logos.length
+  return logos[Math.floor(index)]
+}
 
 const schedule = [
   {
@@ -225,10 +239,10 @@ function ScheduleTabbed() {
 function DaySummary({ day }) {
   return (
     <>
-      <h3 className="text-2xl font-semibold tracking-tight text-blue-900">
+      <h3 className="text-2xl font-semibold tracking-tight text-sotm-blue">
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
-      <p className="mt-1.5 text-base tracking-tight text-blue-900">
+      <p className="mt-1.5 text-base tracking-tight text-sotm-blue">
         {day.summary}
       </p>
     </>
@@ -252,11 +266,11 @@ function TimeSlots({ day, className }) {
           {timeSlotIndex > 0 && (
             <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
           )}
-          <h4 className="text-lg font-semibold tracking-tight text-blue-900">
+          <h4 className="text-lg font-semibold tracking-tight text-sotm-blue">
             {timeSlot.name}
           </h4>
           {timeSlot.description && (
-            <p className="mt-1 tracking-tight text-blue-900">
+            <p className="mt-1 tracking-tight text-sotm-blue">
               {timeSlot.description}
             </p>
           )}
@@ -294,11 +308,11 @@ export function Schedule() {
     <section id="schedule" aria-label="Schedule" className="py-20 sm:py-32">
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
-          <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
+          <h2 className="font-display text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
             Our three day schedule is jam-packed with brilliant, creative, evil
             geniuses.
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+          <p className="mt-4 font-display text-2xl tracking-tight text-sotm-blue">
             The worst people in our industry giving the best talks you’ve ever
             seen. Nothing will be recorded and every attendee has to sign an NDA
             to watch the talks.
@@ -309,7 +323,7 @@ export function Schedule() {
         <div className="absolute inset-x-0 -bottom-32 -top-40 overflow-hidden bg-indigo-50">
           <Image
             className="absolute left-full top-0 -translate-x-1/2 sm:left-1/2 sm:translate-x-[-20%] sm:translate-y-[-15%] md:translate-x-0 lg:translate-x-[5%] lg:translate-y-[4%] xl:translate-x-[27%] xl:translate-y-[-8%]"
-            src={backgroundImage}
+            src={randomLogo()}
             alt=""
             width={918}
             height={1495}

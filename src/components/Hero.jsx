@@ -2,15 +2,29 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background.jpg'
+import Logo from '@/images/logos/SOTM_Blue_full_logo_black.png'
+import LogoAntwerpYellow from '@/images/icons/Antwerp_Icon_Yellow.svg'
+import LogoNetherlandsYellow from '@/images/icons/Netherlands_Icon_Yellow.svg'
+import LogoParisYellow from '@/images/icons/Paris_Icon_Yellow.svg'
+import LogoRomeYellow from '@/images/icons/Rome_Icon_Yellow.svg'
+import LogoAntwerpBlue from '@/images/icons/Antwerp_Icon_Blue.svg'
+import LogoNetherlandsBlue from '@/images/icons/Netherlands_Icon_Blue.svg'
+import LogoParisBlue from '@/images/icons/Paris_Icon_Blue.svg'
+import LogoRomeBlue from '@/images/icons/Rome_Icon_Blue.svg'
+
+function randomLogo() {
+  const logos = [LogoAntwerpYellow, LogoNetherlandsYellow, LogoParisYellow, LogoRomeYellow, LogoAntwerpBlue, LogoNetherlandsBlue, LogoParisBlue, LogoRomeBlue]
+  const index = Math.random() * logos.length
+  return logos[Math.floor(index)]
+}
 
 export function Hero() {
   return (
-    <div className="relative pb-20 pt-10 sm:py-24">
+    <div className="relative pb-20">
       <div className="absolute inset-x-0 -bottom-14 -top-48 overflow-hidden bg-indigo-50">
         <Image
-          className="absolute left-0 top-0 translate-x-[-55%] translate-y-[-10%] -scale-x-100 sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
-          src={backgroundImage}
+          className="absolute opacity-10 left-0 top-0 translate-x-[-55%] translate-y-[-10%] -scale-x-100 sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
+          src={randomLogo()}
           alt=""
           width={918}
           height={1495}
@@ -22,35 +36,33 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
-            <span className="sr-only">State of the Map EU 2023 - </span>A design conference for the dark side.
+          <h1 className="font-display text-5xl font-bold tracking-tighter text-sotm-blue sm:text-7xl">
+            {/* <span className="sr-only">State of the Map EU 2023 - </span>A design conference for the dark side. */}
+            <Image src={Logo} width={500} height={500} alt="State of the Map EU 2023" className="w-full h-auto" />
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
+          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-sotm-blue">
             <p>
-              The next generation of web users are tech-savvy and suspicious.
-              They know how to use dev tools, they can detect a phishing scam
-              from a mile away, and they certainly aren’t accepting any checks
-              from Western Union.
-            </p>
-            <p>
-              At State of the Map you’ll learn about the latest dark patterns being
-              developed to trick even the smartest visitors, and you’ll learn
-              how to deploy them without ever being detected.
+              This year’s State of the Map Europe Conference (SotM EU), taking
+              place in Belgium, will bring together the brightest and most
+              active members of the OpenStreetMap mapping and developing
+              community for a detailed exchange of results and ideas that support
+              the continued success of the various initiatives by strengthening
+              the ongoing projects and collaboration.
             </p>
           </div>
-          <Button href="#" className="mt-10 w-full sm:hidden">
+          {/* <Button href="#" className="mt-10 w-full sm:hidden">
             Get your tickets
-          </Button>
+          </Button> */}
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Speakers', '18'],
               ['People Attending', '2,091'],
-              ['Venue', 'Staples Center'],
-              ['Location', 'Los Angeles'],
+              ['Venue', 'BluePoint'],
+              ['Location', 'Antwerp, Belgium'],
             ].map(([name, value]) => (
               <div key={name}>
-                <dt className="font-mono text-sm text-blue-600">{name}</dt>
-                <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-blue-900">
+                <dt className="font-mono text-sm text-sotm-blue">{name}</dt>
+                <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-sotm-yellow">
                   {value}
                 </dd>
               </div>
