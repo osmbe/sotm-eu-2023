@@ -7,6 +7,9 @@ import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
+import { AboutOsm } from '@/components/AboutOsm'
+import { AboutSotm } from '@/components/AboutSotm'
+import { Venue } from '@/components/Venue'
 
 export default function Home() {
   return (
@@ -21,9 +24,10 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <Speakers />
-        <Schedule />
+        <AboutOsm />
+        <AboutSotm />
         <Sponsors />
+        <Venue />
         <Newsletter />
       </main>
       <Footer />
