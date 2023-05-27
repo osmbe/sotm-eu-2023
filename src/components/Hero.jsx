@@ -36,11 +36,11 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="font-display text-5xl font-bold tracking-tighter text-sotm-blue sm:text-7xl">
+          <h1 className="font-poppins text-5xl font-bold tracking-tighter text-sotm-blue sm:text-7xl">
             {/* <span className="sr-only">State of the Map EU 2023 - </span>A design conference for the dark side. */}
             <Image src={Logo} width={500} height={500} alt="State of the Map EU 2023" className="w-full h-auto" />
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-sotm-blue">
+          <div className="mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
             <p>
               This year’s State of the Map Europe Conference (SotM EU), taking
               place in Belgium, will bring together the brightest and most

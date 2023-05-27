@@ -1,21 +1,13 @@
-import Image from 'next/image'
-
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
 
 export function AboutSotm() {
     return (
         <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
             <Container>
-                <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
+                <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
                     The SotM Europe event
                 </h2>
-                <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-sotm-blue">
+                <div className="mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
                     <p>
                         The State of the Map European organizing committee, in collaboration with the OpenStreetMap Belgium
                         community, is organizing the State of the Map Europe 2023 conference (SotM EU 2023) taking place on

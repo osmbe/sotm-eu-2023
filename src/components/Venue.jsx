@@ -6,10 +6,10 @@ export function Venue() {
     return (
         <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
             <Container>
-                <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
+                <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
                     Venue
                 </h2>
-                <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-sotm-blue">
+                <div className="mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
                     <p>
                         State of the Map will take place at the <Link className="font-bold" target="_blank" href="https://www.bluepoint.be/en/antwerp">Blue Point conference center</Link> in Antwerp, Belgium.
                     </p>

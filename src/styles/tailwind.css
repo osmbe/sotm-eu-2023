@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'DunbarText';
+    src: url('../../public/fonts/Dunbar/DunbarText-Bold.eot');
+    src: local('DunbarText Bold'), local('DunbarText-Bold'),
+        url('../../public/fonts/Dunbar/DunbarText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../public/fonts/Dunbar/DunbarText-Bold.woff2') format('woff2'),
+        url('../../public/fonts/Dunbar/DunbarText-Bold.woff') format('woff'),
+        url('../../public/fonts/Dunbar/DunbarText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Regular'), local('Poppins-Regular'),
+        url('../../public/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Regular'), local('Poppins-Regular'),
+        url('../../public/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

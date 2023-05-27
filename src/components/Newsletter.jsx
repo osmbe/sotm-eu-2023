@@ -6,10 +6,10 @@ export function Newsletter() {
   return (
     <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
       <Container>
-        <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
+        <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
           Stay up to date
         </h2>
-        <div className="mx-auto mt-6 space-y-6 font-display text-center text-2xl tracking-tight text-sotm-blue">
+        <div className="mx-auto mt-6 space-y-6 font-poppins text-center text-2xl tracking-tight text-sotm-blue">
           <p>
             Get updates on all of our events and be the first to get notified when tickets go on sale.
           </p>

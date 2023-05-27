@@ -43,8 +43,8 @@ module.exports = {
         '5xl': '2.5rem',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        display: ['Inter', ...defaultTheme.fontFamily.sans],
+        dunbar: ['DunbarText'],
+        poppins: ['Poppins'],
       },
       maxWidth: {
         '2xl': '40rem',
