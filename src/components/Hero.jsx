@@ -3,19 +3,13 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import Logo from '@/images/logos/SOTM_Blue_full_logo_black.png'
-import LogoAntwerpYellow from '@/images/icons/Antwerp_Icon_Yellow.svg'
-import LogoNetherlandsYellow from '@/images/icons/Netherlands_Icon_Yellow.svg'
-import LogoParisYellow from '@/images/icons/Paris_Icon_Yellow.svg'
-import LogoRomeYellow from '@/images/icons/Rome_Icon_Yellow.svg'
-import LogoAntwerpBlue from '@/images/icons/Antwerp_Icon_Blue.svg'
-import LogoNetherlandsBlue from '@/images/icons/Netherlands_Icon_Blue.svg'
-import LogoParisBlue from '@/images/icons/Paris_Icon_Blue.svg'
-import LogoRomeBlue from '@/images/icons/Rome_Icon_Blue.svg'
 
 function randomLogo() {
-  const logos = [LogoAntwerpYellow, LogoNetherlandsYellow, LogoParisYellow, LogoRomeYellow, LogoAntwerpBlue, LogoNetherlandsBlue, LogoParisBlue, LogoRomeBlue]
-  const index = Math.random() * logos.length
-  return logos[Math.floor(index)]
+  const city = ['Antwerp', 'Netherlands', 'Paris', 'Rome']
+  const color = ['Blue', 'Yellow']
+  const idxCity = Math.floor(Math.random() * city.length)
+  const idxColor = Math.floor(Math.random() * color.length)
+  return `/images/${city[idxCity]}_Icon_${color[idxColor]}.svg`
 }
 
 export function Hero() {
