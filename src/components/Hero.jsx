@@ -1,24 +1,33 @@
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import Logo from '@/images/logos/SOTM_Blue_full_logo_black.png'
-
-function randomLogo() {
-  const city = ['Antwerp', 'Netherlands', 'Paris', 'Rome']
-  const color = ['Blue', 'Yellow']
-  const idxCity = Math.floor(Math.random() * city.length)
-  const idxColor = Math.floor(Math.random() * color.length)
-  return `/images/${city[idxCity]}_Icon_${color[idxColor]}.svg`
-}
+import LogoAntwerpBlue from '@/images/icons/Antwerp_Icon_Blue.svg'
+import LogoAntwerpYellow from '@/images/icons/Antwerp_Icon_Yellow.svg'
+import LogoNetherlandsBlue from '@/images/icons/Netherlands_Icon_Blue.svg'
+import LogoNetherlandsYellow from '@/images/icons/Netherlands_Icon_Yellow.svg'
+import LogoParisBlue from '@/images/icons/Paris_Icon_Blue.svg'
+import LogoParisYellow from '@/images/icons/Paris_Icon_Yellow.svg'
+import LogoRomeBlue from '@/images/icons/Rome_Icon_Blue.svg'
+import LogoRomeYellow from '@/images/icons/Rome_Icon_Yellow.svg'
 
 export function Hero() {
+  const [background, setBackground] = useState(LogoAntwerpBlue)
+
+  useEffect(() => {
+    const logos = [LogoAntwerpYellow, LogoNetherlandsYellow, LogoParisYellow, LogoRomeYellow, LogoAntwerpBlue, LogoNetherlandsBlue, LogoParisBlue, LogoRomeBlue]
+    const index = Math.random() * logos.length
+    return setBackground(logos[Math.floor(index)])
+  }, [])
+
   return (
     <div className="relative pb-20">
       <div className="absolute inset-x-0 -bottom-14 -top-48 overflow-hidden bg-indigo-50">
         <Image
           className="absolute opacity-10 left-0 top-0 translate-x-[-55%] translate-y-[-10%] -scale-x-100 sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
-          src={randomLogo()}
+          src={background}
           alt=""
           width={918}
           height={1495}
