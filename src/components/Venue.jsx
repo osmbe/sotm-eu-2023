@@ -1,4 +1,5 @@
 import { Container } from '@/components/Container'
+import Link from 'next/link'
 
 export function Venue() {
     return (
@@ -9,10 +10,12 @@ export function Venue() {
                 </h2>
                 <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-sotm-blue">
                     <p>
-                        State of the Map will take place at the <a href="https://www.bluepoint.be/en/antwerp">Blue Point conference center</a> in Antwerp, Belgium.
+                        State of the Map will take place at the <Link className="font-bold" target="_blank" href="https://www.bluepoint.be/en/antwerp">Blue Point conference center</Link> in Antwerp, Belgium.
                     </p>
-
-                    <p>The conference center is only 10 minutes from Berchem station. Easily accessible by car and public transport. Parking facilities can be found both above and underground and there is no lack of sustainability. Electric charging stations are available on-site, and for the sports enthusiasts who come cycling, we provide a bicycle shed.
+                    <p>
+                        The conference center is only 10 minutes from Berchem station. Easily accessible by car and public transport.
+                        Parking facilities can be found both above and underground and there is no lack of sustainability.
+                        Electric charging stations are available on-site, and for the sports enthusiasts who come cycling, we provide a bicycle shed.
                     </p>
                 </div>
             </Container>
