@@ -15,6 +15,7 @@ import logoMicrosoft from '@/images/sponsors/microsoft.png'
 import logoMeta from '@/images/sponsors/meta.svg'
 import logoYm from '@/images/sponsors/youthmappers.png'
 import logoMapbox from '@/images/sponsors/mapbox.svg'
+import Link from 'next/link'
 
 
 const sponsors = [
@@ -36,10 +37,8 @@ export function Sponsors() {
           Our sponsors
         </h2>
 
-        <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-sotm-blue">
-          <p>
-            Want to sponsor? Check <strong><a href="https://stateofthemap.eu/SotmEU_Sponsorship_Packet.pdf">here</a></strong> for more info!  
-          </p>
+        <div className="mx-auto mt-6 space-y-6 text-center text-2xl tracking-tight text-sotm-blue">
+          Want to sponsor? Check <Link className="font-bold" target="_blank" href="https://stateofthemap.eu/SotmEU_Sponsorship_Packet.pdf">here</Link> for more info!
         </div>
         <h3 className="mx-auto max-w-2xl text-center text-2xl font-semibold tracking-tight text-sotm-blue pt-8">
           Some of the past State of the Map sponsors
