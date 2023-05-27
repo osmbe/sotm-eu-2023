@@ -31,7 +31,7 @@ export function Sponsors() {
         </h2>
 
         <div className="mx-auto mt-6 space-y-6 text-center text-2xl tracking-tight text-sotm-blue">
-          Want to sponsor? Check <Link className="font-bold" target="_blank" href="https://stateofthemap.eu/SotmEU_Sponsorship_Packet.pdf">here</Link> for more info!
+          Want to sponsor? Check <Link className="font-bold" target="_blank" href="/pdf/SotmEU_Sponsorship_Packet.pdf">here</Link> for more info!
         </div>
         <h3 className="mx-auto max-w-2xl text-center font-dunbar text-2xl font-semibold tracking-tight text-sotm-blue pt-8">
           Some of the past State of the Map sponsors
