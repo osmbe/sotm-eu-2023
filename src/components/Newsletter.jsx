@@ -1,4 +1,5 @@
 import { Container } from '@/components/Container'
+import Link from 'next/link'
 
 export function Newsletter() {
   return (
@@ -7,13 +8,12 @@ export function Newsletter() {
         <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
           Stay up to date
         </h2>
-        <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-sotm-blue">
+        <div className="mx-auto mt-6 space-y-6 font-display text-center text-2xl tracking-tight text-sotm-blue">
           <p>
             Get updates on all of our events and be the first to get notified when tickets go on sale.
           </p>
           <p>
-            <a href="https://mailchi.mp/c799b1ff4844/stay-updated-for-sotm-eu-2023">Sign up <strong>here</strong> for updates</a>!
-
+            <Link target="_blank" href="https://mailchi.mp/c799b1ff4844/stay-updated-for-sotm-eu-2023">Sign up <span className="font-bold">here</span> for updates</Link>!
           </p>
         </div>
       </Container>
