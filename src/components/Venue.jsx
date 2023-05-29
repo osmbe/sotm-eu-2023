@@ -20,7 +20,7 @@ export function Venue() {
           unoptimized
         />
       </div>
-        <Container>
+        <Container className="relative">
           <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
             Venue
           </h2>
