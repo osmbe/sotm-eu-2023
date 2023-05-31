@@ -17,6 +17,7 @@ export function Footer() {
         <p className="mt-6 text-base text-slate-500 md:mt-0">
           Copyright &copy; State of the Map EU 2023 rights reserved.
         </p>
+        <a rel="me" href="https://en.osm.town/@sotmeu" className="text-sotm-blue" target="_blank">Mastodon</a>
       </Container>
     </footer>
   )
