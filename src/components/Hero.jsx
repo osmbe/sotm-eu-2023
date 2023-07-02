@@ -12,6 +12,8 @@ import LogoParisBlue from '@/images/icons/Paris_Icon_Blue.svg'
 import LogoParisYellow from '@/images/icons/Paris_Icon_Yellow.svg'
 import LogoRomeBlue from '@/images/icons/Rome_Icon_Blue.svg'
 import LogoRomeYellow from '@/images/icons/Rome_Icon_Yellow.svg'
+import LogoBrusselsBlue from '@/images/icons/Brussels_Icon_Blue.svg'
+import LogoBrusselsYellow from '@/images/icons/Brussels_Icon_Yellow.svg'
 
 export function Hero({ id }) {
   const [background, setBackground] = useState(LogoAntwerpBlue)
@@ -19,10 +21,12 @@ export function Hero({ id }) {
   useEffect(() => {
     const logos = [
       LogoAntwerpYellow,
+      LogoBrusselsYellow,
       LogoNetherlandsYellow,
       LogoParisYellow,
       LogoRomeYellow,
       LogoAntwerpBlue,
+      LogoBrusselsBlue,
       LogoNetherlandsBlue,
       LogoParisBlue,
       LogoRomeBlue,
