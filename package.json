@@ -5,7 +5,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "prettier": "npx prettier --check \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "prettier:fix": "npx prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
