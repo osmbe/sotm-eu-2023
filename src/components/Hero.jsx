@@ -17,16 +17,25 @@ export function Hero({ id }) {
   const [background, setBackground] = useState(LogoAntwerpBlue)
 
   useEffect(() => {
-    const logos = [LogoAntwerpYellow, LogoNetherlandsYellow, LogoParisYellow, LogoRomeYellow, LogoAntwerpBlue, LogoNetherlandsBlue, LogoParisBlue, LogoRomeBlue]
+    const logos = [
+      LogoAntwerpYellow,
+      LogoNetherlandsYellow,
+      LogoParisYellow,
+      LogoRomeYellow,
+      LogoAntwerpBlue,
+      LogoNetherlandsBlue,
+      LogoParisBlue,
+      LogoRomeBlue,
+    ]
     const index = Math.random() * logos.length
     return setBackground(logos[Math.floor(index)])
   }, [])
 
   return (
     <div id={id} className="relative pb-20">
-      <div className="absolute inset-x-0 -bottom-14 -top-48 overflow-hidden bg-indigo-50">
+      <div className="bg-indigo-50 absolute inset-x-0 -bottom-14 -top-48 overflow-hidden">
         <Image
-          className="absolute opacity-10 left-0 top-0 translate-x-[-55%] translate-y-[-10%] -scale-x-100 sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
+          className="absolute left-0 top-0 translate-x-[-55%] translate-y-[-10%] -scale-x-100 opacity-10 sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
           src={background}
           alt=""
           width={918}
@@ -41,16 +50,22 @@ export function Hero({ id }) {
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="font-poppins text-5xl font-bold tracking-tighter text-sotm-blue sm:text-7xl">
             {/* <span className="sr-only">State of the Map EU 2023 - </span>A design conference for the dark side. */}
-            <Image src={Logo} width={500} height={500} alt="State of the Map EU 2023" className="w-full h-auto" />
+            <Image
+              src={Logo}
+              width={500}
+              height={500}
+              alt="State of the Map EU 2023"
+              className="h-auto w-full"
+            />
           </h1>
           <div className="mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
             <p>
               This year’s State of the Map Europe Conference (SotM EU), taking
               place in Belgium, will bring together the brightest and most
               active members of the OpenStreetMap mapping and developing
-              community for a detailed exchange of results and ideas that support
-              the continued success of the various initiatives by strengthening
-              the ongoing projects and collaboration.
+              community for a detailed exchange of results and ideas that
+              support the continued success of the various initiatives by
+              strengthening the ongoing projects and collaboration.
             </p>
           </div>
           {/* <Button href="#" className="mt-10 w-full sm:hidden">
@@ -71,7 +86,7 @@ export function Hero({ id }) {
               </div>
             ))}
           </dl> */}
-          </div>
+        </div>
       </Container>
     </div>
   )

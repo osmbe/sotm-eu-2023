@@ -58,3 +58,15 @@ jobs:
         with:
           sarif_file: eslint-results.sarif
           wait-for-processing: true
+
+  nodejs-prettier:
+    name: Prettier
+    runs-on: ubuntu-latest
+    needs: [nodejs-build]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install dependencies & ESLint SARIF formatter
+        run: npm install
+      - name: Run Prettier
+        run: npm run prettier

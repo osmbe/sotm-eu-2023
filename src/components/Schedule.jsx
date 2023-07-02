@@ -15,7 +15,16 @@ import LogoParisBlue from '@/images/icons/Paris_Icon_Blue.svg'
 import LogoRomeBlue from '@/images/icons/Rome_Icon_Blue.svg'
 
 function randomLogo() {
-  const logos = [LogoAntwerpYellow, LogoNetherlandsYellow, LogoParisYellow, LogoRomeYellow, LogoAntwerpBlue, LogoNetherlandsBlue, LogoParisBlue, LogoRomeBlue]
+  const logos = [
+    LogoAntwerpYellow,
+    LogoNetherlandsYellow,
+    LogoParisYellow,
+    LogoRomeYellow,
+    LogoAntwerpBlue,
+    LogoNetherlandsBlue,
+    LogoParisBlue,
+    LogoRomeBlue,
+  ]
   const index = Math.random() * logos.length
   return logos[Math.floor(index)]
 }
@@ -264,7 +273,7 @@ function TimeSlots({ day, className }) {
           aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
         >
           {timeSlotIndex > 0 && (
-            <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+            <div className="bg-indigo-500/10 mx-auto mb-8 h-px w-48" />
           )}
           <h4 className="text-lg font-semibold tracking-tight text-sotm-blue">
             {timeSlot.name}
@@ -320,7 +329,7 @@ export function Schedule() {
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">
-        <div className="absolute inset-x-0 -bottom-32 -top-40 overflow-hidden bg-indigo-50">
+        <div className="bg-indigo-50 absolute inset-x-0 -bottom-32 -top-40 overflow-hidden">
           <Image
             className="absolute left-full top-0 -translate-x-1/2 sm:left-1/2 sm:translate-x-[-20%] sm:translate-y-[-15%] md:translate-x-0 lg:translate-x-[5%] lg:translate-y-[4%] xl:translate-x-[27%] xl:translate-y-[-8%]"
             src={randomLogo()}
