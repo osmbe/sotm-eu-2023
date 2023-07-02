@@ -13,7 +13,7 @@ import LogoParisYellow from '@/images/icons/Paris_Icon_Yellow.svg'
 import LogoRomeBlue from '@/images/icons/Rome_Icon_Blue.svg'
 import LogoRomeYellow from '@/images/icons/Rome_Icon_Yellow.svg'
 
-export function Hero() {
+export function Hero({ id }) {
   const [background, setBackground] = useState(LogoAntwerpBlue)
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export function Hero() {
   }, [])
 
   return (
-    <div className="relative pb-20">
+    <div id={id} className="relative pb-20">
       <div className="absolute inset-x-0 -bottom-14 -top-48 overflow-hidden bg-indigo-50">
         <Image
           className="absolute opacity-10 left-0 top-0 translate-x-[-55%] translate-y-[-10%] -scale-x-100 sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-122%]"

@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 import { Container } from '@/components/Container'
 
-export function Newsletter() {
+export function Newsletter({ id }) {
   return (
-    <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
+    <section id={id} aria-label="Newsletter" className="py-20 sm:py-32">
       <Container>
         <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
           Stay up to date

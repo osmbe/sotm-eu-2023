@@ -1,8 +1,8 @@
 import { Container } from '@/components/Container'
 
-export function AboutOsm() {
+export function AboutOsm({ id }) {
   return (
-    <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
+    <section id={id} aria-label="About OpenStreetMap" className="py-20 sm:py-32">
       <Container>
         <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
           About OpenStreetMap
