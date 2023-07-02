@@ -10,6 +10,7 @@ import { Sponsors } from '@/components/Sponsors'
 import { AboutOsm } from '@/components/AboutOpenStreetMap'
 import { AboutSotm } from '@/components/AboutSotM'
 import { Venue } from '@/components/Venue'
+import { CallForPapers } from '@/components/CallForPapers'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <AboutSotm id="stateofthemap" />
         <Sponsors id="sponsors" />
         <Venue id="venue" />
+        <CallForPapers id="callforpapers" />
         <Newsletter id="newsletter" />
       </main>
       <Footer />
