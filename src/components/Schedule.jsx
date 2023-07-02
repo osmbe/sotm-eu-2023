@@ -28,7 +28,7 @@ function randomLogo() {
     LogoNetherlandsBlue,
     LogoParisBlue,
     LogoRomeBlue,
-]
+  ]
   const index = Math.random() * logos.length
   return logos[Math.floor(index)]
 }
