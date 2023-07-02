@@ -13,14 +13,18 @@ import LogoAntwerpBlue from '@/images/icons/Antwerp_Icon_Blue.svg'
 import LogoNetherlandsBlue from '@/images/icons/Netherlands_Icon_Blue.svg'
 import LogoParisBlue from '@/images/icons/Paris_Icon_Blue.svg'
 import LogoRomeBlue from '@/images/icons/Rome_Icon_Blue.svg'
+import LogoBrusselsBlue from '@/images/icons/Brussels_Icon_Blue.svg'
+import LogoBrusselsYellow from '@/images/icons/Brussels_Icon_Yellow.svg'
 
 function randomLogo() {
   const logos = [
     LogoAntwerpYellow,
+    LogoBrusselsYellow,
     LogoNetherlandsYellow,
     LogoParisYellow,
     LogoRomeYellow,
     LogoAntwerpBlue,
+    LogoBrusselsBlue,
     LogoNetherlandsBlue,
     LogoParisBlue,
     LogoRomeBlue,
