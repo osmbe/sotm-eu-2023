@@ -23,12 +23,12 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <Hero />
-        <AboutOsm />
-        <AboutSotm />
-        <Sponsors />
-        <Venue />
-        <Newsletter />
+        <Hero id="hero" />
+        <AboutOsm id="openstreetmap" />
+        <AboutSotm id="stateofthemap" />
+        <Sponsors id="sponsors" />
+        <Venue id="venue" />
+        <Newsletter id="newsletter" />
       </main>
       <Footer />
     </>

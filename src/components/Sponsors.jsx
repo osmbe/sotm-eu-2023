@@ -47,9 +47,9 @@ const pastSponsors = [
   { name: 'Mapbox', logo: logoMapbox },
 ]
 
-export function Sponsors() {
+export function Sponsors({ id }) {
   return (
-    <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
+    <section id={id} aria-label="Sponsors" className="py-20 sm:py-32">
       <Container>
         <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
           Our sponsors

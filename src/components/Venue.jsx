@@ -5,9 +5,9 @@ import { Container } from '@/components/Container'
 
 import LogoAntwerpBlue from '@/images/icons/Antwerp_Icon_Blue.svg'
 
-export function Venue() {
+export function Venue({ id }) {
   return (
-    <section id="venue" aria-label="Venue" className="py-20 sm:py-32">
+    <section id={id} aria-label="Venue" className="py-20 sm:py-32">
       <div className="relative">
         <div className="bg-indigo-50 absolute inset-x-0 -bottom-14 -top-48 overflow-hidden">
           <Image
