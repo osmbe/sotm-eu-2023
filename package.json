@@ -9,7 +9,7 @@
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
-    "@headlessui/react": "^1.7.14",
+    "@headlessui/react": "^1.7.15",
     "autoprefixer": "^10.4.14",
     "clsx": "^1.2.1",
     "focus-visible": "^5.2.0",
