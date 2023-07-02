@@ -261,7 +261,7 @@ export function Speakers() {
                         )}
                       />
                       <div
-                        className="absolute inset-0 bg-indigo-50"
+                        className="bg-indigo-50 absolute inset-0"
                         style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
                       >
                         <Image
