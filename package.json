@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "eslint": "8.44.0",
-    "eslint-config-next": "13.4.7",
+    "eslint-config-next": "13.4.9",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "sharp": "^0.32.1"
