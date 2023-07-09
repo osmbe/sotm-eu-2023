@@ -28,13 +28,13 @@ export function Footer() {
         </div>
         <div className="flex flex-col items-center justify-between md:flex-row">
           <Link href="/">
-          <Image
-            src={logo}
-            height={100}
-            width={100}
-            alt="SotM EU 2023 logo"
-            className="h-12 w-auto text-slate-900"
-          />
+            <Image
+              src={logo}
+              height={100}
+              width={100}
+              alt="SotM EU 2023 logo"
+              className="h-12 w-auto text-slate-900"
+            />
           </Link>
           <p className="mt-6 text-base text-slate-500 md:mt-0">
             Copyright &copy; State of the Map EU 2023 rights reserved.
