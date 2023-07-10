@@ -11,13 +11,13 @@ export function CodeOfConduct({ id }) {
         </h2>
         <div className="mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
           <p>
-            The State of the Map Europe organizing team is dedicated to providing a
-            harassment-free conference experience for everyone, regardless of
-            gender, gender identity and expression, sexual orientation,
-            disability, physical appearance, body size, race, age or religion.
-            We do not tolerate harassment of conference participants in any
-            form. Sexual language and imagery is not appropriate for any
-            conference venue, including talks.
+            The State of the Map Europe organizing team is dedicated to
+            providing a harassment-free conference experience for everyone,
+            regardless of gender, gender identity and expression, sexual
+            orientation, disability, physical appearance, body size, race, age
+            or religion. We do not tolerate harassment of conference
+            participants in any form. Sexual language and imagery is not
+            appropriate for any conference venue, including talks.
           </p>
           <p>
             Harassment includes verbal comments that reinforce social structures
