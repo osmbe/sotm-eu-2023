@@ -11,7 +11,7 @@ export function CodeOfConduct({ id }) {
         </h2>
         <div className="mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
           <p>
-            The OpenStreetMap Foundation is dedicated to providing a
+            The State of the Map Europe organizing team is dedicated to providing a
             harassment-free conference experience for everyone, regardless of
             gender, gender identity and expression, sexual orientation,
             disability, physical appearance, body size, race, age or religion.
