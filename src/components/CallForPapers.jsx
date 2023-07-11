@@ -16,10 +16,10 @@ export function CallForPapers({ id }) {
           </h3>
 
           <p>
-            You`re invited to propose a session. Whether you`re new to OSM or an
-            experienced contributor, we want to hear from you. Submit your
-            session proposal today and share your mapping or technical
-            expertise, discuss OpenStreetMap topics, and related content.
+            Whether you`re new to OSM or an experienced contributor, we want to
+            hear from you. Submit your session proposal today and share your
+            mapping or technical expertise, discuss OpenStreetMap or related
+            topics.
           </p>
           <p>
             We especially encourage local and regional mappers to participate.
@@ -42,9 +42,9 @@ export function CallForPapers({ id }) {
             conference and take the stages at State of the Map Europe 2023.
             <ul>
               <li>July 14: Call for Proposals Opens</li>
-              <li>September 4: Deadline for submissions</li>
-              <li>September 25: Speakers notified of final decision</li>
-              <li>October 16: Program Announced</li>
+              <li>August 24: Deadline for submissions</li>
+              <li>September 21: Speakers notified of final decision</li>
+              <li>October 4: Program Announced</li>
               <li>November 10-12: State of the Map Europe 2023</li>
             </ul>
           </p>
