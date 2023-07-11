@@ -10,21 +10,29 @@ export function CallForPapers({ id }) {
           Call for Papers
         </h2>
 
-        <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
-          Submit your presentation
-        </h3>
+        <div className="mx-auto mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
+          <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
+            Submit your presentation
+          </h3>
 
-        <div className="mx-auto mt-6 space-y-6 text-center font-poppins text-2xl tracking-tight text-sotm-blue">
           <p>
             You`re invited to propose a session. Whether you`re new to OSM or an
             experienced contributor, we want to hear from you. Submit your
             session proposal today and share your mapping or technical
-            expertise, discuss OpenStreetMap topics, and related content. We
-            especially encourage local and regional mappers to participate. Who
-            should propose a session? You! Whether you`re a seasoned speaker or
-            a first-time proposer, we welcome your ideas. Share your expertise,
-            lead a workshop or dive deep into OpenStreetMap-related discussions.
-            State of the Map Europe is a platform where all voices are valued.
+            expertise, discuss OpenStreetMap topics, and related content.
+          </p>
+          <p>
+            We especially encourage local and regional mappers to participate.
+          </p>
+
+          <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
+            Who should propose a session? You!
+          </h3>
+          <p>
+            Whether you`re a seasoned speaker or a first-time proposer, we
+            welcome your ideas. Share your expertise, lead a workshop or dive
+            deep into OpenStreetMap-related discussions. State of the Map Europe
+            is a platform where all voices are valued.
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Timeline & Deadlines
