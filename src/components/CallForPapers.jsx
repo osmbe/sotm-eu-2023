@@ -14,7 +14,6 @@ export function CallForPapers({ id }) {
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Submit your presentation
           </h3>
-
           <p>
             Whether you`re new to OSM or an experienced contributor, we want to
             hear from you. Submit your session proposal today and share your
@@ -24,7 +23,6 @@ export function CallForPapers({ id }) {
           <p>
             We especially encourage local and regional mappers to participate.
           </p>
-
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Who should propose a session? You!
           </h3>
@@ -34,12 +32,13 @@ export function CallForPapers({ id }) {
             deep into OpenStreetMap-related discussions. State of the Map Europe
             is a platform where all voices are valued.
           </p>
+          Grab this opportunity, contribute to an inspiring and collaborative
+          conference and take the stages at State of the Map Europe 2023.
+          <p></p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Timeline & Deadlines
           </h3>
           <p>
-            Grab this opportunity, contribute to an inspiring and collaborative
-            conference and take the stages at State of the Map Europe 2023.
             <ul>
               <li>July 14: Call for Proposals Opens</li>
               <li>August 24: Deadline for submissions</li>
