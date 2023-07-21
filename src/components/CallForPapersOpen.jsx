@@ -12,7 +12,7 @@ export function CallForPapersOpen({ id }) {
 
         <div className="mx-auto mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
           <p>
-            Check
+            Check{' '}
             <Link
               className="font-bold"
               target="_blank"
