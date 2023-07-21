@@ -56,32 +56,19 @@ export function CallForPapers({ id }) {
             Submission Types
           </h3>
           <p>
-            You may choose for most submission types whether you attend in
-            person or participate virtually. We will try to make all events
-            available for online and offline attendance. Exceptions are noted
-            below. Please keep in mind that the conference will take place in
-            the CEST timezone. We will try to take into account the timezone of
-            participants as much as possible when scheduling events but we will
-            be restricted to the usual conference hours between 9am and 6pm.
-          </p>
-          <p>
             <strong>Talk (20 minutes)</strong>
           </p>
           <p>
             Classic talk of about 20 minutes for the talk itself followed by a
             question and answer session. This is the preferred submission type.
-            Talks can either be held in-person at the conference or, if you
-            cannot attend, you may submit a pre-recorded talk. The QA part of
-            the talk is always live. Virtual speakers will join via video call.
-            That means that even with a pre-recorded video you need to be
-            available.
           </p>
-          <p>Extended Talk (40 minutes)</p>
+          <p>
+            <strong>Extended Talk (40 minutes)</strong>
+          </p>
           <p>
             An extended talk with 40 minutes for the talk and 15 minutes for
             questions. These are for topics you want to explore in more depth.
-            The same rules as for classic talks apply. You should outline why
-            your talk deserves more time.
+            You should outline why your talk deserves more time.
           </p>
           <p>
             <strong>Workshop (60–90 minutes)</strong>
