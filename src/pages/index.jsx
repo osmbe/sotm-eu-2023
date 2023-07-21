@@ -29,7 +29,6 @@ export default function Home() {
         <AboutSotm id="stateofthemap" />
         <Sponsors id="sponsors" />
         <Venue id="venue" />
-        <CallForPapers id="callforpapers" />
         <Newsletter id="newsletter" />
       </main>
       <Footer />
