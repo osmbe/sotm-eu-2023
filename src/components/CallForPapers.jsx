@@ -36,14 +36,11 @@ export function CallForPapers({ id }) {
             Grab this opportunity, contribute to an inspiring and collaborative
             conference and take the stages at State of the Map Europe 2023.
           </p>
-          <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
-            Session Types
-          </h3>
           <p>
             We would love to see your submission for one or more of these
-            tracks:
+            topics:
             <ul>
-              <li>OSM Basics</li>
+              <li>OpenStreetMap</li>
               <li>Community and Foundation</li>
               <li>Mapping</li>
               <li>Cartography</li>
