@@ -7,15 +7,12 @@ export function CallForPapersOpen({ id }) {
     <section id={id} aria-label="CallForPapers" className="py-20 sm:py-32">
       <Container>
         <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
-          Call for Participation
+          Call for Participation is open!
         </h2>
 
         <div className="mx-auto mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
-          <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
-            Call for participation is open!
-          </h3>
           <p>
-            Check
+            Check 
             <Link
               className="font-bold"
               target="_blank"
