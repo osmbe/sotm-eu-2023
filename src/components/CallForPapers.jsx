@@ -88,25 +88,16 @@ export function CallForPapers({ id }) {
             guest accounts for your participants.
           </p>
           <p>
-            Workshops will be held either in-person or virtually, not with a
-            mixed audience. If you want to offer the workshop for both
-            audiences, you are welcome to hold it twice. For virtual workshops,
-            we will provide video conference rooms. Online workshops will have a
-            limited number of places to ensure a successful session.
-          </p>
-          <p>
             <strong>Panel Discussion (60-90 minutes)</strong>
           </p>
           <p>
-            Panels are for hot, controversial discussions around OSM community,
-            mapping and data. Topics may cover for example diversity, legal
-            questions or the future of the database. You should outline the
-            format on how you intend to organise the discussion and make sure to
-            invite the key players for the discussion. Panel participants can
-            either all join in-person or all virtually via video call. We
-            welcome panels that include the audience. Just keep in mind that
-            questions come from virtual and in-person participants. A designated
-            moderator is therefore strongly recommended.
+            Panels are for hot or controversial discussions around OSM
+            community, mapping and data. Topics may cover for example diversity,
+            legal questions or the future of the database. You should outline
+            the format on how you intend to organise the discussion and make
+            sure to invite the key players for the discussion. We welcome panels
+            that include the audience. A designated moderator is therefore
+            strongly recommended.
           </p>
           <p>
             <strong>Other</strong>
@@ -114,7 +105,7 @@ export function CallForPapers({ id }) {
           <p>
             Your submission does not fit into any of these submission types?
             Please get in touch with the programme committee via email
-            (program-sotm@openstreetmap.org) before the end of the call for
+            (contact@stateofthemap.eu) before the end of the call for
             participation.
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
@@ -130,8 +121,8 @@ export function CallForPapers({ id }) {
           </p>
           <p>
             Lightning talks will be short 5 minute talks. There will be some
-            spaces for last-minute in-person talks as well as spaces for
-            pre-recorded videos. This will be announced separately.
+            spaces for last-minute in-person talks. This will be announced
+            separately.
           </p>
           <p>
             <strong>Birds of a Feather</strong>
@@ -139,8 +130,7 @@ export function CallForPapers({ id }) {
           <p>
             Birds of a Feather (BoF) sessions are informal, spontaneous
             discussion rounds centered around a specific topic. It is not
-            possible to submit a BoF session in advance. BoFs will usually be
-            held in person only.
+            possible to submit a BoF session in advance.
           </p>
           <p>
             <strong>Free Spaces</strong>
