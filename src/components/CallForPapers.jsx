@@ -6,9 +6,9 @@ export function CallForPapers({ id }) {
   return (
     <section id={id} aria-label="CallForPapers" className="py-20 sm:py-32">
       <Container>
-        <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
+        <h1 className="mx-auto mb-6 max-w-2xl text-center font-dunbar text-5xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
           Call for Participation
-        </h2>
+        </h1>
 
         <div className="mx-auto mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
