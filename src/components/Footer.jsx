@@ -17,7 +17,7 @@ export function Footer() {
   return (
     <footer className="py-16">
       <Container>
-        <div className="flex flex-col items-center justify-center md:flex-row">
+        <div className="flex flex-col items-center justify-center space-x-4 md:flex-row">
           <Link
             href="/code-of-conduct"
             className="text-sotm-blue"
