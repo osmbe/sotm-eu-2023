@@ -143,28 +143,53 @@ export function CallForPapers({ id }) {
             Rating Criteria
           </h3>
           <p>
-            In rating submissions, we will apply the following criteria: OSM as
-            the subject: A submission where OSM is the main subject or an
-            important ingredient will be rated higher than one that is more
-            generic (e.g. a general talk about GIS software). Preference of
-            “open”: A submission about open data and open source software will
-            be preferred over one that deals with proprietary data or
-            proprietary software and closed platforms. Preference of innovation:
-            A submission about something new, or something not discussed at
-            previous conferences, will be preferred over one that discusses more
-            widely known issues (exception: OSM Basics). We are hoping for talks
-            from a multitude of speakers and hence we would prefer accepting a
-            talk from a „new“ speaker over accepting a second talk from someone
-            who has already an accepted talk. We will also try to avoid
-            accepting too many talks from members of the same organisation. We
-            prefer talks from members of underrepresented groups. We value
-            transparency. We prefer submissions that disclose affiliations and
-            sponsors of their work. Sometimes we will make some changes or have
-            suggestions: We might ask if several speakers can merge their talks.
-            We might also ask if a change of format would be possible (for
-            example we might suggest the lightning talk format instead of a
-            regular talk when we find it is not enough content for a complete
-            talk, but an interesting subject).
+            In rating submissions, we will apply the following criteria:
+            <ul class="list-disc">
+              <li>
+                OSM as the subject: A submission where OSM is the main subject
+                or an important ingredient will be rated higher than one that is
+                more generic (e.g. a general talk about GIS software).{' '}
+              </li>
+              <li>
+                Preference of “open”: A submission about open data and open
+                source software will be preferred over one that deals with
+                proprietary data or proprietary software and closed platforms.{' '}
+              </li>
+              <li>
+                Preference of innovation: A submission about something new, or
+                something not discussed at previous conferences, will be
+                preferred over one that discusses more widely known issues
+                (exception: OSM Basics).{' '}
+              </li>
+              <li>
+                We are hoping for talks from a multitude of speakers and hence
+                we would prefer accepting a talk from a „new“ speaker over
+                accepting a second talk from someone who has already an accepted
+                talk.{' '}
+              </li>
+              <li>
+                We will also try to avoid accepting too many talks from members
+                of the same organisation.
+              </li>
+              <li>
+                {' '}
+                We prefer talks from members of underrepresented groups.{' '}
+              </li>
+              <li>
+                We value transparency. We prefer submissions that disclose
+                affiliations and sponsors of their work.{' '}
+              </li>
+            </ul>
+            Sometimes we will make some changes or have suggestions:
+            <ul class="list-disc">
+              <li>We might ask if several speakers can merge their talks.</li>
+              <li>
+                We might also ask if a change of format would be possible (for
+                example we might suggest the lightning talk format instead of a
+                regular talk when we find it is not enough content for a
+                complete talk, but an interesting subject).
+              </li>
+            </ul>
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Language
