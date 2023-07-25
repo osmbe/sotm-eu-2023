@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
 export function CallForPapers({ id }) {
@@ -225,26 +225,44 @@ export function CallForPapers({ id }) {
           <p>
             Your submissions will be reviewed by a programme committee
             consisting of OpenStreetMap community members from various parts of
-            the world. (To be announced) The programme committee is aware of
-            possible conflict of interest situations. We try to balance that in
-            the composition of the committee. Nevertheless, we have imposed some
-            rules upon ourselves to handle conflict of interest situations: We
-            do not rate submissions from our workmates, clients or relatives. We
-            act carefully and are aware about possible conflicts (especially the
-            situation of horse trading). We act particularly carefully in cases
-            associated to a sponsor. We communicate to other Programme Committee
-            members when we are in a conflict of interest situation. We report
-            any outside attempt of influencing their decisions to the chair of
-            the SotM Working Group. We hope this detailed “Call for
-            Presentations” helps to increase the transparency of our programme
-            selection process. Questions are welcome. You can reach us at the
-            following email address: program-sotm@openstreetmap.org.
+            the world.
+            <ul class="list-disc">
+              <li>
+                <i>Committee is in progress of being formed.</i>
+              </li>
+            </ul>
+            The programme committee is aware of possible conflict of interest
+            situations. We try to balance that in the composition of the
+            committee. Nevertheless, we have imposed some rules upon ourselves
+            to handle conflict of interest situations:
+            <ul class="list-disc">
+              <li>
+                We do not rate submissions from our workmates, clients or
+                relatives.
+              </li>
+              <li>
+                We act carefully and are aware about possible conflicts
+                (especially the situation of horse trading). We act particularly
+                carefully in cases associated to a sponsor.{' '}
+              </li>
+              <li>
+                We communicate to other Programme Committee members when we are
+                in a conflict of interest situation.{' '}
+              </li>
+              <li>
+                We report any outside attempt of influencing their decisions.
+              </li>
+            </ul>
+            We hope this detailed “Call for participation“ helps to increase the
+            transparency of our programme selection process. Questions are
+            welcome. You can reach us at the following email address:
+            contact@stateofthemap.eu.
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Timeline & Deadlines
           </h3>
           <p>
-            <ul>
+            <ul class="list-disc">
               <li>July 14: Call for Proposals Opens</li>
               <li>August 24: Deadline for submissions</li>
               <li>September 21: Speakers notified of final decision</li>
@@ -253,13 +271,13 @@ export function CallForPapers({ id }) {
             </ul>
           </p>
           <p>
-            <Link
+            <Button
               className="font-bold"
               target="_blank"
               href="https://pretalx.com/state-of-the-map-europe-2023/cfp"
             >
               Submit your presentation!
-            </Link>
+            </Button>
           </p>
         </div>
       </Container>
