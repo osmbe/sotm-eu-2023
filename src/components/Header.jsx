@@ -20,9 +20,9 @@ export function Header() {
             <p>Antwerp, Belgium</p>
           </div>
         </div>
-        {/* <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="#">Get your tickets</Button>
-        </div> */}
+        <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
+          <Button href="/call-for-participation">Submit your talks!</Button>
+        </div>
       </Container>
     </header>
   )
