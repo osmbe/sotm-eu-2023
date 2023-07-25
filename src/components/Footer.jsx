@@ -11,7 +11,7 @@ export function Footer() {
 
   useEffect(
     () => (Math.random() < 0.5 ? setLogo(LogoYellow) : setLogo(LogoBlue)),
-    []
+    [],
   )
 
   return (

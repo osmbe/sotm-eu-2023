@@ -211,7 +211,7 @@ export function Speakers() {
                         'absolute left-[-0.5px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block',
                         dayIndex === selectedIndex
                           ? 'fill-sotm-blue stroke-sotm-blue'
-                          : 'fill-transparent stroke-slate-400'
+                          : 'fill-transparent stroke-slate-400',
                       )}
                     />
                     <div className="relative">
@@ -220,7 +220,7 @@ export function Speakers() {
                           'font-mono text-sm',
                           dayIndex === selectedIndex
                             ? 'text-sotm-blue'
-                            : 'text-slate-500'
+                            : 'text-slate-500',
                         )}
                       >
                         <Tab className="[&:not(:focus-visible)]:focus:outline-none">
@@ -257,7 +257,7 @@ export function Speakers() {
                             'border-blue-300',
                             'border-indigo-300',
                             'border-sky-300',
-                          ][speakerIndex % 3]
+                          ][speakerIndex % 3],
                         )}
                       />
                       <div
