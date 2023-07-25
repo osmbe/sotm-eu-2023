@@ -23,7 +23,16 @@ export function CallForPapers({ id }) {
           <p>
             We especially encourage local and regional mappers to participate.
           </p>
-          <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
+          <p>
+            <Button
+              className="font-bold"
+              target="_blank"
+              href="https://pretalx.com/state-of-the-map-europe-2023/cfp"
+            >
+              Submit your presentation!
+            </Button>
+          </p>
+          <h3 className="mx-auto mt-8 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Who should propose a session? You!
           </h3>
           <p>
