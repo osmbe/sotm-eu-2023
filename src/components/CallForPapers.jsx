@@ -39,7 +39,7 @@ export function CallForPapers({ id }) {
           <p>
             We would love to see your submission for one or more of these
             topics:
-            <ul>
+            <ul class="list-disc">
               <li>OpenStreetMap</li>
               <li>Community and Foundation</li>
               <li>Mapping</li>
