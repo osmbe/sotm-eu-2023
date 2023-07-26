@@ -17,13 +17,20 @@ export function Footer() {
   return (
     <footer className="py-16">
       <Container>
-        <div className="flex flex-col items-center justify-center md:flex-row">
+        <div className="flex flex-col items-center justify-center space-x-4 md:flex-row">
           <Link
             href="/code-of-conduct"
             className="text-sotm-blue"
             target="_blank"
           >
             Code of Conduct
+          </Link>
+          <Link
+            href="/call-for-participation"
+            className="text-sotm-blue"
+            target="_blank"
+          >
+            Call for participation
           </Link>
         </div>
         <div className="flex flex-col items-center justify-between md:flex-row">

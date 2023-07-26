@@ -3,7 +3,7 @@ import clsx from 'clsx'
 
 export function Button({ href, className, ...props }) {
   className = clsx(
-    'inline-flex justify-center rounded-2xl bg-blue-600 p-4 text-base font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70',
+    'inline-flex justify-center rounded-2xl bg-sotm-blue p-4 text-base font-semibold text-sotm-yellow hover:bg-sotm-yellow hover:text-sotm-blue focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sotm-blue active:text-white/70',
     className,
   )
 
