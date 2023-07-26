@@ -3,6 +3,8 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
 export function CallForPapers({ id }) {
+  const url = 'https://pretalx.com/state-of-the-map-europe-2023/cfp'
+
   return (
     <section id={id} aria-label="CallForPapers" className="py-20 sm:py-32">
       <Container>
@@ -15,28 +17,24 @@ export function CallForPapers({ id }) {
             Submit your presentation
           </h3>
           <p>
-            Whether you`re new to OSM or an experienced contributor, we want to
-            hear from you. Submit your session proposal today and share your
-            mapping or technical expertise, discuss OpenStreetMap or related
-            topics.
+            Whether you&apos;re new to OSM or an experienced contributor, we
+            want to hear from you. Submit your session proposal today and share
+            your mapping or technical expertise, discuss OpenStreetMap or
+            related topics.
           </p>
           <p>
             We especially encourage local and regional mappers to participate.
           </p>
-          <p>
-            <Button
-              className="font-bold"
-              target="_blank"
-              href="https://pretalx.com/state-of-the-map-europe-2023/cfp"
-            >
-              Submit your presentation!
+          <div className="text-center">
+            <Button className="mx-auto font-bold" target="_blank" href={url}>
+              Submit your presentation
             </Button>
-          </p>
+          </div>
           <h3 className="mx-auto mt-8 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Who should propose a session? You!
           </h3>
           <p>
-            Whether you`re a seasoned speaker or a first-time proposer, we
+            Whether you&apos;re a seasoned speaker or a first-time proposer, we
             welcome your ideas. Share your expertise, lead a workshop or dive
             deep into OpenStreetMap-related discussions. State of the Map Europe
             is a platform where all voices are valued.
@@ -48,7 +46,7 @@ export function CallForPapers({ id }) {
           <p>
             We would love to see your submission for one or more of these
             topics:
-            <ul class="list-disc">
+            <ul class="ml-12 list-outside list-disc">
               <li>OpenStreetMap</li>
               <li>Community and Foundation</li>
               <li>Mapping</li>
@@ -64,24 +62,18 @@ export function CallForPapers({ id }) {
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Submission Types
           </h3>
-          <p>
-            <strong>Talk (20 minutes)</strong>
-          </p>
+          <h4 className="font-bold">Talk (20 minutes)</h4>
           <p>
             Classic talk of about 20 minutes for the talk itself followed by a
             question and answer session. This is the preferred submission type.
           </p>
-          <p>
-            <strong>Extended Talk (40 minutes)</strong>
-          </p>
+          <h4 className="font-bold">Extended Talk (40 minutes)</h4>
           <p>
             An extended talk with 40 minutes for the talk and 15 minutes for
             questions. These are for topics you want to explore in more depth.
             You should outline why your talk deserves more time.
           </p>
-          <p>
-            <strong>Workshop (60–90 minutes)</strong>
-          </p>
+          <h4 className="font-bold">Workshop (60–90 minutes)</h4>
           <p>
             Workshops are sessions in which the participants are actively
             involved, for example by following some steps on their own devices.
@@ -96,9 +88,7 @@ export function CallForPapers({ id }) {
             communicate that in an exposed way in your submission and provide
             guest accounts for your participants.
           </p>
-          <p>
-            <strong>Panel Discussion (60-90 minutes)</strong>
-          </p>
+          <h4 className="font-bold">Panel Discussion (60-90 minutes)</h4>
           <p>
             Panels are for hot or controversial discussions around OSM
             community, mapping and data. Topics may cover for example diversity,
@@ -108,14 +98,14 @@ export function CallForPapers({ id }) {
             that include the audience. A designated moderator is therefore
             strongly recommended.
           </p>
-          <p>
-            <strong>Other</strong>
-          </p>
+          <h4 className="font-bold">Other</h4>
           <p>
             Your submission does not fit into any of these submission types?
-            Please get in touch with the programme committee via email
-            (contact@stateofthemap.eu) before the end of the call for
-            participation.
+            Please get in touch with the programme committee via email (
+            <Link className="font-bold" href="mailto:contact@stateofthemap.eu">
+              contact@stateofthemap.eu
+            </Link>
+            ) before the end of the call for participation.
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Other session types
@@ -125,25 +115,19 @@ export function CallForPapers({ id }) {
             submitted in advance. Details will be announced before the
             conference.
           </p>
-          <p>
-            <strong>Lightning Talk</strong>
-          </p>
+          <h4 className="font-bold">Lightning Talk</h4>
           <p>
             Lightning talks will be short 5 minute talks. There will be some
             spaces for last-minute in-person talks. This will be announced
             separately.
           </p>
-          <p>
-            <strong>Birds of a Feather</strong>
-          </p>
+          <h4 className="font-bold">Birds of a Feather</h4>
           <p>
             Birds of a Feather (BoF) sessions are informal, spontaneous
             discussion rounds centered around a specific topic. It is not
             possible to submit a BoF session in advance.
           </p>
-          <p>
-            <strong>Free Spaces</strong>
-          </p>
+          <h4 className="font-bold">Free Spaces</h4>
           <p>
             We will provide free spaces for working groups, local chapters,
             local groups, user groups for chitchat and more.
@@ -153,44 +137,44 @@ export function CallForPapers({ id }) {
           </h3>
           <p>
             In rating submissions, we will apply the following criteria:
-            <ul class="list-disc">
+            <ul class="ml-12 mt-4 list-outside list-disc space-y-4">
               <li>
                 OSM as the subject: A submission where OSM is the main subject
                 or an important ingredient will be rated higher than one that is
-                more generic (e.g. a general talk about GIS software).{' '}
+                more generic (e.g. a general talk about GIS software).
               </li>
               <li>
-                Preference of “open”: A submission about open data and open
-                source software will be preferred over one that deals with
-                proprietary data or proprietary software and closed platforms.{' '}
+                Preference of &ldquo;open&rdquo;: A submission about open data
+                and open source software will be preferred over one that deals
+                with proprietary data or proprietary software and closed
+                platforms.
               </li>
               <li>
                 Preference of innovation: A submission about something new, or
                 something not discussed at previous conferences, will be
                 preferred over one that discusses more widely known issues
-                (exception: OSM Basics).{' '}
+                (exception: OSM Basics).
               </li>
               <li>
                 We are hoping for talks from a multitude of speakers and hence
-                we would prefer accepting a talk from a „new“ speaker over
-                accepting a second talk from someone who has already an accepted
-                talk.{' '}
+                we would prefer accepting a talk from a &ldquo;new&rdquo;
+                speaker over accepting a second talk from someone who has
+                already an accepted talk.
               </li>
               <li>
                 We will also try to avoid accepting too many talks from members
                 of the same organisation.
               </li>
-              <li>
-                {' '}
-                We prefer talks from members of underrepresented groups.{' '}
-              </li>
+              <li>We prefer talks from members of underrepresented groups.</li>
               <li>
                 We value transparency. We prefer submissions that disclose
-                affiliations and sponsors of their work.{' '}
+                affiliations and sponsors of their work.
               </li>
             </ul>
+          </p>
+          <p>
             Sometimes we will make some changes or have suggestions:
-            <ul class="list-disc">
+            <ul class="ml-12 mt-4 list-outside list-disc space-y-4">
               <li>We might ask if several speakers can merge their talks.</li>
               <li>
                 We might also ask if a change of format would be possible (for
@@ -204,7 +188,6 @@ export function CallForPapers({ id }) {
             Language
           </h3>
           <p>
-            {' '}
             The conference language of State of the Map is English. All
             presentations shall be held in English. It is an important aspect of
             the conference that participants can interact with the speakers for
@@ -235,16 +218,16 @@ export function CallForPapers({ id }) {
             Your submissions will be reviewed by a programme committee
             consisting of OpenStreetMap community members from various parts of
             the world.
-            <ul class="list-disc">
-              <li>
-                <i>Committee is in progress of being formed.</i>
-              </li>
-            </ul>
+            <div className="mt-4 text-center italic">
+              Committee is in progress of being formed.
+            </div>
+          </p>
+          <p>
             The programme committee is aware of possible conflict of interest
             situations. We try to balance that in the composition of the
             committee. Nevertheless, we have imposed some rules upon ourselves
             to handle conflict of interest situations:
-            <ul class="list-disc">
+            <ul class="ml-12 mt-4 list-outside list-disc space-y-4">
               <li>
                 We do not rate submissions from our workmates, clients or
                 relatives.
@@ -252,26 +235,32 @@ export function CallForPapers({ id }) {
               <li>
                 We act carefully and are aware about possible conflicts
                 (especially the situation of horse trading). We act particularly
-                carefully in cases associated to a sponsor.{' '}
+                carefully in cases associated to a sponsor.
               </li>
               <li>
                 We communicate to other Programme Committee members when we are
-                in a conflict of interest situation.{' '}
+                in a conflict of interest situation.
               </li>
               <li>
                 We report any outside attempt of influencing their decisions.
               </li>
             </ul>
-            We hope this detailed “Call for participation“ helps to increase the
-            transparency of our programme selection process. Questions are
-            welcome. You can reach us at the following email address:
-            contact@stateofthemap.eu.
+          </p>
+          <p>
+            We hope this detailed &ldquo;Call for participation&rdquo; helps to
+            increase the transparency of our programme selection process.
+            Questions are welcome. You can reach us at the following email
+            address:{' '}
+            <Link className="font-bold" href="mailto:contact@stateofthemap.eu">
+              contact@stateofthemap.eu
+            </Link>
+            .
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Timeline & Deadlines
           </h3>
           <p>
-            <ul class="list-disc">
+            <ul class="list-inside list-disc">
               <li>July 14: Call for Proposals Opens</li>
               <li>August 24: Deadline for submissions</li>
               <li>September 21: Speakers notified of final decision</li>
@@ -279,15 +268,11 @@ export function CallForPapers({ id }) {
               <li>November 10-12: State of the Map Europe 2023</li>
             </ul>
           </p>
-          <p>
-            <Button
-              className="font-bold"
-              target="_blank"
-              href="https://pretalx.com/state-of-the-map-europe-2023/cfp"
-            >
-              Submit your presentation!
+          <div className="text-center">
+            <Button className="font-bold" target="_blank" href={url}>
+              Submit your presentation
             </Button>
-          </p>
+          </div>
         </div>
       </Container>
     </section>
