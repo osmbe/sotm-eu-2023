@@ -261,7 +261,7 @@ export function CallForPapers({ id }) {
           </h3>
           <p>
             <ul class="list-inside list-disc">
-              <li>July 14: Call for Proposals Opens</li>
+              <li>July 26: Call for Proposals Opens</li>
               <li>August 24: Deadline for submissions</li>
               <li>September 21: Speakers notified of final decision</li>
               <li>October 4: Program Announced</li>
