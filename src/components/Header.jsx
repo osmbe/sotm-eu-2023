@@ -21,7 +21,7 @@ export function Header() {
           </div>
         </div>
         <div className="mx-auto hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="/call-for-participation">Submit your talks!</Button>
+          <Button href="/call-for-participation">Submit your talks</Button>
         </div>
       </Container>
     </header>
