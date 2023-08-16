@@ -72,13 +72,17 @@ export function Hero({ id }) {
               strengthening the ongoing projects and collaboration.
             </p>
           </div>
-          {/* <Button href="#" className="mt-10 w-full sm:hidden">
-            Get your tickets
-          </Button> */}
-          {/* <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+          <div class="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+            <div className="mx-auto hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0">
+              <Button href="https://pretix.eu/sotm-eu/2023/">
+                Get your tickets
+              </Button>
+            </div>
+          </div>
+          <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Speakers', '18'],
-              ['People Attending', '2,091'],
+              // ['Speakers', '18'],
+              ['People Attending', '400-500'],
               ['Venue', 'BluePoint'],
               ['Location', 'Antwerp, Belgium'],
             ].map(([name, value]) => (
@@ -89,7 +93,7 @@ export function Hero({ id }) {
                 </dd>
               </div>
             ))}
-          </dl> */}
+          </dl>
         </div>
       </Container>
     </div>
