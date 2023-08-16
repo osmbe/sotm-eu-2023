@@ -25,6 +25,7 @@ const supporter = [
   { name: 'ANYWAYS', website: 'https://www.anyways.eu/' },
   { name: 'Stoomlink', website: 'https://stoomlink.com/' },
   { name: 'Champs Libres', website: 'https://www.champs-libres.coop/' },
+  { name: 'GIM', website: 'https://www.gim.be/nl' },
 ]
 
 const gold = [
@@ -36,6 +37,7 @@ const gold = [
   },
   { name: 'ESRI', logo: logoEsri, website: 'https://esri.com/', width: 300 },
 ]
+
 const silver = [
   {
     name: 'Overture Maps',
@@ -44,6 +46,7 @@ const silver = [
     width: 350,
   },
 ]
+
 const bronze = [
   {
     name: 'HERE',
