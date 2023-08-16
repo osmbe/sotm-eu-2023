@@ -217,7 +217,7 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-poppins text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
-            Perliminiary Schedule
+            Preliminary Schedule
           </h2>
           <p className="mt-4 font-poppins text-2xl tracking-tight text-sotm-blue">
             The conference will be packed with great talks, workshops and
