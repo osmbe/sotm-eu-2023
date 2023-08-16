@@ -38,7 +38,7 @@ const schedule = [
     date: 'November 10',
     dateTime: '2023-11-10',
     summary:
-      'On the first day we warm up by giving everyone the opportunity to meet and talk with a welcome program.',
+      'Kicking off with a warm-up session, offering everyone a chance to connect and engage through our welcome program.',
     timeSlots: [
       {
         name: 'Welcome Program',
@@ -51,7 +51,8 @@ const schedule = [
   {
     date: 'November 11',
     dateTime: '2023-11-11',
-    summary: 'Next we spend the day talking about OpenStreetMap!',
+    summary:
+      'Dedicated to delving deep into the world of OpenStreetMap, listening to talks, engaging in insightful discussions and more.',
     timeSlots: [
       {
         name: 'Regular Program',
@@ -64,7 +65,8 @@ const schedule = [
   {
     date: 'November 12',
     dateTime: '2023-11-12',
-    summary: 'And more OpenStreetMap delicousness and a closing progam.',
+    summary:
+      'Continuing our meaningful discussions on OpenStreetMap, collaborating and reflecting on the knowledge shared before we head off.',
     timeSlots: [
       {
         name: 'Regular Program',
