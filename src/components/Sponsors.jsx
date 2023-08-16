@@ -12,6 +12,7 @@ import logoYm from '@/images/sponsors/youthmappers.png'
 import logoMapbox from '@/images/sponsors/mapbox.svg'
 import logoHere from '@/images/sponsors/here.svg'
 import logoGeofabrik from '@/images/sponsors/geofabrik.png'
+import logoOverture from '@/images/sponsors/overture.png'
 
 const platinum = [{ name: 'TomTom', logo: logoTomTom }]
 
@@ -27,9 +28,22 @@ const supporter = [
 ]
 
 const gold = [
-  { name: 'Meta', logo: logoMeta, website: 'https://about.meta.com/' },
+  {
+    name: 'Meta',
+    logo: logoMeta,
+    website: 'https://about.meta.com/',
+    width: 400,
+  },
+  { name: 'ESRI', logo: logoEsri, website: 'https://esri.com/', width: 300 },
 ]
-const silver = []
+const silver = [
+  {
+    name: 'Overture Maps',
+    logo: logoOverture,
+    website: 'https://overturemaps.org/',
+    width: 350,
+  },
+]
 const bronze = [
   {
     name: 'HERE',
@@ -73,7 +87,7 @@ export function Sponsors({ id }) {
           </Link>{' '}
           for more info!
         </div>
-        <h3 className="mx-auto max-w-2xl pt-8 text-center font-dunbar text-2xl font-semibold tracking-tight text-sotm-blue">
+        <h3 className="mx-auto max-w-2xl pt-8 text-center font-dunbar text-4xl font-semibold tracking-tight text-sotm-blue">
           Platinum
         </h3>
         {/* <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-1 md:gap-x-16 lg:gap-x-32">
@@ -97,10 +111,10 @@ export function Sponsors({ id }) {
           </Link>
           !
         </div>
-        <h3 className="mx-auto max-w-2xl pt-8 text-center font-dunbar text-2xl font-semibold tracking-tight text-sotm-blue">
+        <h3 className="mx-auto max-w-2xl pt-8 text-center font-dunbar text-3xl font-semibold tracking-tight text-sotm-blue">
           Gold
         </h3>
-        <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-1 md:gap-x-16 lg:gap-x-32">
+        <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-2 md:gap-x-16 lg:gap-x-32">
           {gold.map((sponsor) => (
             <div
               key={sponsor.name}
@@ -112,7 +126,7 @@ export function Sponsors({ id }) {
                   alt={sponsor.name}
                   sizes="(max-width: 150px) 100vw"
                   unoptimized
-                  height={80}
+                  width={sponsor.width}
                 />
               </Link>
             </div>
@@ -121,28 +135,25 @@ export function Sponsors({ id }) {
         <h3 className="mx-auto max-w-2xl pt-8 text-center font-dunbar text-2xl font-semibold tracking-tight text-sotm-blue">
           Silver
         </h3>
-        {/*  <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-1 md:gap-x-16 lg:gap-x-32">
+        <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-1 md:gap-x-16 lg:gap-x-32">
           {silver.map((sponsor) => (
             <div
               key={sponsor.name}
               className="flex items-center justify-center"
             >
-              <Image src={sponsor.logo} alt={sponsor.name} sizes="(max-width: 150px) 100vw" unoptimized />
+              <Link target="_blank" href={sponsor.website}>
+                <Image
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  sizes="(max-width: 150px) 100vw"
+                  unoptimized
+                  width={sponsor.width}
+                />
+              </Link>
             </div>
-          ))} 
-        </div>*/}
-        <div className="mx-auto max-w-2xl pt-8 text-center font-dunbar font-semibold tracking-tight text-sotm-blue">
-          Your logo here? Check the{' '}
-          <Link
-            className="font-bold"
-            target="_blank"
-            href="/pdf/SotmEU_Sponsorship_Packet.pdf"
-          >
-            sponsorship package
-          </Link>
-          !
+          ))}
         </div>
-        <h3 className="mx-auto max-w-2xl pt-8 text-center font-dunbar text-2xl font-semibold tracking-tight text-sotm-blue">
+        <h3 className="text-1xl mx-auto max-w-2xl pt-8 text-center font-dunbar font-semibold tracking-tight text-sotm-blue">
           Bronze
         </h3>
         <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-2 md:gap-x-16 lg:gap-x-32">
@@ -163,7 +174,7 @@ export function Sponsors({ id }) {
             </div>
           ))}
         </div>
-        <h3 className="mx-auto max-w-2xl pt-8 text-center font-dunbar text-2xl font-semibold tracking-tight text-sotm-blue">
+        <h3 className="text-1xl mx-auto max-w-2xl pt-8 text-center font-dunbar font-semibold tracking-tight text-sotm-blue">
           Supporter
         </h3>
         <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 text-sotm-blue sm:grid-cols-4 md:gap-x-16  lg:gap-x-32">
