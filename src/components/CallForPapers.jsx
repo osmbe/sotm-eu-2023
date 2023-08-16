@@ -217,10 +217,18 @@ export function CallForPapers({ id }) {
           <p>
             Your submissions will be reviewed by a programme committee
             consisting of OpenStreetMap community members from various parts of
-            the world.
-            <div className="mt-4 text-center italic">
-              Committee is in progress of being formed.
-            </div>
+            the world:
+            <ul class="ml-12 mt-4 list-outside list-disc">
+              <li>Severin Menard</li>
+              <li>Christine Karch </li>
+              <li>Tomas Kasparek</li>
+              <li>Ilya Zverev </li>
+              <li>Sidorela Uku</li>
+              <li>Seppe Santens</li>
+              <li>Julien Minet</li>
+              <li>Lorenzo Stucchi</li>
+              <li>Stefan Keller</li>
+            </ul>
           </p>
           <p>
             The programme committee is aware of possible conflict of interest
