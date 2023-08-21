@@ -25,6 +25,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero id="hero" />
+        <Schedule />
         <AboutOsm id="openstreetmap" />
         <AboutSotm id="stateofthemap" />
         <Sponsors id="sponsors" />
