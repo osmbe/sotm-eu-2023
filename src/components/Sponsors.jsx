@@ -13,6 +13,7 @@ import logoMapbox from '@/images/sponsors/mapbox.svg'
 import logoHere from '@/images/sponsors/here.svg'
 import logoGeofabrik from '@/images/sponsors/geofabrik.png'
 import logoOverture from '@/images/sponsors/overture.png'
+import logNgi from '@/images/sponsors/ngi.png'
 
 const platinum = [{ name: 'TomTom', logo: logoTomTom }]
 
@@ -26,6 +27,7 @@ const supporter = [
   { name: 'Stoomlink', website: 'https://stoomlink.com/' },
   { name: 'Champs Libres', website: 'https://www.champs-libres.coop/' },
   { name: 'GIM', website: 'https://www.gim.be/nl' },
+  { name: 'Geo-6', website: 'https://geo6.be/en/' },
 ]
 
 const gold = [
@@ -44,6 +46,18 @@ const silver = [
     logo: logoOverture,
     website: 'https://overturemaps.org/',
     width: 350,
+  },
+  {
+    name: 'Microsoft',
+    logo: logoMicrosoft,
+    website: 'https://www.microsoft.com/',
+    width: 350,
+  },
+  {
+    name: 'NGI',
+    logo: logNgi,
+    website: 'https://www.ngi.be/website/',
+    width: 150,
   },
 ]
 
@@ -138,7 +152,7 @@ export function Sponsors({ id }) {
         <h3 className="mx-auto max-w-2xl pt-8 text-center font-dunbar text-2xl font-semibold tracking-tight text-sotm-blue">
           Silver
         </h3>
-        <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-1 md:gap-x-16 lg:gap-x-32">
+        <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
           {silver.map((sponsor) => (
             <div
               key={sponsor.name}

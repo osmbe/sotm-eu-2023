@@ -271,6 +271,7 @@ export function CallForPapers({ id }) {
             <ul class="list-inside list-disc">
               <li>July 26: Call for Proposals Opens</li>
               <li>August 24: Deadline for submissions</li>
+              <li>August 28: Deadline extented</li>
               <li>September 21: Speakers notified of final decision</li>
               <li>October 4: Program Announced</li>
               <li>November 10-12: State of the Map Europe 2023</li>
