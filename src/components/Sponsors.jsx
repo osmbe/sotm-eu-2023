@@ -27,7 +27,7 @@ const supporter = [
   { name: 'Stoomlink', website: 'https://stoomlink.com/' },
   { name: 'Champs Libres', website: 'https://www.champs-libres.coop/' },
   { name: 'GIM', website: 'https://www.gim.be/nl' },
-  { name: 'Geo-6', website: 'https://geo6.be/en/'}
+  { name: 'Geo-6', website: 'https://geo6.be/en/' },
 ]
 
 const gold = [
