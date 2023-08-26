@@ -26,7 +26,7 @@ export default function Home() {
       <main>
         <Hero id="hero" />
         <Sponsors id="sponsors" />
-        <Schedule />
+        <Schedule id="schedule" />
         <Venue id="venue" />
         <AboutOsm id="openstreetmap" />
         <AboutSotm id="stateofthemap" />

@@ -213,33 +213,19 @@ function ScheduleStatic() {
   )
 }
 
-export function Schedule() {
+export function Schedule({ id }) {
   return (
-    <section id="schedule" aria-label="Schedule" className="py-20 sm:py-32">
-      <Container className="relative z-10">
-        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
-          <h2 className="font-poppins text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
-            Preliminary Schedule
-          </h2>
-          <p className="mt-4 font-poppins text-2xl tracking-tight text-sotm-blue">
-            The conference will be packed with great talks, workshops and
-            opportunities to meet and talk to the OpenStreetMap community.
-          </p>
-        </div>
+    <section id={id} aria-label="Schedule" className="py-20 sm:py-32">
+      <Container className="relative">
+        <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
+          Preliminary Schedule
+        </h2>
+        <p className="mt-4 font-poppins text-2xl tracking-tight text-sotm-blue">
+          The conference will be packed with great talks, workshops and
+          opportunities to meet and talk to the OpenStreetMap community.
+        </p>
       </Container>
       <div className="relative mt-14 sm:mt-24">
-        <div className="bg-indigo-50 absolute inset-x-0 -bottom-32 -top-40 overflow-hidden">
-          <Image
-            className="absolute left-full top-0 -translate-x-1/2 sm:left-1/2 sm:translate-x-[-20%] sm:translate-y-[-15%] md:translate-x-0 lg:translate-x-[5%] lg:translate-y-[4%] xl:translate-x-[27%] xl:translate-y-[-8%]"
-            src={randomLogo()}
-            alt=""
-            width={918}
-            height={1495}
-            unoptimized
-          />
-          <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
-          <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
-        </div>
         <Container className="relative">
           <ScheduleTabbed />
           <ScheduleStatic />
