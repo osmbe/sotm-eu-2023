@@ -46,7 +46,7 @@ export function CallForPapers({ id }) {
           <p>
             We would love to see your submission for one or more of these
             topics:
-            <ul class="ml-12 list-outside list-disc">
+            <ul className="ml-12 list-outside list-disc">
               <li>OpenStreetMap</li>
               <li>Community and Foundation</li>
               <li>Mapping</li>
@@ -137,7 +137,7 @@ export function CallForPapers({ id }) {
           </h3>
           <p>
             In rating submissions, we will apply the following criteria:
-            <ul class="ml-12 mt-4 list-outside list-disc space-y-4">
+            <ul className="ml-12 mt-4 list-outside list-disc space-y-4">
               <li>
                 OSM as the subject: A submission where OSM is the main subject
                 or an important ingredient will be rated higher than one that is
@@ -174,7 +174,7 @@ export function CallForPapers({ id }) {
           </p>
           <p>
             Sometimes we will make some changes or have suggestions:
-            <ul class="ml-12 mt-4 list-outside list-disc space-y-4">
+            <ul className="ml-12 mt-4 list-outside list-disc space-y-4">
               <li>We might ask if several speakers can merge their talks.</li>
               <li>
                 We might also ask if a change of format would be possible (for
@@ -218,7 +218,7 @@ export function CallForPapers({ id }) {
             Your submissions will be reviewed by a programme committee
             consisting of OpenStreetMap community members from various parts of
             the world:
-            <ul class="ml-12 mt-4 list-outside list-disc">
+            <ul className="ml-12 mt-4 list-outside list-disc">
               <li>Severin Menard</li>
               <li>Christine Karch </li>
               <li>Tomas Kasparek</li>
@@ -235,7 +235,7 @@ export function CallForPapers({ id }) {
             situations. We try to balance that in the composition of the
             committee. Nevertheless, we have imposed some rules upon ourselves
             to handle conflict of interest situations:
-            <ul class="ml-12 mt-4 list-outside list-disc space-y-4">
+            <ul className="ml-12 mt-4 list-outside list-disc space-y-4">
               <li>
                 We do not rate submissions from our workmates, clients or
                 relatives.
@@ -268,7 +268,7 @@ export function CallForPapers({ id }) {
             Timeline & Deadlines
           </h3>
           <p>
-            <ul class="list-inside list-disc">
+            <ul className="list-inside list-disc">
               <li>July 26: Call for Proposals Opens</li>
               <li>August 24: Deadline for submissions</li>
               <li>August 28: Deadline extended</li>
