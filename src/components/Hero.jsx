@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import Logo from '@/images/logos/SOTM_Blue_full_logo_black.png'
 import LogoAntwerpBlue from '@/images/icons/Antwerp_Icon_Blue.svg'
@@ -71,13 +70,6 @@ export function Hero({ id }) {
               support the continued success of the various initiatives by
               strengthening the ongoing projects and collaboration.
             </p>
-          </div>
-          <div class="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
-            <div className="mx-auto hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0">
-              <Button href="https://pretix.eu/sotm-eu/2023/">
-                Get your tickets
-              </Button>
-            </div>
           </div>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[

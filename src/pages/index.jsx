@@ -5,12 +5,11 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
-import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
 import { AboutOsm } from '@/components/AboutOpenStreetMap'
 import { AboutSotm } from '@/components/AboutSotM'
 import { Venue } from '@/components/Venue'
-import { CallForPapersOpen } from '@/components/CallForPapersOpen'
+import { Menu } from '@/components/Menu'
 
 export default function Home() {
   return (
@@ -23,10 +22,11 @@ export default function Home() {
         />
       </Head>
       <Header />
+      <Menu />
       <main>
         <Hero id="hero" />
         <Sponsors id="sponsors" />
-        <Schedule />
+        <Schedule id="schedule" />
         <Venue id="venue" />
         <AboutOsm id="openstreetmap" />
         <AboutSotm id="stateofthemap" />

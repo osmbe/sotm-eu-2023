@@ -43,10 +43,10 @@ export function CallForPapers({ id }) {
             Grab this opportunity, contribute to an inspiring and collaborative
             conference and take the stages at State of the Map Europe 2023.
           </p>
-          <p>
+          <div>
             We would love to see your submission for one or more of these
             topics:
-            <ul class="ml-12 list-outside list-disc">
+            <ul className="ml-12 list-outside list-disc">
               <li>OpenStreetMap</li>
               <li>Community and Foundation</li>
               <li>Mapping</li>
@@ -58,7 +58,7 @@ export function CallForPapers({ id }) {
                 <strong>anything</strong> else OSM related
               </li>
             </ul>
-          </p>
+          </div>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Submission Types
           </h3>
@@ -135,9 +135,9 @@ export function CallForPapers({ id }) {
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Rating Criteria
           </h3>
-          <p>
+          <div>
             In rating submissions, we will apply the following criteria:
-            <ul class="ml-12 mt-4 list-outside list-disc space-y-4">
+            <ul className="ml-12 mt-4 list-outside list-disc space-y-4">
               <li>
                 OSM as the subject: A submission where OSM is the main subject
                 or an important ingredient will be rated higher than one that is
@@ -171,10 +171,10 @@ export function CallForPapers({ id }) {
                 affiliations and sponsors of their work.
               </li>
             </ul>
-          </p>
-          <p>
+          </div>
+          <div>
             Sometimes we will make some changes or have suggestions:
-            <ul class="ml-12 mt-4 list-outside list-disc space-y-4">
+            <ul className="ml-12 mt-4 list-outside list-disc space-y-4">
               <li>We might ask if several speakers can merge their talks.</li>
               <li>
                 We might also ask if a change of format would be possible (for
@@ -183,7 +183,7 @@ export function CallForPapers({ id }) {
                 complete talk, but an interesting subject).
               </li>
             </ul>
-          </p>
+          </div>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Language
           </h3>
@@ -214,11 +214,11 @@ export function CallForPapers({ id }) {
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Programme Committee
           </h3>
-          <p>
+          <div>
             Your submissions will be reviewed by a programme committee
             consisting of OpenStreetMap community members from various parts of
             the world:
-            <ul class="ml-12 mt-4 list-outside list-disc">
+            <ul className="ml-12 mt-4 list-outside list-disc">
               <li>Severin Menard</li>
               <li>Christine Karch </li>
               <li>Tomas Kasparek</li>
@@ -229,13 +229,13 @@ export function CallForPapers({ id }) {
               <li>Lorenzo Stucchi</li>
               <li>Stefan Keller</li>
             </ul>
-          </p>
-          <p>
+          </div>
+          <div>
             The programme committee is aware of possible conflict of interest
             situations. We try to balance that in the composition of the
             committee. Nevertheless, we have imposed some rules upon ourselves
             to handle conflict of interest situations:
-            <ul class="ml-12 mt-4 list-outside list-disc space-y-4">
+            <ul className="ml-12 mt-4 list-outside list-disc space-y-4">
               <li>
                 We do not rate submissions from our workmates, clients or
                 relatives.
@@ -253,7 +253,7 @@ export function CallForPapers({ id }) {
                 We report any outside attempt of influencing their decisions.
               </li>
             </ul>
-          </p>
+          </div>
           <p>
             We hope this detailed &ldquo;Call for participation&rdquo; helps to
             increase the transparency of our programme selection process.
@@ -267,16 +267,16 @@ export function CallForPapers({ id }) {
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Timeline & Deadlines
           </h3>
-          <p>
-            <ul class="list-inside list-disc">
+          <div>
+            <ul className="list-inside list-disc">
               <li>July 26: Call for Proposals Opens</li>
               <li>August 24: Deadline for submissions</li>
-              <li>August 28: Deadline extented</li>
+              <li>August 28: Deadline extended</li>
               <li>September 21: Speakers notified of final decision</li>
               <li>October 4: Program Announced</li>
               <li>November 10-12: State of the Map Europe 2023</li>
             </ul>
-          </p>
+          </div>
           <div className="text-center">
             <Button className="font-bold" target="_blank" href={url}>
               Submit your presentation
