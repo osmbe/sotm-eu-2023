@@ -25,13 +25,13 @@ export function Footer() {
           >
             Code of Conduct
           </Link>
-          <Link
+          {/* <Link
             href="/call-for-participation"
             className="text-sotm-blue"
             target="_blank"
           >
             Call for participation
-          </Link>
+          </Link> */}
         </div>
         <div className="flex flex-col items-center justify-between md:flex-row">
           <Link href="/">
