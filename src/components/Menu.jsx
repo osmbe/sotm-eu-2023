@@ -8,7 +8,7 @@ export function Menu() {
         <Button href="https://pretix.eu/sotm-eu/2023/" target="_blank">
           Get your tickets
         </Button>
-        <Button href="/call-for-participation">Submit your talks</Button>
+        {/* <Button href="/call-for-participation">Submit your talks</Button> */}
       </Container>
     </nav>
   )

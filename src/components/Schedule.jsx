@@ -179,10 +179,10 @@ function TimeSlots({ day, className }) {
               <p className="mt-1 tracking-tight text-sotm-blue">
                 {timeSlot.description}
               </p>
-              <p className="mt-1 tracking-tight text-sotm-blue">
+              {/* <p className="mt-1 tracking-tight text-sotm-blue">
                 Submit your talks{' '}
                 <Link href="/call-for-participation">here!</Link>
-              </p>
+              </p> */}
             </div>
           )}
           <p className="mt-1 font-mono text-sm text-slate-500">
