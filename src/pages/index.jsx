@@ -9,7 +9,6 @@ import { Sponsors } from '@/components/Sponsors'
 import { AboutOsm } from '@/components/AboutOpenStreetMap'
 import { AboutSotm } from '@/components/AboutSotM'
 import { Venue } from '@/components/Venue'
-import { Menu } from '@/components/Menu'
 
 export default function Home() {
   return (
@@ -22,7 +21,6 @@ export default function Home() {
         />
       </Head>
       <Header />
-      <Menu />
       <main>
         <Hero id="hero" />
         <Sponsors id="sponsors" />
