@@ -8,6 +8,8 @@ const accommodations = [
     discount:
       'Enjoy a 10% discount on the booking rate by emailing info.berchem@parkinn.com and mentioning code "BAR-10%".',
     url: 'https://www.radissonhotels.com/en-us/hotels/park-inn-antwerp-berchem',
+    distance: 1.4,
+    osm: 'https://www.openstreetmap.org/node/7321150232',
   },
   {
     name: 'Van der Valk Hotel Antwerpen',
@@ -16,6 +18,8 @@ const accommodations = [
     discount:
       'Enjoy a 15% discount on the booking rate by emailing reservations@antwerpen.valk.com and mentioning that you\'re attending the event "State of the Map".',
     url: 'https://www.vandervalkantwerpen.be/en',
+    distance: 2.7,
+    osm: 'https://www.openstreetmap.org/way/46246193',
   },
   {
     name: 'Crowne Plaza Antwerp',
@@ -27,6 +31,8 @@ const accommodations = [
       '- Single standard at 129.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.\r\n' +
       '- Double standard at 149.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.',
     url: 'https://www.crowneplaza.com/redirect?path=hd&brandCode=CP&localeCode=en&regionCode=1&hotelCode=anrbe&_PMID=99801505&GPC=T10&cn=no&viewfullsite=true',
+    distance: 2.1,
+    osm: 'https://www.openstreetmap.org/way/58114273',
   },
 ]
 
@@ -41,47 +47,45 @@ export function Accommodations({ id }) {
           <p className="text-center">
             Discounted accommodations for State of the Map Europe 2023
           </p>
-          <ul role="list" class="divide-y divide-gray-100">
+          <ul
+            role="list"
+            className="mx-auto max-w-4xl divide-y divide-gray-100 text-sotm-blue"
+          >
             {accommodations.map((accommodation) => (
               <li
                 key={accommodation.name}
-                class="relative flex justify-between py-5"
+                className="flex justify-between py-5"
               >
-                <div class="flex gap-x-4 pr-6 sm:w-1/2 sm:flex-none">
-                  <div class="min-w-0 flex-auto">
-                    <p class="text-sm font-semibold leading-6 text-gray-900">
-                      <a href={accommodation.url} target="_blank">
-                        <span class="absolute inset-x-0 -top-px bottom-0"></span>
-                        {accommodation.name}
-                      </a>
+                <div className="pr-6 sm:w-1/2 sm:flex-none">
+                  <a
+                    href={accommodation.url}
+                    target="_blank"
+                    className="min-w-0 flex-auto"
+                  >
+                    <p className="text-sm font-semibold leading-6">
+                      {accommodation.name}
                     </p>
-                    <p class="mt-1 flex text-xs leading-5 text-gray-500">
+                    <p className="mt-2 text-xs leading-5">
                       <address>{accommodation.address}</address>
                     </p>
-                    <p class="mt-1 flex text-xs leading-5 text-gray-500">
+                    <p className="flex text-xs leading-5">
                       {accommodation.phone}
                     </p>
-                  </div>
+                  </a>
+                  <p className="mt-2 text-xs">
+                    <a href={accommodation.osm} target="_blank">
+                      Distance to BluePoint: Approximately{' '}
+                      {accommodation.distance} km
+                    </a>
+                  </p>
                 </div>
-                <div class="flex items-center justify-between gap-x-4 sm:w-1/2 sm:flex-none">
-                  <div class="hidden sm:block">
-                    <p class="text-sm leading-6 text-gray-900">Discount:</p>
-                    <p class="mt-1 whitespace-pre-line text-xs leading-5 text-gray-500">
+                <div className="flex items-center justify-between gap-x-4 sm:w-1/2 sm:flex-none">
+                  <div className="hidden sm:block">
+                    <p className="text-sm leading-6">Discount:</p>
+                    <p className="mt-1 whitespace-pre-line text-xs leading-5">
                       {accommodation.discount}
                     </p>
                   </div>
-                  <svg
-                    class="h-5 w-5 flex-none text-gray-400"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
                 </div>
               </li>
             ))}
