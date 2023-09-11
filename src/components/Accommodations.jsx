@@ -1,6 +1,6 @@
 import { Container } from '@/components/Container'
 
-const accomodations = [
+const accommodations = [
   {
     name: 'Park Inn by Radisson Antwerp Berchem',
     address: 'Borsbeeksebrug 34, 2600 Antwerpen',
@@ -30,36 +30,36 @@ const accomodations = [
   },
 ]
 
-export function Accomodations({ id }) {
+export function Accommodations({ id }) {
   return (
-    <section id={id} aria-label="Accomodations" className="py-20 sm:py-32">
+    <section id={id} aria-label="Accommodations" className="py-20 sm:py-32">
       <Container className="relative">
         <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
-          Accomodations
+          Accommodations
         </h2>
         <div className="mt-6 space-y-6 font-poppins text-2xl tracking-tight text-sotm-blue">
           <p className="text-center">
-            Discounted Accommodations for State of the Map Europe 2023
+            Discounted accommodations for State of the Map Europe 2023
           </p>
           <ul role="list" class="divide-y divide-gray-100">
-            {accomodations.map((accomodation) => (
+            {accommodations.map((accommodation) => (
               <li
-                key={accomodation.name}
+                key={accommodation.name}
                 class="relative flex justify-between py-5"
               >
                 <div class="flex gap-x-4 pr-6 sm:w-1/2 sm:flex-none">
                   <div class="min-w-0 flex-auto">
                     <p class="text-sm font-semibold leading-6 text-gray-900">
-                      <a href={accomodation.url} target="_blank">
+                      <a href={accommodation.url} target="_blank">
                         <span class="absolute inset-x-0 -top-px bottom-0"></span>
-                        {accomodation.name}
+                        {accommodation.name}
                       </a>
                     </p>
                     <p class="mt-1 flex text-xs leading-5 text-gray-500">
-                      <address>{accomodation.address}</address>
+                      <address>{accommodation.address}</address>
                     </p>
                     <p class="mt-1 flex text-xs leading-5 text-gray-500">
-                      {accomodation.phone}
+                      {accommodation.phone}
                     </p>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export function Accomodations({ id }) {
                   <div class="hidden sm:block">
                     <p class="text-sm leading-6 text-gray-900">Discount:</p>
                     <p class="mt-1 whitespace-pre-line text-xs leading-5 text-gray-500">
-                      {accomodation.discount}
+                      {accommodation.discount}
                     </p>
                   </div>
                   <svg
