@@ -49,7 +49,7 @@ export function Accommodations({ id }) {
           </p>
           <ul
             role="list"
-            className="mx-auto max-w-4xl divide-y divide-gray-100 text-sotm-blue"
+            className="mx-auto max-w-4xl divide-y divide-gray-100 text-base text-sotm-blue"
           >
             {accommodations.map((accommodation) => (
               <li
@@ -62,17 +62,15 @@ export function Accommodations({ id }) {
                     target="_blank"
                     className="min-w-0 flex-auto"
                   >
-                    <p className="text-sm font-semibold leading-6">
+                    <p className="font-semibold leading-6">
                       {accommodation.name}
                     </p>
-                    <p className="mt-2 text-xs leading-5">
+                    <p className="mt-2 leading-5">
                       <address>{accommodation.address}</address>
                     </p>
-                    <p className="flex text-xs leading-5">
-                      {accommodation.phone}
-                    </p>
+                    <p className="flex leading-5">{accommodation.phone}</p>
                   </a>
-                  <p className="mt-2 text-xs">
+                  <p className="mt-2">
                     <a href={accommodation.osm} target="_blank">
                       Distance to BluePoint: Approximately{' '}
                       {accommodation.distance} km
@@ -81,8 +79,8 @@ export function Accommodations({ id }) {
                 </div>
                 <div className="flex items-center justify-between gap-x-4 sm:w-1/2 sm:flex-none">
                   <div className="hidden sm:block">
-                    <p className="text-sm leading-6">Discount:</p>
-                    <p className="mt-1 whitespace-pre-line text-xs leading-5">
+                    <p className="leading-6">Discount:</p>
+                    <p className="mt-1 whitespace-pre-line leading-5">
                       {accommodation.discount}
                     </p>
                   </div>

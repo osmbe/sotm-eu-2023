@@ -79,7 +79,7 @@ export function Hero({ id }) {
               ['Location', 'Antwerp, Belgium'],
             ].map(([name, value]) => (
               <div key={name}>
-                <dt className="font-mono text-sm text-sotm-blue">{name}</dt>
+                <dt className="font-mono text-sotm-blue">{name}</dt>
                 <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-sotm-yellow">
                   {value}
                 </dd>
