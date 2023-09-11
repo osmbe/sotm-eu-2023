@@ -54,10 +54,10 @@ const silver = [
     width: 350,
   },
   {
-    name: 'NGI',
+    name: 'IGN-NGI',
     logo: logNgi,
     website: 'https://www.ngi.be/website/',
-    width: 150,
+    width: 350,
   },
 ]
 
