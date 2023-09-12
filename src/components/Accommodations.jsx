@@ -1,4 +1,5 @@
 import { Container } from '@/components/Container'
+import Link from 'next/link'
 
 const accommodations = [
   {
@@ -57,7 +58,7 @@ export function Accommodations({ id }) {
                 className="flex justify-between py-5"
               >
                 <div className="pr-6 sm:w-1/2 sm:flex-none">
-                  <a
+                  <Link
                     href={accommodation.url}
                     target="_blank"
                     className="min-w-0 flex-auto"
@@ -69,12 +70,12 @@ export function Accommodations({ id }) {
                       <address>{accommodation.address}</address>
                     </p>
                     <p className="flex leading-5">{accommodation.phone}</p>
-                  </a>
+                  </Link>
                   <p className="mt-2">
-                    <a href={accommodation.osm} target="_blank">
+                    <Link href={accommodation.osm} target="_blank">
                       Distance to BluePoint: Approximately{' '}
                       {accommodation.distance} km
-                    </a>
+                    </Link>
                   </p>
                 </div>
                 <div className="flex items-center justify-between gap-x-4 sm:w-1/2 sm:flex-none">
