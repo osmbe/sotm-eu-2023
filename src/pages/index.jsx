@@ -4,14 +4,12 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Newsletter } from '@/components/Newsletter'
-import { Schedule } from '@/components/Schedule'
 import { Sponsors } from '@/components/Sponsors'
 import { AboutOsm } from '@/components/AboutOpenStreetMap'
 import { AboutSotm } from '@/components/AboutSotM'
 import { Venue } from '@/components/Venue'
-import { Accommodations } from '@/components/Accommodations'
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <Head>
@@ -25,9 +23,7 @@ export default function Home() {
       <main>
         <Hero id="hero" />
         <Sponsors id="sponsors" />
-        <Schedule id="schedule" />
         <Venue id="venue" />
-        <Accommodations id="accommodations" />
         <AboutOsm id="openstreetmap" />
         <AboutSotm id="stateofthemap" />
         <Newsletter id="newsletter" />
