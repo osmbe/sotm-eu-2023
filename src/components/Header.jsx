@@ -9,7 +9,7 @@ export function Header() {
   return (
     <header className="relative z-50 flex-none lg:pt-11">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center px-4 sm:justify-between sm:px-6 lg:flex-nowrap lg:px-8">
-        <div className="mt-10 lg:mt-0 lg:grow lg:basis-0">
+        <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0">
           <Link href="/">
             <Image
               src={LogoBlue}
@@ -29,7 +29,7 @@ export function Header() {
             <p>Antwerp, Belgium</p>
           </div>
         </div>
-        <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
+        <div className="mb-10 mt-10 flex sm:mb-0 lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
           <Button href="https://pretix.eu/sotm-eu/2023/" target="_blank">
             Get your tickets
           </Button>
