@@ -4,7 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { CodeOfConduct } from '@/components/CodeOfConduct'
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <Head>

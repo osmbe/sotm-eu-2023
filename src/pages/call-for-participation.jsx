@@ -2,10 +2,9 @@ import Head from 'next/head'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { CodeOfConduct } from '@/components/CodeOfConduct'
 import { CallForPapers } from '@/components/CallForPapers'
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <Head>

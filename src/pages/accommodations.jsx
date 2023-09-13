@@ -2,12 +2,7 @@ import Head from 'next/head'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
-import { Newsletter } from '@/components/Newsletter'
-import { Sponsors } from '@/components/Sponsors'
-import { AboutOsm } from '@/components/AboutOpenStreetMap'
-import { AboutSotm } from '@/components/AboutSotM'
-import { Venue } from '@/components/Venue'
+import { Accommodations } from '@/components/Accommodations'
 
 export default function Page() {
   return (
@@ -21,12 +16,7 @@ export default function Page() {
       </Head>
       <Header />
       <main>
-        <Hero id="hero" />
-        <Sponsors id="sponsors" />
-        <Venue id="venue" />
-        <AboutOsm id="openstreetmap" />
-        <AboutSotm id="stateofthemap" />
-        <Newsletter id="newsletter" />
+        <Accommodations id="accommodations" />
       </main>
       <Footer />
     </>
