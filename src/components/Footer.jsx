@@ -18,11 +18,7 @@ export function Footer() {
     <footer className="py-16">
       <Container>
         <div className="flex flex-col items-center justify-center space-x-4 md:flex-row">
-          <Link
-            href="/code-of-conduct"
-            className="text-sotm-blue"
-            target="_blank"
-          >
+          <Link href="/code-of-conduct" className="text-sotm-blue">
             Code of Conduct
           </Link>
           {/* <Link
