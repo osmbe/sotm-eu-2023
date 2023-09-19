@@ -16,16 +16,14 @@ export function CallForMaps({ id }) {
           </h3>
           <p>
           A SOTM conference would not be complete without a map exhibition! So at this SOTM-Europe,
-          you can submit a map, or a poster, to be exhibited during the conference. We are looking for
+          you can submit a map to be exhibited during the conference. We are looking for
           beautiful maps made of OSM data. You may either show to the community how well is mapped your
-          place or showcase a new map style. You can also display a poster about some OSM-related
-          research or process (an achievement within your local community, a use case of re-using OSM
-          data, ...). The only condition is that is should be about OSM.
+          place or showcase a new map style. The only condition is that is should be mainly with OSM data.
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Guidelines
           </h3>
-          <p>We'd like to receive posters in the A0 format. The SOTM team can print it for the conference
+          <p>We'd like to receive maps in the A0 format. The SOTM team can print it for the conference
             venue. However, you can also print it yourself and bring a printed copy at the conference. In
             this case, other format than A0 is acceptable as long as it would fit somehow into a A0 space...
             If you want to showcase a digital map style, we cannot provide screen, but please consider to
@@ -34,16 +32,23 @@ export function CallForMaps({ id }) {
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Submission
           </h3>
-          <p>Simply write a email to <Link className="font-bold" href="mailto:contact@stateofthemap.eu">
-              contact@stateofthemap.eu
-            </Link> with "map submission" as the object. TODO
+          <p>Simply write a email to <Link className="font-bold" href="mailto:maps@stateofthemap.eu">
+              maps@stateofthemap.eu
+            </Link> with "map submission" as the object, with
+            <ul className="list-inside list-disc">
+              <li>a link to download the map,</li>
+              <li>whether you'll bring your map or if you ask us to print it. </li>
+              <li>a title</li>
+              <li>name(s) of author(s)</li>
+              <li>and a short description (max. 10 lines)</li>
+            </ul>
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
-            Timeline & Deadlines
+            Deadline
           </h3>
           <div>
             <ul className="list-inside list-disc">
-              <li>October 27 at 12:00: Deadline for map submissions</li>
+              <li>October 18 at 12:00 GMT: Deadline for map submission</li>
               <li>November 10-12: State of the Map Europe 2023</li>
             </ul>
           </div>

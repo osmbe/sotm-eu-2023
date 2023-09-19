@@ -10,7 +10,6 @@ const navigation = [
   { name: 'About', href: '/' },
   { name: 'Accommodations', href: '/accommodations' },
   { name: 'Schedule', href: '/schedule' },
-  { name: 'Map submission', href: '/call-for-maps' },
 ]
 
 const ticketURL = 'https://pretix.eu/sotm-eu/2023/'
@@ -50,6 +49,7 @@ export function Menu() {
           <Button href={ticketURL} target="_blank">
             Get your tickets
           </Button>
+          <Button href="/call-for-maps">Call for maps</Button>
         </div>
         <div className="flex lg:hidden">
           <button
