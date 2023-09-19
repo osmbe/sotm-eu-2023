@@ -10,6 +10,7 @@ const navigation = [
   { name: 'About', href: '/' },
   { name: 'Accommodations', href: '/accommodations' },
   { name: 'Schedule', href: '/schedule' },
+  { name: 'Map submission', href: '/call-for-maps' },
 ]
 
 const ticketURL = 'https://pretix.eu/sotm-eu/2023/'
