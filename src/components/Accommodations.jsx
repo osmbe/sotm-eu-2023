@@ -55,7 +55,7 @@ export function Accommodations({ id }) {
             {accommodations.map((accommodation) => (
               <li
                 key={accommodation.name}
-                className="flex justify-between py-5"
+                className="flex flex-col justify-between py-5 sm:flex-row"
               >
                 <div className="pr-6 sm:w-1/2 sm:flex-none">
                   <Link
@@ -79,7 +79,7 @@ export function Accommodations({ id }) {
                   </p>
                 </div>
                 <div className="flex items-center justify-between gap-x-4 sm:w-1/2 sm:flex-none">
-                  <div className="hidden sm:block">
+                  <div>
                     <p className="leading-6">Discount:</p>
                     <p className="mt-1 whitespace-pre-line leading-5">
                       {accommodation.discount}
