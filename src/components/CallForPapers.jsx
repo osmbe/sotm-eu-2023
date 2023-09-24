@@ -228,6 +228,7 @@ export function CallForPapers({ id }) {
               <li>Julien Minet</li>
               <li>Lorenzo Stucchi</li>
               <li>Stefan Keller</li>
+              <li>Manfred Stock</li>
             </ul>
           </div>
           <div>
