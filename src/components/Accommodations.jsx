@@ -31,7 +31,7 @@ const accommodations = [
       '- Guests can reserve a room through this link by the deadline of 24th October.\r\n' +
       '- Single standard at 129.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.\r\n' +
       '- Double standard at 149.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.',
-    url: 'https://www.crowneplaza.com/redirect?path=hd&brandCode=CP&localeCode=en&regionCode=1&hotelCode=anrbe&_PMID=99801505&GPC=T10&cn=no&viewfullsite=true',
+    url: 'https://www.ihg.com/crowneplaza/hotels/us/en/antwerp/anrbe/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=anrbe&qGrpCd=T10&setPMCookies=true&qSHBrC=CP&qDest=Gerard%20Legrellelaan%2010%2C%20Antwerp%2C%20BE&srb_u=1',
     distance: 2.1,
     osm: 'https://www.openstreetmap.org/way/58114273',
   },
