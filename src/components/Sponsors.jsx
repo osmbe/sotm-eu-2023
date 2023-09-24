@@ -13,7 +13,8 @@ import logoMapbox from '@/images/sponsors/mapbox.svg'
 import logoHere from '@/images/sponsors/here.svg'
 import logoGeofabrik from '@/images/sponsors/geofabrik.png'
 import logoOverture from '@/images/sponsors/overture.png'
-import logNgi from '@/images/sponsors/ngi.png'
+import logoNgi from '@/images/sponsors/ngi.png'
+import logoGeoPostcodes from '@/images/sponsors/geopostcodes.jpg'
 
 const platinum = [{ name: 'TomTom', logo: logoTomTom }]
 
@@ -56,7 +57,7 @@ const silver = [
   },
   {
     name: 'IGN-NGI',
-    logo: logNgi,
+    logo: logoNgi,
     website: 'https://www.ngi.be/website/',
     width: 350,
   },
@@ -66,14 +67,20 @@ const bronze = [
   {
     name: 'HERE',
     logo: logoHere,
-    width: 100,
     website: 'https://www.here.com/',
+    width: 100,
   },
   {
     name: 'Geofabrik',
     logo: logoGeofabrik,
-    width: 160,
     website: 'https://www.geofabrik.de/',
+    width: 160,
+  },
+  {
+    name: 'GeoPostcodes',
+    logo: logoGeoPostcodes,
+    website: 'https://www.geopostcodes.com/',
+    width: 200,
   },
 ]
 
@@ -174,7 +181,7 @@ export function Sponsors({ id }) {
         <h3 className="text-1xl mx-auto max-w-2xl pt-8 text-center font-dunbar font-semibold tracking-tight text-sotm-blue">
           Bronze
         </h3>
-        <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-2 md:gap-x-16 lg:gap-x-32">
+        <div className="mx-auto mt-8 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
           {bronze.map((sponsor) => (
             <div
               key={sponsor.name}
