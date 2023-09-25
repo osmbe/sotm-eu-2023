@@ -29,15 +29,16 @@ export function CallForMaps({ id }) {
           </h3>
           <p>Simply write a email to <Link className="font-bold" href="mailto:maps@stateofthemap.eu">
               maps@stateofthemap.eu
-            </Link> with "Map Submission" as the subject, containing the following information:
-            <ul className="list-inside list-disc">
-              <li>The map or a link to download it</li>
-              <li>A title for your map</li>
-              <li>The name(s) of author(s)</li>
-              <li>A short description (max. 250 words)</li>
-              <li>Whether you will bring the map or want us to print it</li>
-            </ul>
+            </Link> with &quot;Map Submission&quot; as the subject, containing the following information:
           </p>
+          <ul className="list-inside list-disc">
+            <li>The map or a link to download it</li>
+            <li>A title for your map</li>
+            <li>The name(s) of author(s)</li>
+            <li>A short description (max. 250 words)</li>
+            <li>Whether you will bring the map or want us to print it</li>
+          </ul>
+
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Deadline
           </h3>
