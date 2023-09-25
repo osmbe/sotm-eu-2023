@@ -43,8 +43,8 @@ const schedule = [
       {
         name: 'Welcome Program',
         description: 'To be announced',
-        start: '--',
-        end: '--',
+        start: '16:00',
+        end: '20:00',
       },
     ],
   },

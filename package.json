@@ -21,6 +21,7 @@
     "postcss-focus-visible": "^9.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
@@ -28,6 +29,6 @@
     "eslint-config-next": "13.4.19",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
-    "sharp": "^0.32.5"
+    "sharp": "^0.32.6"
   }
 }

@@ -1,5 +1,6 @@
-import { Container } from '@/components/Container'
 import Link from 'next/link'
+import ReactMarkdown from 'react-markdown'
+import { Container } from '@/components/Container'
 
 const accommodations = [
   {
@@ -28,10 +29,10 @@ const accommodations = [
     phone: '+32 (0)3 259 75 00',
     discount:
       'Fixed price\r\n' +
-      '- Guests can reserve a room through this link by the deadline of 24th October.\r\n' +
-      '- Single standard at 129.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.\r\n' +
-      '- Double standard at 149.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.',
-    url: 'https://www.crowneplaza.com/redirect?path=hd&brandCode=CP&localeCode=en&regionCode=1&hotelCode=anrbe&_PMID=99801505&GPC=T10&cn=no&viewfullsite=true',
+      '&bull; Guests can reserve a room through [this link](https://www.ihg.com/crowneplaza/hotels/us/en/antwerp/anrbe/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=anrbe&qGrpCd=T10&setPMCookies=true&qSHBrC=CP&qDest=Gerard%20Legrellelaan%2010%2C%20Antwerp%2C%20BE&srb_u=1) by the deadline of 24th October.\r\n' +
+      '&bull; Single standard at 129.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.\r\n' +
+      '&bull; Double standard at 149.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.',
+    url: 'https://www.ihg.com/crowneplaza/hotels/us/en/antwerp/anrbe/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=anrbe&qGrpCd=T10&setPMCookies=true&qSHBrC=CP&qDest=Gerard%20Legrellelaan%2010%2C%20Antwerp%2C%20BE&srb_u=1',
     distance: 2.1,
     osm: 'https://www.openstreetmap.org/way/58114273',
   },
@@ -55,7 +56,7 @@ export function Accommodations({ id }) {
             {accommodations.map((accommodation) => (
               <li
                 key={accommodation.name}
-                className="flex justify-between py-5"
+                className="flex flex-col justify-between py-5 sm:flex-row"
               >
                 <div className="pr-6 sm:w-1/2 sm:flex-none">
                   <Link
@@ -79,10 +80,10 @@ export function Accommodations({ id }) {
                   </p>
                 </div>
                 <div className="flex items-center justify-between gap-x-4 sm:w-1/2 sm:flex-none">
-                  <div className="hidden sm:block">
+                  <div>
                     <p className="leading-6">Discount:</p>
                     <p className="mt-1 whitespace-pre-line leading-5">
-                      {accommodation.discount}
+                      <ReactMarkdown linkTarget="_blank">{accommodation.discount}</ReactMarkdown>
                     </p>
                   </div>
                 </div>
