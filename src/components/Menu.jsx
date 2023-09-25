@@ -49,7 +49,7 @@ export function Menu() {
           <Button href={ticketURL} target="_blank">
             Get your tickets
           </Button>
-          <Button href="/call-for-maps">Call for maps</Button>
+          <Button href="/call-for-maps">Submit your maps</Button>
         </div>
         <div className="flex lg:hidden">
           <button

@@ -15,32 +15,27 @@ export function CallForMaps({ id }) {
             Submit your map
           </h3>
           <p>
-          A SOTM conference would not be complete without a map exhibition! So at this SOTM-Europe,
-          you can submit a map to be exhibited during the conference. We are looking for
-          beautiful maps made of OSM data. You may either show to the community how well is mapped your
-          place or showcase a new map style. The only condition is that is should be mainly with OSM data.
+          A State of the Map conference would not be complete without maps! That is why you are invited to showcase your maps at State of the Map Europe. We welcome you to submit beautiful maps made of OSM data. You could demonstrate to the community how well your area is mapped, show a new map style... Everything is possible in our map exhibition. The only condition is that your map is mainly based on OSM data.
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
-            Guidelines
+            Map Requirements
           </h3>
-          <p>We'd like to receive maps in the A0 format. The SOTM team can print it for the conference
-            venue. However, you can also print it yourself and bring a printed copy at the conference. In
-            this case, other format than A0 is acceptable as long as it would fit somehow into a A0 space...
-            If you want to showcase a digital map style, we cannot provide screen, but please consider to
-            print some screenshots and a short explanation of the style.
+          <p>Please submit an A1-sized PDF map in high resolution. We will print and display it in the conference venue. If you already have a printed copy of your submitted map, you may take it with you to the conference, but make sure it does not exceed A1 size. If you want to showcase a digital map style, we cannot provide a screen, but please consider submitting screenshots and a short explanation of the style.
+
+          Note that if the number of maps we receive is larger than the space available, we will make a selection.
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
-            Submission
+            Submission Guidelines
           </h3>
           <p>Simply write a email to <Link className="font-bold" href="mailto:maps@stateofthemap.eu">
               maps@stateofthemap.eu
-            </Link> with "map submission" as the object, with
+            </Link> with "Map Submission" as the subject, containing the following information:
             <ul className="list-inside list-disc">
-              <li>a link to download the map,</li>
-              <li>whether you'll bring your map or if you ask us to print it. </li>
-              <li>a title</li>
-              <li>name(s) of author(s)</li>
-              <li>and a short description (max. 10 lines)</li>
+              <li>The map or a link to download it</li>
+              <li>A title for your map</li>
+              <li>The name(s) of author(s)</li>
+              <li>A short description (max. 250 words)</li>
+              <li>Whether you will bring the map or want us to print it</li>
             </ul>
           </p>
           <h3 className="mx-auto mt-6 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
@@ -48,6 +43,7 @@ export function CallForMaps({ id }) {
           </h3>
           <div>
             <ul className="list-inside list-disc">
+              <li>September 25: Call for maps open</li>
               <li>October 18 at 12:00 GMT: Deadline for map submission</li>
               <li>November 10-12: State of the Map Europe 2023</li>
             </ul>
