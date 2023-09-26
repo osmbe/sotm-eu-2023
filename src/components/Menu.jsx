@@ -49,7 +49,9 @@ export function Menu() {
           <Button href={ticketURL} target="_blank">
             Get your tickets
           </Button>
-          <Button className="hidden lg:block" href="/call-for-maps">Submit your maps</Button>
+          <Button className="hidden lg:block" href="/call-for-maps">
+            Submit your maps
+          </Button>
         </div>
         <div className="flex lg:hidden">
           <button
