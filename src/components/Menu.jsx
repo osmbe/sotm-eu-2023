@@ -49,6 +49,9 @@ export function Menu() {
           <Button href={ticketURL} target="_blank">
             Get your tickets
           </Button>
+          <Button className="hidden lg:block" href="/call-for-maps">
+            Submit your maps
+          </Button>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -108,6 +111,12 @@ export function Menu() {
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Get your tickets
+                </Link>
+                <Link
+                  href="/call-for-maps"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Submit your maps
                 </Link>
               </div>
             </div>

@@ -83,7 +83,9 @@ export function Accommodations({ id }) {
                   <div>
                     <p className="leading-6">Discount:</p>
                     <p className="mt-1 whitespace-pre-line leading-5">
-                      <ReactMarkdown linkTarget="_blank">{accommodation.discount}</ReactMarkdown>
+                      <ReactMarkdown linkTarget="_blank">
+                        {accommodation.discount}
+                      </ReactMarkdown>
                     </p>
                   </div>
                 </div>
