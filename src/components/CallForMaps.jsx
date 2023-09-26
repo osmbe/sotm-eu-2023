@@ -59,7 +59,7 @@ export function CallForMaps({ id }) {
           </h3>
           <div>
             <ul className="list-inside list-disc">
-              <li>September 25: Call for maps open</li>
+              <li>September 26: Call for maps open</li>
               <li>October 18 at 12:00 GMT: Deadline for map submission</li>
               <li>November 10-12: State of the Map Europe 2023</li>
             </ul>
