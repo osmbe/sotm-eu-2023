@@ -236,8 +236,8 @@ export function Sponsors({ id }) {
           ))}
         </div>
         <div className="mx-auto max-w-2xl pt-8 text-center font-dunbar font-semibold tracking-tight text-sotm-blue">
-          TomTom has supported this conference from the beginning as an
-          organizing partner in collaboration with OpenStreetMap Belgium.
+          TomTom has supported this conference from the beginning as a
+          production partner in collaboration with OpenStreetMap Belgium.
         </div>
         {/* <h3 className="mx-auto max-w-2xl text-center font-dunbar text-2xl font-semibold tracking-tight text-sotm-blue pt-8">
           Some of the past State of the Map sponsors
