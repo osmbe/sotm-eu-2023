@@ -21,7 +21,7 @@ const accommodations = [
       'Enjoy a 15% discount on the booking rate by emailing reservations@antwerpen.valk.com and mentioning that you\'re attending the event "State of the Map".',
     url: 'https://www.vandervalkantwerpen.be/en',
     distance: 2.7,
-    osm: 'https://www.openstreetmap.org/way/46246193',
+    osm: 'https://www.openstreetmap.org/node/7282987029',
   },
   {
     name: 'Crowne Plaza Antwerp',
