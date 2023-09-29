@@ -30,6 +30,7 @@ const supporter = [
   { name: 'GIM', website: 'https://www.gim.be/nl' },
   { name: 'Geo-6', website: 'https://geo6.be/en/' },
   { name: 'Nazka Mapps', website: 'https://www.nazka.be/' },
+  { name: 'Geoapify', website: 'https://www.geoapify.com/' },
 ]
 
 const gold = [
