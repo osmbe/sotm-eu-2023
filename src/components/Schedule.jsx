@@ -231,10 +231,10 @@ export function Schedule({ id }) {
           <ScheduleTabbed />
           <ScheduleStatic />
           <Image
-              src={programImage}
-              alt="SotM EU 2023 Program"
-              className="pt-20 sm:pt-32"
-            />
+            src={programImage}
+            alt="SotM EU 2023 Program"
+            className="pt-20 sm:pt-32"
+          />
         </Container>
       </div>
     </section>
