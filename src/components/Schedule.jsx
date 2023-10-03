@@ -15,6 +15,7 @@ import LogoParisBlue from '@/images/icons/Paris_Icon_Blue.svg'
 import LogoRomeBlue from '@/images/icons/Rome_Icon_Blue.svg'
 import LogoBrusselsBlue from '@/images/icons/Brussels_Icon_Blue.svg'
 import LogoBrusselsYellow from '@/images/icons/Brussels_Icon_Yellow.svg'
+import programImage from '@/images/SOTM_EU_Program.jpg'
 
 function randomLogo() {
   const logos = [
@@ -229,6 +230,11 @@ export function Schedule({ id }) {
         <Container className="relative">
           <ScheduleTabbed />
           <ScheduleStatic />
+          <Image
+              src={programImage}
+              alt="SotM EU 2023 Program"
+              className="pt-20 sm:pt-32"
+            />
         </Container>
       </div>
     </section>
