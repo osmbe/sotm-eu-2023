@@ -218,25 +218,16 @@ export function Schedule({ id }) {
   return (
     <section id={id} aria-label="Schedule" className="py-20 sm:py-32">
       <Container className="relative">
-        <h2 className="mx-auto max-w-2xl text-center font-dunbar text-4xl font-medium tracking-tighter text-sotm-blue sm:text-5xl">
-          Preliminary Schedule
-        </h2>
-        <p className="mt-4 font-poppins text-2xl tracking-tight text-sotm-blue">
+        <p className="font-poppins text-2xl tracking-tight text-sotm-blue">
           The conference will be packed with great talks, workshops and
           opportunities to meet and talk to the OpenStreetMap community.
         </p>
+        <Image
+          src={programImage}
+          alt="SotM EU 2023 Program"
+          className="pt-20 sm:pt-32"
+        />
       </Container>
-      <div className="relative mt-14 sm:mt-24">
-        <Container className="relative">
-          <ScheduleTabbed />
-          <ScheduleStatic />
-          <Image
-            src={programImage}
-            alt="SotM EU 2023 Program"
-            className="pt-20 sm:pt-32"
-          />
-        </Container>
-      </div>
     </section>
   )
 }
