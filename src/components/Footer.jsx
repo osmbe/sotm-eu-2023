@@ -42,8 +42,8 @@ export function Footer() {
           <p className="mt-6 text-base text-slate-500 md:mt-0">
             Copyright &copy; State of the Map EU 2023 rights reserved.
           </p>
-          <div className="flex flex-col items-center justify-between md:flex-row">
-            <Link className="font-bold" href="mailto:contact@stateofthemap.eu">
+          <div className="flex flex-col items-center justify-between gap-1 md:flex-row">
+            <Link className="text-sotm-blue" href="mailto:contact@stateofthemap.eu">
               contact@stateofthemap.eu
             </Link>
             <Link
