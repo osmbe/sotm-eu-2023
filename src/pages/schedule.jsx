@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Schedule } from '@/components/Schedule'
+import { ProgramTable } from '@/components/ProgramTable'
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
       </Head>
       <Header />
       <main>
+        <ProgramTable />
         <Schedule id="schedule" />
       </main>
       <Footer />
