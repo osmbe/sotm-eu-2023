@@ -219,8 +219,7 @@ export function Schedule({ id }) {
     <section id={id} aria-label="Schedule" className="py-20 sm:py-32">
       <Container className="relative">
         <p className="font-poppins text-2xl tracking-tight text-sotm-blue">
-          The conference will be packed with great talks, workshops and
-          opportunities to meet and talk to the OpenStreetMap community.
+          The conference will be packed with great talks, workshops and opportunities to meet and network with the OpenStreetMap community.
         </p>
         <Image
           src={programImage}
