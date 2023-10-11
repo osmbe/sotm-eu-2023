@@ -107,7 +107,7 @@ export function Schedule({ id }) {
                 suptitle="Hands on iD development"
               />
             </tr>
-            <tr>
+            <tr className="text-center">
               <TimeCell title="11:30 - 12:00" />
               <YellowCell
                 title="TALK"
@@ -136,58 +136,142 @@ export function Schedule({ id }) {
 
               <EmptyCell />
             </tr>
+          </tbody>
+        </table>
+        <table class="table-fix my-20 w-full">
+          <TableHeader day={2} date="Saturday, November 11, 2023" />
+          <tbody>
             <tr className="text-center">
               <TimeCell title="12:30 - 13:30" />
               <FourColumnGreyCell title="Lunch" />
             </tr>
-          </tbody>
-        </table>
-        <table class="table-fix my-20 w-full">
-          <TableHeader day="1" date="Friday, November 10, 2023" />
-
-          <tbody>
             <tr className="text-center">
-              <TimeCell title="14:00 - 16:00" />
-              <td
-                colSpan={4}
-                className="border border-sotm-yellow font-poppins text-sotm-blue"
-              >
-                <p>Mobile Mapping Workshop</p>
-                <p className="font-bold">ACTIVE MOVEMENT</p>
-                <p>by Andrew Hain</p>
-                <p className="font-bold">
-                  Antwerp Berchem Station Meeting Point
-                </p>
-              </td>
+              <TimeCell title="13:30 - 14:00" />
+              <YellowCell
+                title="TALK"
+                text="by Rubén Martín"
+                suptitle="The Local Knowledge Dilemma: A Data-Driven Alert for OSM"
+              />
+              <YellowCell
+                title="TALK"
+                text="by Gregory Marler"
+                suptitle="The Art of OpenStreetMap"
+              />
+              <YellowCell
+                rowSpan={2}
+                title="WORKSHOP"
+                suptitle="Ungap the Map: Designing Moonshot Cycling Networks"
+                text="by Dustin Carlino"
+              />
+              <YellowCell
+                rowSpan={2}
+                title="WORKSHOP"
+                suptitle="Introducing the ohsomeNow stats dashboard - a workshop for measuring your impact"
+                text="by Benjamin Herfort & Nicole Siggins"
+              />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="14:00 - 14:30" />
+              <YellowCell
+                title="TALK"
+                suptitle="Sane Limits for New Accounts"
+                text="by Roland Olbricht"
+              />
+              <YellowCell
+                title="TALK"
+                subptitle="Collecting street level pictures with centimetric geolocation at low cost"
+                text="by Antoine Riche"
+              />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="14:30 - 15:00" />
+              <YellowCell
+                suptitle="OSM in Belgian train stations: welcome on board"
+                title="TALK"
+                text="by Julien Minet"
+              />
+              <YellowCell
+                suptitle="Exploring OSM-based geospatial datasets: insights from the Italian National Summary Database (DBSN)"
+                title="TALK"
+                text="by Alessandro Sarretta"
+              />
+              <YellowCell
+                suptitle="Mapy.cz – digital traditional hiking map of the whole world"
+                title="TALK"
+                text="by Jakub Zmrzlik"
+              />
+              <YellowCell
+                suptitle="Liberated Maps: Challenges & Opportunities"
+                title="TALK"
+                text="by Luke Seelenbinder & Bart Louwers"
+              />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="15:00 - 15:30" />
+              <FourColumnGreyCell title="Break" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="15:30 - 16:00" />
+              <YellowCell
+                suptitle="Mapillary: 2 billion images and beyond"
+                title="TALK"
+                text="by Edoardo Neerhut"
+              />
+              <YellowCell suptitle="Lightning Talks" />
+              <YellowCell
+                rowSpan={2}
+                suptitle="How to be an OpenStreetMap Social Media Ambassador: Using Storytelling to Build Community"
+                title="WORKSHOP"
+                text="by Courtney Williamson & Kate Varfalameyeva"
+              />
+              <YellowCell
+                rowSpan={2}
+                suptitle="How to put an entire country in a container: transportable OpenStreetMap data integration into Postgis using docker"
+                title="WORKSHOP"
+                text="by Benjamin Deswysen"
+              />
             </tr>
             <tr className="text-center">
               <TimeCell title="16:00 - 16:30" />
-              <td
-                colSpan={4}
-                className="bg-gray-200 font-dunbar text-2xl font-bold text-sotm-blue"
-              >
-                Walk-in & Registration
-              </td>
+              <YellowCell
+                rowSpan={2}
+                suptitle="Panoramax: the full FLOSS alternative for your ground level imagery"
+                title="EXTENDED TALK"
+                text="by Christian Quest"
+              />
+              <YellowCell
+                rowSpan={2}
+                suptitle="Modern osm2pgsql tricks"
+                title="EXTENDED TALK"
+                text="by Jochen Topf & Paul Norman"
+              />
             </tr>
             <tr className="text-center">
               <TimeCell title="16:30 - 17:00" />
-              <YellowCell title="Welcome Session" text="by OSM BE" />
-              <EmptyCell />
-              <EmptyCell />
-              <EmptyCell />
-            </tr>
-            <tr className="text-center">
-              <TimeCell title="17:00 - 18:00" />
-              <YellowCell title="Meet your Mapper" text="by OSM BE" />
-              <EmptyCell />
               <EmptyCell />
               <EmptyCell />
             </tr>
             <tr className="text-center">
-              <TimeCell title="18:00 - 20:00" />
-              <FourColumnGreyCell title="Networking & Drinks" />
+              <TimeCell title="18:30 - 22:00" />
+              <FourColumnGreyCell title="Social Night" />
             </tr>
           </tbody>
+        </table>
+        <table class="table-fix my-20 w-full">
+          <TableHeader
+            hasScientificTrack
+            day={3}
+            date="Sunday, November 12, 2023"
+          />
+          <tbody></tbody>
+        </table>
+        <table class="table-fix my-20 w-full">
+          <TableHeader
+            hasScientificTrack
+            day={3}
+            date="Sunday, November 12, 2023"
+          />
+          <tbody></tbody>
         </table>
       </Container>
     </section>

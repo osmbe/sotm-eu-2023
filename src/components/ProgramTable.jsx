@@ -5,7 +5,7 @@ import Fountain from '@/images/Fountain.jpg'
 export const YellowCell = ({ title, text, suptitle, rowSpan = 1 }) => (
   <td
     rowSpan={rowSpan}
-    className="bg-sotm-yellow-200 border border-sotm-yellow p-2 text-center font-poppins text-sotm-blue"
+    className="border border-sotm-yellow bg-sotm-yellow-200 p-2 text-center font-poppins text-sotm-blue"
   >
     <div className="text-xs font-bold">{suptitle}</div>
     <div className="font-bold">{title}</div>
@@ -27,7 +27,7 @@ export const TimeCell = ({ title }) => (
 )
 
 export const BlueCell = ({ title }) => (
-  <td className="bg-indigo-500 border border-sotm-blue font-poppins text-xl text-white">
+  <td className="border border-sotm-blue bg-indigo-500 font-poppins text-xl text-white">
     {title}
   </td>
 )
@@ -39,7 +39,7 @@ export const TableHeader = ({ day, date, hasScientificTrack = false }) => (
     <tr>
       <th
         style={{ width: 150, padding: 0 }}
-        className="from-indigo-500 bg-gradient-to-r to-blue-300"
+        className="bg-gradient-to-r from-indigo-500 to-blue-300"
         rowSpan={4}
       >
         <Image src={Fountain} width={150} alt="fountain" />
@@ -62,13 +62,13 @@ export const TableHeader = ({ day, date, hasScientificTrack = false }) => (
     </tr>
     <tr>
       <td
-        className="border border-sotm-yellow bg-gray-100 text-center font-poppins font-medium text-sotm-blue"
+        className="border border-sotm-yellow bg-gray-100 text-center font-poppins font-bold text-sotm-blue"
         colSpan={hasScientificTrack ? 3 : 4}
       >
         General Session
       </td>
       {hasScientificTrack && (
-        <td className="border border-sotm-yellow bg-gray-100 text-center font-poppins font-medium text-sotm-blue">
+        <td className="border border-sotm-yellow bg-gray-100 text-center font-poppins font-bold text-sotm-blue">
           Scientific Track
         </td>
       )}
