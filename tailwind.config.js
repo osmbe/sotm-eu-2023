@@ -22,6 +22,7 @@ module.exports = {
         blue: '#001489',
         yellow: '#FFDD00',
         'yellow-200': '#FAF57D',
+        'blue-500': '#4D64C4',
       },
     },
     fontSize: {

@@ -217,7 +217,7 @@ export function Schedule({ id }) {
                 title="TALK"
                 text="by Edoardo Neerhut"
               />
-              <YellowCell suptitle="Lightning Talks" />
+              <YellowCell title="LIGHTNING TALKS" />
               <YellowCell
                 rowSpan={2}
                 suptitle="How to be an OpenStreetMap Social Media Ambassador: Using Storytelling to Build Community"
@@ -263,7 +263,118 @@ export function Schedule({ id }) {
             day={3}
             date="Sunday, November 12, 2023"
           />
-          <tbody></tbody>
+          <tbody>
+            <tr className="text-center">
+              <TimeCell title="8:30 - 9:30" />
+              <FourColumnGreyCell title="Walk-in & Registration" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="9:00 - 9:30" />
+              <EmptyCell />
+              <EmptyCell />
+              <EmptyCell />
+              <BlueCell title="OSMScience" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="9:30 - 10:00" />
+              <YellowCell
+                suptitle="Maintaining OpenStreetMap.org"
+                title="TALK"
+                text="by Andy Allan"
+              />
+              <YellowCell
+                suptitle="Nominatim on your laptop"
+                title="TALK"
+                text="by Sarah Hoffmann"
+              />
+              <YellowCell
+                rowSpan={2}
+                suptitle="Mapping Pedestrian Network Acessibility on OpenStreetMap"
+                title="WORKSHOP"
+                text="by Kauê de Moraes Vestena"
+              />
+              <BlueCell title="OSMScience" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="10:00 - 10:30" />
+              <YellowCell
+                suptitle="OpenStreetMap and Overture:The case for collaboration."
+                title="TALK"
+                text="by Marc Prioleau"
+              />
+              <YellowCell
+                rowSpan={2}
+                suptitle="Stadia x Stamen: A New Era for Stamen Map Tiles"
+                title="EXTENDED TALK"
+                text="by Luke Seelenbinder & Stephanie May"
+              />
+              <BlueCell title="OSMScience" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="10:30 - 11:00" />
+              <YellowCell
+                suptitle="OpenStreetMap Foundation's budget and expenditures"
+                title="TALK"
+                text="by Roland Olbricht"
+              />
+              <YellowCell
+                colSpan={2}
+                suptitle="Working together for a more coherent integration of EuroVelo routes on OpenStreetMap"
+                title="TALK"
+                text="by Florence Grégoire"
+              />
+              <BlueCell title="OSMScience" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="11:00 - 11:30" />
+              <FourColumnGreyCell title="Break" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="11:30 - 12:00" />
+              <YellowCell
+                suptitle="OpenStreetMap (almost) at 20: Reflections and Future Predictions"
+                title="TALK"
+                text="by Steve Coast"
+              />
+              <YellowCell title="LIGHTNING TALKS" />
+              <YellowCell
+                rowSpan={2}
+                suptitle="Using OpenStreetMap for Humanitarian Purposes - and introduction to the HOT Tasking Manager"
+                title="WORKSHOP"
+                text="by Nicole Siggins"
+              />
+              <BlueCell title="OSMScience" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="12:00 - 12:30" />
+              <YellowCell
+                suptitle="OSMF Board AMA"
+                title="EXTENDED TALK"
+                text="by Roland Olbricht"
+                rowSpan={2}
+              />
+              <YellowCell
+                suptitle="UN Maps Learning Hub: a multi-lingual educational platform on OSM"
+                title="TALK"
+                text="by Rachele Amerini"
+              />
+              <BlueCell title="OSMScience" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="12:30 - 13:00" />
+              <YellowCell
+                suptitle="Utilizing Crowdsourced Mapping to Enhance Food Security Among Lower OMO Agro-Pastoralists in Ethiopia"
+                title="TALK"
+                text="by Binyam Dele"
+              />
+              <YellowCell
+                suptitle="A hiking map created by the Club Alpino Italiano - Parma Section"
+                title="TALK"
+                text="by Marco Barbieri"
+              />
+              <BlueCell title="OSMScience" />
+            </tr>
+          </tbody>
         </table>
         <table class="table-fix my-20 w-full">
           <TableHeader
@@ -271,7 +382,68 @@ export function Schedule({ id }) {
             day={3}
             date="Sunday, November 12, 2023"
           />
-          <tbody></tbody>
+          <tbody>
+            <tr className="text-center">
+              <TimeCell title="13:00 - 14:00" />
+              <FourColumnGreyCell title="Lunch" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="14:00 - 14:30" />
+              <YellowCell
+                suptitle="Points of Interest Anyone?"
+                title="TALK"
+                text="by Ilya Zverev"
+              />
+              <YellowCell
+                suptitle="Ramani-Maps: a new Android Compose library for Mapbox and MapLibre"
+                title="TALK"
+                text="by Jonas Vautherin"
+              />
+              <YellowCell
+                suptitle="OSM-Wikidata Map Framework"
+                title="TALK"
+                text="by Daniele Santini"
+              />
+              <BlueCell title="OSMScience" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="14:30 - 15:00" />
+              <YellowCell
+                suptitle="10 years of power infrastructure mapping: what's next?"
+                title="TALK"
+                text="by François Lacombe"
+                rowSpan={2}
+              />
+              <YellowCell
+                suptitle="Exploring taginfo"
+                title="TALK"
+                text="by Jochen Topf"
+              />
+              <YellowCell
+                suptitle="MapComplete - progress and presenting MapComplete Studio"
+                title="WORKSHOP"
+                text="by Pieter Vander Vennet"
+                rowSpan={2}
+              />
+              <BlueCell title="OSMScience" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="15:00 - 15:30" />
+              <YellowCell title="LIGHTNING TALKS" />
+              <BlueCell title="OSMScience" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="15:30 - 16:00" />
+              <FourColumnGreyCell title="Break" />
+            </tr>
+            <tr className="text-center">
+              <TimeCell title="16:00 - 16:30" />
+              <YellowCell title="Closing Session" text="by SotM EU Team" />
+              <EmptyCell />
+              <EmptyCell />
+              <EmptyCell />
+            </tr>
+          </tbody>
         </table>
       </Container>
     </section>
