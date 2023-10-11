@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import Logo from '@/images/logos/SOTM_Blue_full_logo_black.png'
 
@@ -43,6 +43,9 @@ export function Hero({ id }) {
               </div>
             ))}
           </dl>
+          <div className="mt-20 text-center lg:hidden">
+            <Button href="/call-for-maps">Submit your maps</Button>
+          </div>
         </div>
       </Container>
     </div>
