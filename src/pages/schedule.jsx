@@ -17,7 +17,6 @@ export default function Page() {
       </Head>
       <Header />
       <main>
-        <ProgramTable />
         <Schedule id="schedule" />
       </main>
       <Footer />
