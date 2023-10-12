@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Logo from '@/images/logos/SOTM_Blue_full_logo_black.png'
-import Fountain from '@/images/Fountain.jpg'
+import Fountain from '../images/fountain.jpg'
 
 export const YellowCell = ({ title, text, suptitle, rowSpan = 1 }) => (
   <td
