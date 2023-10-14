@@ -220,7 +220,7 @@ export function Schedule({ id }) {
       <Container className="relative">
         <p className="font-poppins text-2xl tracking-tight text-sotm-blue">
           The conference will be packed with great talks, workshops and
-          opportunities to meet and talk to the OpenStreetMap community.
+          opportunities to meet and network with the OpenStreetMap community.
         </p>
         <Image
           src={programImage}
