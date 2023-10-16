@@ -9,7 +9,7 @@ import Link from 'next/link'
 const navigation = [
   { name: 'About', href: '/' },
   { name: 'Accommodations', href: '/accommodations' },
-  { name: 'Schedule', href: '/schedule' },
+  { name: 'Program', href: '/program' },
 ]
 
 const ticketURL = 'https://pretix.eu/sotm-eu/2023/'

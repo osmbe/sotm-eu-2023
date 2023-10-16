@@ -42,14 +42,22 @@ export function Footer() {
           <p className="mt-6 text-base text-slate-500 md:mt-0">
             Copyright &copy; State of the Map EU 2023 rights reserved.
           </p>
-          <Link
-            rel="me"
-            href="https://en.osm.town/@sotmeu"
-            className="text-sotm-blue"
-            target="_blank"
-          >
-            Mastodon
-          </Link>
+          <div className="flex flex-col items-center justify-between gap-1 md:flex-row">
+            <Link
+              className="text-sotm-blue"
+              href="mailto:contact@stateofthemap.eu"
+            >
+              contact@stateofthemap.eu
+            </Link>
+            <Link
+              rel="me"
+              href="https://en.osm.town/@sotmeu"
+              className="text-sotm-blue"
+              target="_blank"
+            >
+              Mastodon
+            </Link>
+          </div>
         </div>
       </Container>
     </footer>
