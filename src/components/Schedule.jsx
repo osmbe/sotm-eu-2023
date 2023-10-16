@@ -11,10 +11,9 @@ import {
 
 export function Schedule({ id }) {
   return (
-
     <section id={id} aria-label="Schedule">
       <Container className="relative">
-      <p className="font-poppins text-2xl tracking-tight text-sotm-blue">
+        <p className="font-poppins text-2xl tracking-tight text-sotm-blue">
           The conference will be packed with great talks, workshops and
           opportunities to meet and network with the OpenStreetMap community.
         </p>
@@ -450,7 +449,6 @@ export function Schedule({ id }) {
             </tr>
           </tbody>
         </table>
-
       </Container>
     </section>
   )
