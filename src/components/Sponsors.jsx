@@ -31,7 +31,10 @@ const supporter = [
   { name: 'Geo-6', website: 'https://geo6.be/en/' },
   { name: 'Nazka Mapps', website: 'https://www.nazka.be/' },
   { name: 'Geoapify', website: 'https://www.geoapify.com/' },
-  { name: 'Toerisme Vlaanderen', website: 'https://www.toerismevlaanderen.be/' },
+  {
+    name: 'Toerisme Vlaanderen',
+    website: 'https://www.toerismevlaanderen.be/',
+  },
 ]
 
 const gold = [

@@ -40,7 +40,7 @@ export function AboutSotm({ id }) {
       className="py-20 sm:py-32"
     >
       <div className="relative">
-        <div className="bg-indigo-50 absolute inset-x-0 -bottom-14 -top-48 overflow-hidden">
+        <div className="absolute inset-x-0 -bottom-14 -top-48 overflow-hidden bg-indigo-50">
           <Image
             className="absolute right-full top-0 -translate-x-1/2 opacity-10 sm:right-1/2 sm:translate-x-[-20%] sm:translate-y-[-15%] md:translate-x-0 lg:translate-x-[5%] lg:translate-y-[4%] xl:translate-x-[27%] xl:translate-y-[-8%]"
             src={background}

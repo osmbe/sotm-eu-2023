@@ -10,6 +10,7 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       blue: colors.blue,
+      indigo: colors.indigo,
       white: colors.white,
       gray: colors.slate,
       green: colors.emerald,
@@ -20,6 +21,8 @@ module.exports = {
       sotm: {
         blue: '#001489',
         yellow: '#FFDD00',
+        'yellow-200': '#FAF57D',
+        'blue-500': '#4D64C4',
       },
     },
     fontSize: {
