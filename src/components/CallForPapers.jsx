@@ -25,11 +25,6 @@ export function CallForPapers({ id }) {
           <p>
             We especially encourage local and regional mappers to participate.
           </p>
-          {/* <div className="text-center">
-            <Button className="mx-auto font-bold" target="_blank" href={url}>
-              Submit your presentation
-            </Button>
-          </div> */}
           <h3 className="mx-auto mt-8 max-w-2xl text-center font-dunbar text-2xl font-medium tracking-tighter text-sotm-blue sm:text-3xl">
             Who should propose a session? You!
           </h3>
@@ -278,11 +273,6 @@ export function CallForPapers({ id }) {
               <li>November 10-12: State of the Map Europe 2023</li>
             </ul>
           </div>
-          {/* <div className="text-center">
-            <Button className="font-bold" target="_blank" href={url}>
-              Submit your presentation
-            </Button>
-          </div> */}
         </div>
       </Container>
     </section>

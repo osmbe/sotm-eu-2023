@@ -23,19 +23,6 @@ const accommodations = [
     distance: 2.7,
     osm: 'https://www.openstreetmap.org/node/7282987029',
   },
-  {
-    name: 'Crowne Plaza Antwerp',
-    address: 'Gerard le Grellelaan 10, 2020 Antwerpen',
-    phone: '+32 (0)3 259 75 00',
-    discount:
-      'Fixed price\r\n' +
-      '&bull; Guests can reserve a room through [this link](https://www.ihg.com/crowneplaza/hotels/us/en/antwerp/anrbe/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=anrbe&qGrpCd=T10&setPMCookies=true&qSHBrC=CP&qDest=Gerard%20Legrellelaan%2010%2C%20Antwerp%2C%20BE&srb_u=1) by the deadline of 24th October.\r\n' +
-      '&bull; Single standard at 129.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.\r\n' +
-      '&bull; Double standard at 149.00 € per room, per night incl breakfast buffet, all services and V.A.T. + City tax is 2.97 € per person, per night.',
-    url: 'https://www.ihg.com/crowneplaza/hotels/us/en/antwerp/anrbe/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=anrbe&qGrpCd=T10&setPMCookies=true&qSHBrC=CP&qDest=Gerard%20Legrellelaan%2010%2C%20Antwerp%2C%20BE&srb_u=1',
-    distance: 2.1,
-    osm: 'https://www.openstreetmap.org/way/58114273',
-  },
 ]
 
 export function Accommodations({ id }) {
