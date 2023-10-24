@@ -43,9 +43,6 @@ export function Hero({ id }) {
               </div>
             ))}
           </dl>
-          <div className="mt-20 text-center lg:hidden">
-            <Button href="/call-for-maps">Submit your maps</Button>
-          </div>
         </div>
       </Container>
     </div>

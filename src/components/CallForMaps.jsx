@@ -64,11 +64,6 @@ export function CallForMaps({ id }) {
               <li>November 10-12: State of the Map Europe 2023</li>
             </ul>
           </div>
-          {/* <div className="text-center">
-            <Button className="font-bold" target="_blank" href={url}>
-              Submit your presentation
-            </Button>
-          </div> */}
         </div>
       </Container>
     </section>
