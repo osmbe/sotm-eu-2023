@@ -64,7 +64,6 @@ export function CallForMaps({ id }) {
               <li>November 10-12: State of the Map Europe 2023</li>
             </ul>
           </div>
-
         </div>
       </Container>
     </section>

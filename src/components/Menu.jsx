@@ -49,7 +49,6 @@ export function Menu() {
           <Button href={ticketURL} target="_blank">
             Get your tickets
           </Button>
-
         </div>
         <div className="flex lg:hidden">
           <button
@@ -110,7 +109,6 @@ export function Menu() {
                 >
                   Get your tickets
                 </Link>
-
               </div>
             </div>
           </div>
