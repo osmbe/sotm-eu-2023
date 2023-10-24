@@ -129,4 +129,4 @@ export const ScientificTrackHeader = ({ date }) => (
       <YellowCell colSpan={4} title="Vasco Da Gama" text="Tech Track" />
     </tr>
   </thead>
-  
+)
