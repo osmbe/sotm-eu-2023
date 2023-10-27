@@ -74,14 +74,17 @@ export function Schedule({ id }) {
 
               <tr className="text-center">
                 <TimeCell title="9:30 - 10:00" />
-                <YellowCell title="Opening Session" text="by SOTM EU Team" />
+                <YellowCell
+                  title="Opening Session"
+                  text="by SotM EU Team featuring Mike Harrell"
+                />
                 <EmptyCell />
                 <EmptyCell />
                 <EmptyCell />
               </tr>
               <tr className="text-center">
                 <TimeCell title="10:00 - 10:30" />
-                <YellowCell title="Opening Keynote" />
+                <YellowCell title="Opening Keynote" text="by Allan Mustard" />
                 <EmptyCell />
                 <EmptyCell />
                 <EmptyCell />
@@ -135,14 +138,18 @@ export function Schedule({ id }) {
                   suptitle="Does OpenStreetMap Need a Trustmark?"
                   text="by Stefan Keller"
                 />
-                <YellowCell title="LIGHTNING TALKS" />
+                <YellowCell
+                  suptitle="A hiking map created by the Club Alpino Italiano - Parma Section"
+                  title="TALK"
+                  text="by Marco Barbieri"
+                />
                 <YellowCell
                   title="TALK"
                   suptitle="Accessibility information for wheelchair users in OSM and the OnWheels app"
                   text="by Robin Julien"
                 />
 
-                <EmptyCell />
+                <YellowCell title="LIGHTNING TALKS" />
               </tr>
             </tbody>
           </table>
@@ -159,7 +166,7 @@ export function Schedule({ id }) {
                 <TimeCell title="13:30 - 14:00" />
                 <YellowCell
                   title="TALK"
-                  text="by Rubén Martín"
+                  text="by Pete Masters"
                   suptitle="The Local Knowledge Dilemma: A Data-Driven Alert for OSM"
                 />
                 <YellowCell
@@ -168,10 +175,9 @@ export function Schedule({ id }) {
                   suptitle="The Art of OpenStreetMap"
                 />
                 <YellowCell
-                  rowSpan={2}
-                  title="WORKSHOP"
-                  suptitle="Ungap the Map: Designing Moonshot Cycling Networks"
-                  text="by Dustin Carlino"
+                  title="TALK"
+                  suptitle="OSM-Wikidata Map Framework"
+                  text="by Daniele Santini"
                 />
                 <YellowCell
                   rowSpan={2}
@@ -192,6 +198,12 @@ export function Schedule({ id }) {
                   subptitle="Collecting street level pictures with centimetric geolocation at low cost"
                   text="by Antoine Riche"
                 />
+                <YellowCell
+                  rowSpan={2}
+                  title="WORKSHOP"
+                  suptitle="Ungap the Map: Designing Moonshot Cycling Networks"
+                  text="by Dustin Carlino"
+                />
               </tr>
               <tr className="text-center">
                 <TimeCell title="14:30 - 15:00" />
@@ -205,11 +217,7 @@ export function Schedule({ id }) {
                   title="TALK"
                   text="by Alessandro Sarretta"
                 />
-                <YellowCell
-                  suptitle="Mapy.cz – digital traditional hiking map of the whole world"
-                  title="TALK"
-                  text="by Jakub Zmrzlik"
-                />
+
                 <YellowCell
                   suptitle="Liberated Maps: Challenges & Opportunities"
                   title="TALK"
@@ -227,7 +235,11 @@ export function Schedule({ id }) {
                   title="TALK"
                   text="by Edoardo Neerhut"
                 />
-                <YellowCell title="LIGHTNING TALKS" />
+                <YellowCell
+                  title="TALK"
+                  suptitle="Liberated Maps: Challenges & Opportunities"
+                  text="by Luke Seelenbinder & Bart Louwers"
+                />
                 <YellowCell
                   rowSpan={2}
                   suptitle="How to be an OpenStreetMap Social Media Ambassador: Using Storytelling to Build Community"
@@ -271,22 +283,27 @@ export function Schedule({ id }) {
         <div className="w-full overflow-x-auto">
           {' '}
           <table class="table-fix my-20 w-full">
-            <TableHeader
-              hasScientificTrack
-              day={3}
-              date="Sunday, November 12, 2023"
-            />
+            <TableHeader day={3} date="Sunday, November 12, 2023" />
             <tbody>
               <tr className="text-center">
                 <TimeCell title="8:30 - 9:30" />
                 <FourColumnGreyCell title="Walk-in & Registration" />
               </tr>
               <tr className="text-center">
-                <TimeCell title="9:00 - 9:30" />
-                <EmptyCell />
-                <EmptyCell />
-                <EmptyCell />
-                <BlueCell title="OSMScience" />
+                <TimeCell rowSpan={2} title="9:00 - 9:30" />
+                <EmptyCell rowSpan={2} />
+                <EmptyCell rowSpan={2} />
+                <EmptyCell rowSpan={2} />
+                <YellowCell
+                  title="Assessing Bike-Transit Accessibility"
+                  text="by Reid Passmore, Edson Augusto Melanda, Francis Andorful & Beatrice Olivari"
+                />
+              </tr>
+              <tr className="text-center">
+                <YellowCell
+                  title="Welcome & Introduction to OSM Science 2023"
+                  text="by OSM Science 2023 Scientific Committee"
+                />
               </tr>
               <tr className="text-center">
                 <TimeCell title="9:30 - 10:00" />
@@ -306,7 +323,11 @@ export function Schedule({ id }) {
                   title="WORKSHOP"
                   text="by Kauê de Moraes Vestena"
                 />
-                <BlueCell title="OSMScience" />
+                <YellowCell
+                  suptitle="Fostering OSM’s Micromapping Through Combined Use of Artificial Intelligence and Street-View Imagery"
+                  title="TALK"
+                  text="by Kauê de Moraes Vestena"
+                />
               </tr>
               <tr className="text-center">
                 <TimeCell title="10:00 - 10:30" />
@@ -321,7 +342,11 @@ export function Schedule({ id }) {
                   title="EXTENDED TALK"
                   text="by Luke Seelenbinder & Stephanie May"
                 />
-                <BlueCell title="OSMScience" />
+                <YellowCell
+                  suptitle="Global and regional level of use of buildings and roads prepared by AI for OSM mapping"
+                  title="TALK"
+                  text="by Benjamin Herfort, Milan Fila & Radim Štampach"
+                />
               </tr>
               <tr className="text-center">
                 <TimeCell title="10:30 - 11:00" />
@@ -335,7 +360,11 @@ export function Schedule({ id }) {
                   title="TALK"
                   text="by Florence Grégoire"
                 />
-                <BlueCell title="OSMScience" />
+                <YellowCell
+                  suptitle="BikeDNA: A Tool for Bicycle Infrastructure Data & Network Assessment"
+                  title="TALK"
+                  text="by Ane Rahbek Vierø"
+                />
               </tr>
               <tr className="text-center">
                 <TimeCell title="11:00 - 11:30" />
@@ -348,21 +377,29 @@ export function Schedule({ id }) {
                   title="TALK"
                   text="by Steve Coast"
                 />
-                <YellowCell title="LIGHTNING TALKS" />
+                <YellowCell
+                  suptitle="Working together for a more coherent integration of EuroVelo routes on OpenStreetMap"
+                  title="TALK"
+                  text="by Florence Grégoire"
+                />
                 <YellowCell
                   rowSpan={2}
-                  suptitle="Using OpenStreetMap for Humanitarian Purposes - and introduction to the HOT Tasking Manager"
+                  suptitle="Mapping Pedestrian Network Accessibility on OpenStreetMap"
                   title="WORKSHOP"
-                  text="by Nicole Siggins"
+                  text="by Kauê de Moraes Vestena"
                 />
-                <BlueCell title="OSMScience" />
+                <YellowCell
+                  suptitle="Towards an Open High-Resolution Land Use Dataset in Great Britain - Comparing and Consolidating Retail Centre Areas from Open Data Sources"
+                  title="TALK"
+                  text="by Oliver O'Brien"
+                />
               </tr>
               <tr className="text-center">
                 <TimeCell title="12:00 - 12:30" />
                 <YellowCell
                   suptitle="OSMF Board AMA"
                   title="EXTENDED TALK"
-                  text="by Roland Olbricht"
+                  text="by OSMF Board"
                   rowSpan={2}
                 />
                 <YellowCell
@@ -370,7 +407,11 @@ export function Schedule({ id }) {
                   title="TALK"
                   text="by Rachele Amerini"
                 />
-                <BlueCell title="OSMScience" />
+                <YellowCell
+                  suptitle="A Contemporary Nolli Map: Using OpenStreetMap Data to Represent Urban Public Spaces"
+                  title="TALK"
+                  text="by Ester Scheck"
+                />
               </tr>
               <tr className="text-center">
                 <TimeCell title="12:30 - 13:00" />
@@ -384,7 +425,10 @@ export function Schedule({ id }) {
                   title="TALK"
                   text="by Marco Barbieri"
                 />
-                <BlueCell title="OSMScience" />
+                <YellowCell
+                  title="OSM SCIENCE LIGHTNING TALKS"
+                  text="by Lynn Khellaf, Mark Herringer, Yao Sun, Hao Li, Piotr Gramacki, Kamil Raczycki & Kacper Leśniara, & Alistair Geddes"
+                />
               </tr>
             </tbody>
           </table>
@@ -392,11 +436,7 @@ export function Schedule({ id }) {
         <div className="w-full overflow-x-auto">
           {' '}
           <table class="table-fix my-20 w-full">
-            <TableHeader
-              hasScientificTrack
-              day={3}
-              date="Sunday, November 12, 2023"
-            />
+            <TableHeader day={3} date="Sunday, November 12, 2023" />
             <tbody>
               <tr className="text-center">
                 <TimeCell title="13:00 - 14:00" />
@@ -415,11 +455,16 @@ export function Schedule({ id }) {
                   text="by Jonas Vautherin"
                 />
                 <YellowCell
-                  suptitle="OSM-Wikidata Map Framework"
-                  title="TALK"
-                  text="by Daniele Santini"
+                  suptitle="MapComplete - progress and presenting MapComplete Studio"
+                  title="WORKSHOP"
+                  text="by Pieter Vander Vennet"
+                  rowSpan={2}
                 />
-                <BlueCell title="OSMScience" />
+                <YellowCell
+                  suptitle="Social, technical and political transformations in OpenStreetMap- From volunteered geographic information to embedding digital commons in platform capitalism"
+                  title="TALK"
+                  text="by Susanne Schräder-Bergen"
+                />
               </tr>
               <tr className="text-center">
                 <TimeCell title="14:30 - 15:00" />
@@ -434,18 +479,26 @@ export function Schedule({ id }) {
                   title="TALK"
                   text="by Jochen Topf"
                 />
+
                 <YellowCell
-                  suptitle="MapComplete - progress and presenting MapComplete Studio"
-                  title="WORKSHOP"
-                  text="by Pieter Vander Vennet"
-                  rowSpan={2}
+                  suptitle="A global and dynamic completeness assessment of the OpenStreetMap buildings"
+                  title="TALK"
+                  text="by Laurens Oostwegel"
                 />
-                <BlueCell title="OSMScience" />
               </tr>
               <tr className="text-center">
                 <TimeCell title="15:00 - 15:30" />
+                <YellowCell
+                  suptitle="Mapy.cz – digital traditional hiking map of the whole World"
+                  title="TALK"
+                  text="by Jakub Zmrzlik"
+                />
                 <YellowCell title="LIGHTNING TALKS" />
-                <BlueCell title="OSMScience" />
+                <YellowCell
+                  suptitle="Improving the accuracy of earthquake risk estimates with OpenStreetMap building data"
+                  title="TALK"
+                  text="by Tara Evaz Zadeh"
+                />
               </tr>
               <tr className="text-center">
                 <TimeCell title="15:30 - 16:00" />
@@ -457,143 +510,6 @@ export function Schedule({ id }) {
                 <EmptyCell />
                 <EmptyCell />
                 <EmptyCell />
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div className="w-full overflow-x-auto">
-          {' '}
-          <table class="table-fix my-20 w-full">
-            <ScientificTrackHeader day={3} date="Sunday, November 12, 2023" />
-            <tbody>
-              <tr className="text-center">
-                <TimeCell title="8:30 - 9:30" />
-                <FourColumnGreyCell title="Walk-in & Registration" />
-              </tr>
-              <tr className="text-center">
-                <TimeCell rowSpan={4} title="9:00 - 9:30" />
-                <YellowCell
-                  colSpan={4}
-                  title="Assessing Bike-Transit Accessibility"
-                  text="by <br/> Reid Passmore - Georgia Institute of Technology <br/> Kari E Watkins - University of California at Davis <br/> Randall Guensler - Georgia Institute of Technology <br/>"
-                />
-              </tr>
-              <tr className="text-center">
-                <YellowCell
-                  colSpan={4}
-                  title="OpenStreetMap Data for Automated Labelling Machine Learning Examples: The Challenge of Road Type Imbalance"
-                  text="by Edson Augusto Melanda - Federal University of São Carlos; University of Heidelberg <br/> Benjamin Herfort - Heidelberg Institute for Geoinformation Technology <br/> Veit Ulrich - University of Heidelberg <br/> Francis Andorful - University of Heidelberg <br/> Alexander Zipf - University of Heidelberg - Hidelberg Institute for Geoinformation Technology <br/>"
-                />
-              </tr>
-              <tr className="text-center">
-                <YellowCell
-                  colSpan={4}
-                  title="Exploring Road and Points of Interest (POIs) Associations in OpenStreetMap, A New Paradigm for OSM Road class Prediction"
-                  text="by Andorful Francis - Heidelberg University <br/> Christina Ludwig - Heidelberg University <br/>"
-                />
-              </tr>
-              <tr className="text-center">
-                <YellowCell
-                  colSpan={4}
-                  title="Are Italian cities already 15-minute? Presenting a glocal proximity index, based on open data"
-                  text="by Beatrice Olivari - Deda Next <br/> Angela Cimini - Sapienza University of Rome, Italian National Institute for Environmental Protection and Research (ISPRA) <br/>"
-                />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="9:30 - 10:00" />
-                <YellowCell
-                  title="Fostering OSM’s Micromapping Through Combined Use of Artificial Intelligence and Street-View Imagery"
-                  text="by <br/> Kauê de Moraes Vestena - Federal University of Paraná <br/> Silvana Philippi Camboim - Federal University of Paraná <br/> Daniel Rodrigues dos Santos - Militar Institute of Engineering"
-                />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="10:00 - 10:30" />
-                <YellowCell
-                  title="Global and regional level of use of buildings and roads prepared by AI for OSM mapping"
-                  text="by <br/>Milan Fila, M.Sc. - Department of Geography, Faculty of Science, Masaryk University, Brno, Czechia <br/>Radim Štampach, Ph.D. - Department of Geography, Faculty of Science, Masaryk University, Brno, Czechia <br/>Benjamin Herfort, Ph.D. - Heidelberg Institute for Geoinformation Technology, Heidelberg, Germany"
-                />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="10:30 - 11:00" />
-                <YellowCell
-                  title="BikeDNA: A Tool for Bicycle Infrastructure Data & Network Assessment"
-                  text="by<br/>Ane Rahbek Vierø - ITU Copenhagen<br/>Anastassia Vybornova - ITU Copenhagen"
-                />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="11:00 - 11:30" />
-                <FourColumnGreyCell title="Break" />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="11:30 - 12:00" />
-
-                <YellowCell
-                  title="Towards an Open High-Resolution Land Use Dataset in Great Britain -“ Comparing and Consolidating Retail Centre Areas from Open Data Sources"
-                  text="by<br/>Oliver O'Brien - Consumer Data Research Centre, Department of Geography, University College London"
-                />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="12:00 - 12:30" />
-                <YellowCell
-                  title="A Contemporary Nolli Map: Using OpenStreetMap Data to Represent Urban Public Spaces"
-                  text="by<br />Ester Scheck - FH Potsdam<br />Florian Ledermann - TU Wien<br />Marian Därk - FH Potsdam<br />Andrea Binn - TU Wien"
-                />
-              </tr>
-              <tr className="text-center">
-                <TimeCell rowSpan={5} title="12:30 - 13:00" />
-                <YellowCell
-                  title="SPOT: A Natural Language Interface for Geospatial Searches in OSM"
-                  text="by<br/>Lynn Khellaf - Deutsche Welle - Research and Cooperation Projects<br/>Ipek Baris Schlicht - Deutsche Welle - Research and Cooperation Projects<br/>Ruben Bouwmeester - Deutsche Welle - Research and Cooperation Projects<br/>Tilman MiraÃŸ - Deutsche Welle - Research and Cooperation Projects<br/>Julia Bayer - Deutsche Welle - Research and Cooperation Projects<br/>Tilman Wagner - Deutsche Welle - Research and Cooperation Projects"
-                />
-              </tr>
-              <tr className="text-center">
-                <YellowCell
-                  title="Building a baseline of health facility data with OpenStreetMap"
-                  text="by<br/>Mark Herringer - The Global healthsites Mapping project (healthsites.io)<br/>Lamine Ndiaye - OpenStreetmap Senegal<br/>Andy South - Afrimapr"
-                />
-              </tr>
-              <tr className="text-center">
-                <YellowCell
-                  title="Beyond Two Dimensions: Large-Scale Building Height Mapping in OpenStreetMap via Synthetic Aperture Radar and Street-View Imagery"
-                  text="by<br/>Dr. Yao Sun - Chair of Data Science in Earth Observation, Technical University of Munich<br/>Dr. Hao Li - Professorship of Big Geospatial Data Management, Technical University of Munich"
-                />
-              </tr>
-              <tr className="text-center">
-                <YellowCell
-                  title="Utilizing OSM data in geospatial representation learning"
-                  text="by<br/>Piotr Gramacki - Wrocław University of Science and Technology<br/>Kacper Leśniara - Wrocław University of Science and Technology<br/>Kamil Raczycki - Wrocław University of Science and Technology<br/>Szymon Woźniak - Wrocław University of Science and Technology<br/>Piotr Szymański - Wrocław University of Science and Technology"
-                />
-              </tr>
-              <tr className="text-center">
-                <YellowCell
-                  title="Rural water point mapping with/in OSM: implications of recent research in Malawi"
-                  text="by<br/>Dr. Alistair Geddes - Geography, Division of Energy, Environment & Society, School of Humanities, Social Sciences & Law, University of Dundee, UK"
-                />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="13:00 - 14:00" />
-                <FourColumnGreyCell title="Lunch" />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="14:00 - 14:30" />
-                <YellowCell
-                  title="Social, technical and political transformations in OpenStreetMap- From volunteered geographic information to embedding digital commons in platform capitalism"
-                  text="by<br/>Susanne Schräder-Bergen - Friedrich-Alexander-Universtität, Erlangen-Nürnberg, Germany"
-                />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="14:30 - 15:00" />
-                <YellowCell
-                  title="A global and dynamic completeness assessment of the OpenStreetMap buildings"
-                  text="by<br/>Oostwegel, Laurens Jozef Nicolaas - GFZ German Research Centre for Geosciences<br/>Evaz Zadeh, Tara - GFZ German Research Centre for Geosciences<br/>Lingner, Lars - GFZ German Research Centre for Geosciences<br/>Schorlemmer, Danijel - GFZ German Research Centre for Geosciences"
-                />
-              </tr>
-              <tr className="text-center">
-                <TimeCell title="15:00 - 15:30" />
-                <YellowCell
-                  title="Improving the accuracy of earthquake risk estimates with OpenStreetMap building data"
-                  text="by<br/>Tara Evaz Zadeh - GFZ-Potsdam<br/>Laurens Jozef Nicolaas Oostwegel - GFZ-Potsdam<br/>Lars Lingner - GFZ-Potsdam<br/>Simantini Shinde - GFZ-Potsdam<br/>Fabrice Cotton - GFZ-Potsdam<br/>Danijel Schorlemmer - GFZ-Potsdam"
-                />
               </tr>
             </tbody>
           </table>
