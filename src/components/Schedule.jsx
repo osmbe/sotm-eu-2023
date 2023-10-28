@@ -9,6 +9,7 @@ import {
   TableHeader,
   ScientificTrackHeader,
 } from './ProgramTable'
+import Link from 'next/link'
 
 export function Schedule({ id }) {
   return (
@@ -17,6 +18,15 @@ export function Schedule({ id }) {
         <p className="font-poppins text-2xl tracking-tight text-sotm-blue">
           The conference will be packed with great talks, workshops and
           opportunities to meet and network with the OpenStreetMap community.
+          Checkout our program below and have a look at the{' '}
+          <Link
+            className="font-bold"
+            target="_blank"
+            href="/pdf/SotmEU_FAQ.pdf"
+          >
+            State of the Map Europe 2023 - FAQs
+          </Link>{' '}
+          for any questions you may have.
         </p>
         <div className="w-full overflow-x-auto">
           <table class="table-fix my-20 w-full">
