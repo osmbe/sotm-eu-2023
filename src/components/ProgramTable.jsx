@@ -20,12 +20,13 @@ export const YellowCell = ({
   </td>
 )
 
-export const FourColumnGreyCell = ({ title }) => (
+export const FourColumnGreyCell = ({ title, text }) => (
   <td
     colSpan={4}
     className="border border-sotm-yellow bg-gray-100 font-dunbar text-2xl font-bold text-sotm-blue"
   >
     {title}
+    <div className="font-poppins text-sm font-medium">{text}</div>
   </td>
 )
 
@@ -74,21 +75,19 @@ export const TableHeader = ({ day, date, hasScientificTrack = false }) => (
     <tr>
       <td
         className="border border-sotm-yellow bg-gray-100 text-center font-poppins font-bold text-sotm-blue"
-        colSpan={hasScientificTrack ? 3 : 4}
+        colSpan={4}
       >
         General Session
       </td>
-      {hasScientificTrack && (
-        <td className="border border-sotm-yellow bg-gray-100 text-center font-poppins font-bold text-sotm-blue">
-          Scientific Track
-        </td>
-      )}
     </tr>
     <tr>
       <YellowCell title="Marco Polo" text="Node Track" />
       <YellowCell title="Orangerie" text="Way Track" />
       <YellowCell title="Sacagawea" text="Relation Track" />
-      <YellowCell title="Vasco Da Gama" text="Tech Track" />
+      <YellowCell
+        title="Vasco Da Gama"
+        text={hasScientificTrack ? 'OSM Science Track' : 'Tech Track'}
+      />
     </tr>
   </thead>
 )

@@ -60,7 +60,10 @@ export function Schedule({ id }) {
               </tr>
               <tr className="text-center">
                 <TimeCell title="17:00 - 18:00" />
-                <YellowCell title="Meet your Mapper" text="by OSM BE" />
+                <YellowCell
+                  title="Meet your Mapper"
+                  text="by Ilya Zverev & Gregory Marler"
+                />
                 <EmptyCell />
                 <EmptyCell />
                 <EmptyCell />
@@ -227,12 +230,7 @@ export function Schedule({ id }) {
                   title="TALK"
                   text="by Alessandro Sarretta"
                 />
-
-                <YellowCell
-                  suptitle="Liberated Maps: Challenges & Opportunities"
-                  title="TALK"
-                  text="by Luke Seelenbinder & Bart Louwers"
-                />
+                <EmptyCell />
               </tr>
               <tr className="text-center">
                 <TimeCell title="15:00 - 15:30" />
@@ -281,11 +279,14 @@ export function Schedule({ id }) {
               <tr className="text-center">
                 <TimeCell title="16:30 - 17:00" />
                 <EmptyCell />
-                <EmptyCell />
+                <YellowCell title="LIGHTNING TALKS" />
               </tr>
               <tr className="text-center">
-                <TimeCell title="18:30 - 22:00" />
-                <FourColumnGreyCell title="Social Night" />
+                <TimeCell title="18:30 - 22:30" />
+                <FourColumnGreyCell
+                  title="Social Night"
+                  text="Balls and Glory - Theaterplein 1 naast Stadsschouwburg, Antwerpen"
+                />
               </tr>
             </tbody>
           </table>
@@ -293,7 +294,11 @@ export function Schedule({ id }) {
         <div className="w-full overflow-x-auto">
           {' '}
           <table class="table-fix my-20 w-full">
-            <TableHeader day={3} date="Sunday, November 12, 2023" />
+            <TableHeader
+              hasScientificTrack
+              day={3}
+              date="Sunday, November 12, 2023"
+            />
             <tbody>
               <tr className="text-center">
                 <TimeCell title="8:30 - 9:30" />
@@ -305,14 +310,14 @@ export function Schedule({ id }) {
                 <EmptyCell rowSpan={2} />
                 <EmptyCell rowSpan={2} />
                 <YellowCell
-                  title="Assessing Bike-Transit Accessibility"
-                  text="by Reid Passmore, Edson Augusto Melanda, Francis Andorful & Beatrice Olivari"
+                  title="Welcome & Introduction to OSM Science 2023"
+                  text="by OSM Science 2023 Scientific Committee"
                 />
               </tr>
               <tr className="text-center">
                 <YellowCell
-                  title="Welcome & Introduction to OSM Science 2023"
-                  text="by OSM Science 2023 Scientific Committee"
+                  title=" OSM SCIENCE LIGHTNING TALKS"
+                  text="by Reid Passmore, Edson Augusto Melanda, Francis Andorful & Beatrice Olivari"
                 />
               </tr>
               <tr className="text-center">
@@ -329,9 +334,9 @@ export function Schedule({ id }) {
                 />
                 <YellowCell
                   rowSpan={2}
-                  suptitle="Mapping Pedestrian Network Acessibility on OpenStreetMap"
+                  suptitle="Using OpenStreetMap for Humanitarian Purposes - and introduction to the HOT Tasking Manager"
                   title="WORKSHOP"
-                  text="by Kauê de Moraes Vestena"
+                  text="by Nicole Siggins"
                 />
                 <YellowCell
                   suptitle="Fostering OSM’s Micromapping Through Combined Use of Artificial Intelligence and Street-View Imagery"
@@ -342,7 +347,7 @@ export function Schedule({ id }) {
               <tr className="text-center">
                 <TimeCell title="10:00 - 10:30" />
                 <YellowCell
-                  suptitle="OpenStreetMap and Overture:The case for collaboration."
+                  suptitle="OpenStreetMap and Overture:The case for collaboration"
                   title="TALK"
                   text="by Marc Prioleau"
                 />
@@ -365,11 +370,7 @@ export function Schedule({ id }) {
                   title="TALK"
                   text="by Roland Olbricht"
                 />
-                <YellowCell
-                  suptitle="Working together for a more coherent integration of EuroVelo routes on OpenStreetMap"
-                  title="TALK"
-                  text="by Florence Grégoire"
-                />
+                <YellowCell title="LIGHTNING TALKS" />
                 <YellowCell
                   suptitle="BikeDNA: A Tool for Bicycle Infrastructure Data & Network Assessment"
                   title="TALK"
@@ -446,7 +447,11 @@ export function Schedule({ id }) {
         <div className="w-full overflow-x-auto">
           {' '}
           <table class="table-fix my-20 w-full">
-            <TableHeader day={3} date="Sunday, November 12, 2023" />
+            <TableHeader
+              hasScientificTrack
+              day={3}
+              date="Sunday, November 12, 2023"
+            />
             <tbody>
               <tr className="text-center">
                 <TimeCell title="13:00 - 14:00" />
@@ -473,7 +478,7 @@ export function Schedule({ id }) {
                 <YellowCell
                   suptitle="Social, technical and political transformations in OpenStreetMap- From volunteered geographic information to embedding digital commons in platform capitalism"
                   title="TALK"
-                  text="by Susanne Schräder-Bergen"
+                  text="by Susanne Schröder-Bergen"
                 />
               </tr>
               <tr className="text-center">
