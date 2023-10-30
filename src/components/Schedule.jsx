@@ -53,17 +53,17 @@ export function Schedule({ id }) {
               </tr>
               <tr className="text-center">
                 <TimeCell title="16:30 - 17:00" />
-                <YellowCell
-                  title="Welcome Session"
-                  text="by SotM EU Team featuring Mike Harrell"
-                />
+                <YellowCell title="Welcome Session" text="by OSM BE" />
                 <EmptyCell />
                 <EmptyCell />
                 <EmptyCell />
               </tr>
               <tr className="text-center">
                 <TimeCell title="17:00 - 18:00" />
-                <YellowCell title="Meet your Mapper" text="by Allan Mustard" />
+                <YellowCell
+                  title="Meet your Mapper"
+                  text="by Ilya Zverev & Gregory Marler"
+                />
                 <EmptyCell />
                 <EmptyCell />
                 <EmptyCell />
@@ -282,7 +282,7 @@ export function Schedule({ id }) {
                 <YellowCell title="LIGHTNING TALKS" />
               </tr>
               <tr className="text-center">
-                <TimeCell title="18:30 - 22:00" />
+                <TimeCell title="18:30 - 22:30" />
                 <FourColumnGreyCell
                   title="Social Night"
                   text="Balls and Glory - Theaterplein 1 naast Stadsschouwburg, Antwerpen"
@@ -294,7 +294,11 @@ export function Schedule({ id }) {
         <div className="w-full overflow-x-auto">
           {' '}
           <table class="table-fix my-20 w-full">
-            <TableHeader day={3} date="Sunday, November 12, 2023" />
+            <TableHeader
+              hasScientificTrack
+              day={3}
+              date="Sunday, November 12, 2023"
+            />
             <tbody>
               <tr className="text-center">
                 <TimeCell title="8:30 - 9:30" />
@@ -343,7 +347,7 @@ export function Schedule({ id }) {
               <tr className="text-center">
                 <TimeCell title="10:00 - 10:30" />
                 <YellowCell
-                  suptitle="OpenStreetMap and Overture:The case for collaboration."
+                  suptitle="OpenStreetMap and Overture:The case for collaboration"
                   title="TALK"
                   text="by Marc Prioleau"
                 />
@@ -443,7 +447,11 @@ export function Schedule({ id }) {
         <div className="w-full overflow-x-auto">
           {' '}
           <table class="table-fix my-20 w-full">
-            <TableHeader day={3} date="Sunday, November 12, 2023" />
+            <TableHeader
+              hasScientificTrack
+              day={3}
+              date="Sunday, November 12, 2023"
+            />
             <tbody>
               <tr className="text-center">
                 <TimeCell title="13:00 - 14:00" />
