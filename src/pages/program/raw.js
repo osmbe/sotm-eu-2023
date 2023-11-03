@@ -651,3 +651,296 @@ export const raw = [
     ],
   },
 ]
+
+export const dateAndTime = [
+  {
+    date: '11/10/2023',
+    time: '14:00 - 16:00',
+    place: 'Antwerp Berchem Station Meeting Point',
+  },
+  {
+    date: '11/10/2023',
+    time: '16:30 - 17:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/10/2023',
+    time: '17:00 - 18:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '09:30 - 10:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '10:00 - 10:30',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '11:00 - 11:30',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '11:00 - 11:30',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/11/2023',
+    time: '11:00 - 12:00',
+    place: 'Sacagawea',
+  },
+  {
+    date: '11/11/2023',
+    time: '11:00 - 12:00',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/11/2023',
+    time: '11:30 - 12:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '11:30 - 12:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/11/2023',
+    time: '12:00 - 12:30',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '12:00 - 12:30',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/11/2023',
+    time: '12:00 - 12:30',
+    place: 'Sacagawea',
+  },
+  {
+    date: '11/11/2023',
+    time: '13:30 - 14:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '13:30 - 14:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/11/2023',
+    time: '13:30 - 14:00',
+    place: 'Sacagawea',
+  },
+  {
+    date: '11/11/2023',
+    time: '13:30 - 14:30',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/11/2023',
+    time: '14:00 - 14:30',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '14:00 - 14:30',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/11/2023',
+    time: '14:00 - 15:00',
+    place: 'Sacagawea',
+  },
+  {
+    date: '11/11/2023',
+    time: '14:30 - 15:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '14:30 - 15:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/11/2023',
+    time: '15:30 - 16:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '15:30 - 16:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/11/2023',
+    time: '15:30 - 16:30',
+    place: 'Sacagawea',
+  },
+  {
+    date: '11/11/2023',
+    time: '15:30 - 16:30',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/11/2023',
+    time: '16:00 - 17:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/11/2023',
+    time: '16:00 - 17:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/12/2023',
+    time: '09:30 - 10:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/12/2023',
+    time: '09:30 - 10:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/12/2023',
+    time: '09:30 - 10:30',
+    place: 'Sacagawea',
+  },
+  {
+    date: '11/12/2023',
+    time: '10:00 - 10:30',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/12/2023',
+    time: '10:00 - 11:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/12/2023',
+    time: '10:30 - 11:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/12/2023',
+    time: '11:30 - 12:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/12/2023',
+    time: '11:30 - 12:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/12/2023',
+    time: '11:30 - 12:30',
+    place: 'Sacagawea',
+  },
+  {
+    date: '11/12/2023',
+    time: '12:00 - 13:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/12/2023',
+    time: '12:00 - 12:30',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/12/2023',
+    time: '12:30 - 13:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/12/2023',
+    time: '14:00 - 14:30',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/12/2023',
+    time: '14:00 - 14:30',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/12/2023',
+    time: '14:00 - 15:00',
+    place: 'Sacagawea',
+  },
+  {
+    date: '11/12/2023',
+    time: '14:30 - 15:30',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/12/2023',
+    time: '14:30 - 15:00',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/12/2023',
+    time: '15:00 - 15:30',
+    place: 'Orangerie',
+  },
+  {
+    date: '11/12/2023',
+    time: '16:00 - 17:00',
+    place: 'Marco Polo',
+  },
+  {
+    date: '11/12/2023',
+    time: '09:00 - 09:30',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/12/2023',
+    time: '09:30 - 10:00',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/12/2023',
+    time: '10:00 - 10:30',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/12/2023',
+    time: '10:30 - 11:00',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/12/2023',
+    time: '11:30 - 12:00',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/12/2023',
+    time: '12:00 - 12:30',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/12/2023',
+    time: '12:30 - 13:00',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/12/2023',
+    time: '14:00 - 14:30',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/12/2023',
+    time: '14:30 - 15:00',
+    place: 'Vasco Da Gama',
+  },
+  {
+    date: '11/12/2023',
+    time: '15:00 - 15:30',
+    place: 'Vasco Da Gama',
+  },
+]
