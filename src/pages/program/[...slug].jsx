@@ -4,7 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { useEffect, useState } from 'react'
 
-import { descriptiveTable } from './data'
+import { descriptiveTable } from '../../constants/data'
 import { PageNotFound } from '@/components/PageNotFound'
 import { ProgramDetail } from '@/components/ProgramDetail'
 
