@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  fallback: true,
   reactStrictMode: true,
   experimental: {
     scrollRestoration: true,

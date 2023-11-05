@@ -1,38 +1,11 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { useEffect, useState } from 'react'
-
 import { descriptiveTable } from '../../constants/data'
-import { PageNotFound } from '@/components/PageNotFound'
 import { ProgramDetail } from '@/components/ProgramDetail'
 
-export default function Page() {
-  const router = useRouter()
-  const { slug } = router.query
-  const [data, setData] = useState({
-    name: 'name',
-    title: 'title',
-    details: [{ description: 'description', authors: 'authors' }],
-    date: 'date',
-    time: 'time',
-    place: 'place',
-  })
-  const [isValidSlug, setIsValidSlug] = useState(true)
-
-  useEffect(() => {
-    const id = slug
-
-    if (id) {
-      const data = descriptiveTable[slug]
-      if (!data) {
-        setIsValidSlug(false)
-      } else {
-        setData(data)
-      }
-    }
-  }, [slug])
+export default function Page({ program }) {
+  const { name, title, details, date, time, place } = program
 
   return (
     <>
@@ -45,24 +18,35 @@ export default function Page() {
       </Head>
       <Header />
       <main>
-        {!isValidSlug && <PageNotFound id="page-not-found" />}
-        {isValidSlug && (
-          <ProgramDetail
-            id={slug}
-            name={data.name}
-            title={data.title}
-            details={data.details}
-            date={data.date}
-            time={data.time}
-            place={data.place}
-          />
-        )}
+        <ProgramDetail
+          name={name}
+          title={title}
+          date={date}
+          details={details}
+          time={time}
+          place={place}
+        />
       </main>
       <Footer />
     </>
   )
 }
 
-const getServerSideProps = async ({ urlParams }) => {
-  console.log({ urlParams })
+export async function getStaticProps({ params }) {
+  const slug = params.slug
+  const program = descriptiveTable[slug]
+  return {
+    props: {
+      program,
+    },
+  }
+}
+
+export const getStaticPaths = async () => {
+  const paths = Object.keys(descriptiveTable).map((slug) => '/program/' + slug)
+
+  return {
+    paths, //indicates that no page needs be created at build time
+    fallback: false, //indicates the type of fallback
+  }
 }
