@@ -22,10 +22,10 @@ export default function Page() {
   const [isValidSlug, setIsValidSlug] = useState(true)
 
   useEffect(() => {
-    const id = slug?.[0]
+    const id = slug
 
     if (id) {
-      const data = descriptiveTable[slug[0]]
+      const data = descriptiveTable[slug]
       if (!data) {
         setIsValidSlug(false)
       } else {
