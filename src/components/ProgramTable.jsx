@@ -1,10 +1,12 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Logo from '@/images/logos/SOTM_Blue_full_logo_black.png'
 import Fountain from '../images/fountain.jpg'
 
 export const YellowCell = ({
   title,
   text,
+  link,
   suptitle,
   rowSpan = 1,
   colSpan = 1,
@@ -14,9 +16,19 @@ export const YellowCell = ({
     rowSpan={rowSpan}
     className="border border-sotm-yellow bg-sotm-yellow-200 p-2 text-center font-poppins text-sotm-blue"
   >
-    <div className="text-xs font-bold">{suptitle}</div>
-    <div className="font-bold">{title}</div>
-    <div dangerouslySetInnerHTML={{ __html: text }}></div>
+    {link ? (
+      <Link href={link}>
+        <div className="text-xs font-bold">{suptitle}</div>
+        <div className="font-bold">{title}</div>
+        <div dangerouslySetInnerHTML={{ __html: text }}></div>
+      </Link>
+    ) : (
+      <>
+        <div className="text-xs font-bold">{suptitle}</div>
+        <div className="font-bold">{title}</div>
+        <div dangerouslySetInnerHTML={{ __html: text }}></div>
+      </>
+    )}
   </td>
 )
 
@@ -61,7 +73,7 @@ export const TableHeader = ({ day, date, hasScientificTrack = false }) => (
           <div className="grow">
             <Image src={Logo} height={80} alt="State of the Map EU 2023" />
           </div>
-          <div class="text-right">
+          <div className="text-right">
             <h3 className="font-dunbar text-3xl font-bold text-sotm-blue sm:text-4xl">
               Program Day{day}
             </h3>
