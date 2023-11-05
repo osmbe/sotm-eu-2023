@@ -46,7 +46,7 @@ export const getStaticPaths = async () => {
   const paths = Object.keys(descriptiveTable).map((slug) => '/program/' + slug)
 
   return {
-    paths, //indicates that no page needs be created at build time
-    fallback: false, //indicates the type of fallback
+    paths,
+    fallback: false,
   }
 }
