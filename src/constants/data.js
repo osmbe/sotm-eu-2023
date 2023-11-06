@@ -31,7 +31,7 @@ export const descriptiveTable = {
     details: [
       {
         description:
-          'Join us for an energetic speed dating session. Network with fellow attendees and have some fun!',
+          'Join us for an energetic engagement session. Network with fellow attendees and have some fun!',
       },
     ],
     date: '11/10/2023',
@@ -170,7 +170,7 @@ export const descriptiveTable = {
       ],
       date: '11/11/2023',
       time: '12:00 - 12:30',
-      place: 'Orangerie',
+      place: 'Sacagawea',
     },
   'the-local-knowledge-dilemma-a-data-driven-alert-for-osm': {
     name: 'Pete Masters',
@@ -182,8 +182,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/11/2023',
-    time: '12:00 - 12:30',
-    place: 'Sacagawea',
+    time: '13:30 - 14:00',
+    place: 'Orangerie',
   },
   'the-art-of-openstreetmap': {
     name: 'Gregory Marler',
@@ -196,7 +196,7 @@ export const descriptiveTable = {
     ],
     date: '11/11/2023',
     time: '13:30 - 14:00',
-    place: 'Marco Polo',
+    place: 'Orangerie',
   },
   'ungap-the-map-designing-moonshot-cycling-networks': {
     name: 'Dustin Carlino',
@@ -208,8 +208,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/11/2023',
-    time: '13:30 - 14:00',
-    place: 'Orangerie',
+    time: '14:00 - 15:00',
+    place: 'Sacagawea',
   },
   'introducing-the-ohsomenow-stats-dashboard-a-workshop-for-measuring-your-impact':
     {
@@ -223,8 +223,8 @@ export const descriptiveTable = {
         },
       ],
       date: '11/11/2023',
-      time: '13:30 - 14:00',
-      place: 'Sacagawea',
+      time: '13:30 - 14:30',
+      place: 'Vasco Da Gama',
     },
   'sane-limits-for-new-accounts': {
     name: 'Roland Olbricht',
@@ -236,8 +236,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/11/2023',
-    time: '13:30 - 14:30',
-    place: 'Vasco Da Gama',
+    time: '14:00 - 14:30',
+    place: 'Marco Polo',
   },
   'collecting-street-level-pictures-with-centimetric-geolocation-at-low-cost': {
     name: 'Antoine Riche',
@@ -251,7 +251,7 @@ export const descriptiveTable = {
     ],
     date: '11/11/2023',
     time: '14:00 - 14:30',
-    place: 'Marco Polo',
+    place: 'Orangerie',
   },
   'osm-in-belgian-train-stations-welcome-on-board': {
     name: 'Julien Minet',
@@ -263,8 +263,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/11/2023',
-    time: '14:00 - 14:30',
-    place: 'Orangerie',
+    time: '14:30 - 15:00',
+    place: 'Marco Polo',
   },
   'exploring-osm-based-geospatial-datasets-insights-from-the-italian-national-summary-database-dbsn':
     {
@@ -278,10 +278,10 @@ export const descriptiveTable = {
         },
       ],
       date: '11/11/2023',
-      time: '14:00 - 15:00',
-      place: 'Sacagawea',
+      time: '14:30 - 15:00',
+      place: 'Orangerie',
     },
-  'mapycz-digital-traditional-hiking-map-of-whole-world': {
+  'mapy-cz-digital-traditional-hiking-map-of-the-whole-world': {
     name: 'Jakub Zmrzlik',
     title: 'Mapy.cz – digital traditional hiking map of whole World',
     details: [
@@ -291,8 +291,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/11/2023',
-    time: '14:30 - 15:00',
-    place: 'Marco Polo',
+    time: '15:00 - 15:30',
+    place: 'Orangerie',
   },
   'liberated-maps-challenges-opportunities': {
     name: 'Luke Seelenbinder, Bart Louwers',
@@ -304,7 +304,7 @@ export const descriptiveTable = {
       },
     ],
     date: '11/11/2023',
-    time: '14:30 - 15:00',
+    time: '15:30 - 16:00',
     place: 'Orangerie',
   },
   'mapillary-2-billion-images-and-beyond': {
@@ -332,8 +332,8 @@ export const descriptiveTable = {
         },
       ],
       date: '11/11/2023',
-      time: '15:30 - 16:00',
-      place: 'Orangerie',
+      time: '15:30 - 16:30',
+      place: 'Sacagawea',
     },
   'how-to-put-an-entire-country-in-a-container-transportable-openstreetmap-data-integration-into-postgis-using-docker':
     {
@@ -348,7 +348,7 @@ export const descriptiveTable = {
       ],
       date: '11/11/2023',
       time: '15:30 - 16:30',
-      place: 'Sacagawea',
+      place: 'Vasco Da Gama',
     },
   'panoramax-the-full-floss-alternative-for-your-ground-level-imagery': {
     name: 'Christian Quest',
@@ -361,8 +361,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/11/2023',
-    time: '15:30 - 16:30',
-    place: 'Vasco Da Gama',
+    time: '16:00 - 17:00',
+    place: 'Marco Polo',
   },
   'modern-osm2pgsql-tricks': {
     name: 'Jochen Topf & Paul Norman',
@@ -375,9 +375,9 @@ export const descriptiveTable = {
     ],
     date: '11/11/2023',
     time: '16:00 - 17:00',
-    place: 'Marco Polo',
+    place: 'Orangerie',
   },
-  'maintaining-openstreetmaporg': {
+  'maintaining-openstreetmap-org': {
     name: 'Andy Allan',
     title: 'Maintaining OpenStreetMap.org',
     details: [
@@ -386,9 +386,9 @@ export const descriptiveTable = {
           "I volunteer as a maintainer for the \"openstreetmap-website\" project - the open-source code that powers the website, the API and the core database for OpenStreetMap. But what exactly does being a maintainer involve?\n\nIn this talk I'll be showing you behind the scenes. What do I work on in a typical week? How do I choose what to do? What makes a topic worth working on? How do I deal with the endless backlog of open issues and pull requests?\n\nI'll also be delving into some recent changes that we've made, along with giving you some inspiration to get you involved in the translation, design, and development work.",
       },
     ],
-    date: '11/11/2023',
-    time: '16:00 - 17:00',
-    place: 'Orangerie',
+    date: '11/12/2023',
+    time: '09:30 - 10:00',
+    place: 'Marco Polo',
   },
   'nominatim-on-your-laptop': {
     name: 'Sarah Hoffmann',
@@ -401,9 +401,9 @@ export const descriptiveTable = {
     ],
     date: '11/12/2023',
     time: '09:30 - 10:00',
-    place: 'Marco Polo',
+    place: 'Orangerie',
   },
-  'mapping-pedestrian-network-acessibility-on-openstreetmap': {
+  'mapping-pedestrian-network-accessibility-on-openstreetmap': {
     name: 'Kauê de Moraes Vestena',
     title: 'Mapping Pedestrian Network Acessibility on OpenStreetMap',
     details: [
@@ -416,7 +416,7 @@ export const descriptiveTable = {
     time: '09:30 - 10:00',
     place: 'Orangerie',
   },
-  'openstreetmap-and-overturethe-case-for-collaboration': {
+  'openstreetmap-and-overture-the-case-for-collaboration': {
     name: 'Marc Prioleau',
     title: 'OpenStreetMap and Overture:The case for collaboration.',
     details: [
@@ -439,8 +439,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/12/2023',
-    time: '10:00 - 10:30',
-    place: 'Marco Polo',
+    time: '10:00 - 11:00',
+    place: 'Orangerie',
   },
   'openstreetmap-foundations-budget-and-expenditures': {
     name: 'Roland Olbricht',
@@ -452,8 +452,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/12/2023',
-    time: '10:00 - 11:00',
-    place: 'Orangerie',
+    time: '10:30 - 11:00',
+    place: 'Marco Polo',
   },
   'working-together-for-a-more-coherent-integration-of-eurovelo-routes-on-openstreetmap':
     {
@@ -467,8 +467,8 @@ export const descriptiveTable = {
         },
       ],
       date: '11/12/2023',
-      time: '10:30 - 11:00',
-      place: 'Marco Polo',
+      time: '11:30 - 12:00',
+      place: 'Orangerie',
     },
   'openstreetmap-almost-at-20-reflections-and-future-predictions': {
     name: 'Steve Coast',
@@ -495,11 +495,11 @@ export const descriptiveTable = {
         },
       ],
       date: '11/12/2023',
-      time: '11:30 - 12:00',
-      place: 'Orangerie',
+      time: '09:30 - 10:30',
+      place: 'Sacagawea',
     },
   'osmf-board-ama': {
-    name: 'Roland Olbricht',
+    name: 'OSMF Board',
     title: 'OSMF Board AMA',
     details: [
       {
@@ -508,8 +508,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/12/2023',
-    time: '11:30 - 12:30',
-    place: 'Sacagawea',
+    time: '12:00 - 13:00',
+    place: 'Marco Polo',
   },
   'un-maps-learning-hub-a-multi-lingual-educational-platform-on-osm': {
     name: 'Rachele Amerini',
@@ -521,8 +521,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/12/2023',
-    time: '12:00 - 13:00',
-    place: 'Marco Polo',
+    time: '12:00 - 12:30',
+    place: 'Orangerie',
   },
   'utilizing-crowdsourced-mapping-to-enhance-food-security-among-lower-omo-agro-pastoralists-in-ethiopia':
     {
@@ -536,7 +536,7 @@ export const descriptiveTable = {
         },
       ],
       date: '11/12/2023',
-      time: '12:00 - 12:30',
+      time: '12:30 - 13:00',
       place: 'Orangerie',
     },
   'a-hiking-map-created-by-the-club-alpino-italiano-parma-section': {
@@ -548,8 +548,8 @@ export const descriptiveTable = {
           'In 2022 the section of Parma of the Club Alpino Italiano (CAI) created a new 1:25,000 scale hiking trails map of the Parma Apennines. It is a series of 7 printed maps of 70x100 cm format with front/back cartography. The maps were created using OpenStreetMap (OSM) data, with the hiking theme (and more) entirely developed, updated and monitored by the volunteers of the CAI section directly on the OSM platform. We want to describe the entire process of creating the maps, starting from data processing and cartographic techniques, up to printing in the typography.\n\ndescription',
       },
     ],
-    date: '11/12/2023',
-    time: '12:30 - 13:00',
+    date: '11/11/2023',
+    time: '12:00 - 12:30',
     place: 'Orangerie',
   },
   'points-of-interest-anyone': {
@@ -587,8 +587,8 @@ export const descriptiveTable = {
           'Combining OpenStreetMap and Wikidata allows to leverage the strengths of the two projects to create richer maps. This talk explores how OSM-Wikidata Map Framework simplifies this process.',
       },
     ],
-    date: '11/12/2023',
-    time: '14:00 - 15:00',
+    date: '11/11/2023',
+    time: '13:30 - 14:00',
     place: 'Sacagawea',
   },
   '10-years-of-power-infrastructure-mapping-whats-next': {
@@ -627,8 +627,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/12/2023',
-    time: '15:00 - 15:30',
-    place: 'Orangerie',
+    time: '14:00 - 15:00',
+    place: 'Sacagawea',
   },
   'closing-session': {
     name: 'SotM EU Team',

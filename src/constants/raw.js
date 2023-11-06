@@ -25,7 +25,7 @@ export const raw = [
     details: [
       {
         description:
-          'Join us for an energetic speed dating session. Network with fellow attendees and have some fun!',
+          'Join us for an energetic engagement session. Network with fellow attendees and have some fun!',
       },
     ],
   },
