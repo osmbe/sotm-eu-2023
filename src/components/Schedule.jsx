@@ -346,14 +346,14 @@ export function Schedule({ id }) {
                 <YellowCell
                   title="Welcome & Introduction to OSM Science 2023"
                   text="by OSM Science 2023 Scientific Committee"
-                  link="program/welcome-introduction-to-osm-science-2023"
+                  link="program/welcome-introduction-to-osm-science-2023osm-science-lightning-talks"
                 />
               </tr>
               <tr className="text-center">
                 <YellowCell
                   title=" OSM SCIENCE LIGHTNING TALKS"
                   text="by Reid Passmore, Edson Augusto Melanda, Francis Andorful & Beatrice Olivari"
-                  link="program/osm-science-lightning-talks"
+                  link="program/welcome-introduction-to-osm-science-2023osm-science-lightning-talks"
                 />
               </tr>
               <tr className="text-center">
