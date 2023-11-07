@@ -39,12 +39,14 @@ export function Schedule({ id }) {
                   colSpan={4}
                   className="border border-sotm-yellow font-poppins text-sotm-blue"
                 >
-                  <p>Mobile Mapping Workshop</p>
-                  <p className="font-bold">ACTIVE MOVEMENT</p>
-                  <p>by Andrew Hain</p>
-                  <p className="font-bold">
-                    Antwerp Berchem Station Meeting Point
-                  </p>
+                  <Link href="/program/mobile-mapping-workshop">
+                    <p>Mobile Mapping Workshop</p>
+                    <p className="font-bold">ACTIVE MOVEMENT</p>
+                    <p>by Andrew Hain</p>
+                    <p className="font-bold">
+                      Antwerp Berchem Station Meeting Point
+                    </p>
+                  </Link>
                 </td>
               </tr>
               <tr className="text-center">
@@ -580,7 +582,11 @@ export function Schedule({ id }) {
               </tr>
               <tr className="text-center">
                 <TimeCell title="16:00 - 16:30" />
-                <YellowCell title="Closing Session" text="by SotM EU Team" />
+                <YellowCell
+                  title="Closing Session"
+                  text="by SotM EU Team"
+                  link="program/closing-session"
+                />
                 <EmptyCell />
                 <EmptyCell />
                 <EmptyCell />
