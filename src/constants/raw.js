@@ -206,7 +206,7 @@ export const raw = [
   },
   {
     name: 'Jakub Zmrzlik',
-    title: 'Mapy.cz – digital traditional hiking map of whole World',
+    title: 'Mapy.cz – digital traditional hiking map of the whole World',
     details: [
       {
         description:
@@ -241,7 +241,7 @@ export const raw = [
     details: [
       {
         description:
-          'In this hands-on workshop we will share ideas for collaborating with the Communication Working Group to tell the global OpenStreetMap story, as well as tips and tricks for creating great digital and social media content. Then, we will launch a community-wide OpenStreetMap storytelling project.',
+          "In this session, we will share ideas for telling the global OpenStreetMap story. We will share insights from the early days of OSM ambassadorship and look at current examples of great storytelling. We will help you learn how to create great stories that will inspire others on the many social media channels used by OSM'ers worldwide. And, we will offer insights on how to promote local and regional events, including outreach to potential sponsors.",
       },
     ],
   },
@@ -299,7 +299,7 @@ export const raw = [
   },
   {
     name: 'Kauê de Moraes Vestena',
-    title: 'Mapping Pedestrian Network Acessibility on OpenStreetMap',
+    title: 'Mapping Pedestrian Network Accessibility on OpenStreetMap',
     details: [
       {
         description:
@@ -309,7 +309,7 @@ export const raw = [
   },
   {
     name: 'Marc Prioleau',
-    title: 'OpenStreetMap and Overture:The case for collaboration.',
+    title: 'OpenStreetMap and Overture: The case for collaboration',
     details: [
       {
         description:
@@ -406,7 +406,7 @@ export const raw = [
     details: [
       {
         description:
-          'In 2022 the section of Parma of the Club Alpino Italiano (CAI) created a new 1:25,000 scale hiking trails map of the Parma Apennines. It is a series of 7 printed maps of 70x100 cm format with front/back cartography. The maps were created using OpenStreetMap (OSM) data, with the hiking theme (and more) entirely developed, updated and monitored by the volunteers of the CAI section directly on the OSM platform. We want to describe the entire process of creating the maps, starting from data processing and cartographic techniques, up to printing in the typography.\n\ndescription',
+          'In 2022 the section of Parma of the Club Alpino Italiano (CAI) created a new 1:25,000 scale hiking trails map of the Parma Apennines. It is a series of 7 printed maps of 70x100 cm format with front/back cartography. The maps were created using OpenStreetMap (OSM) data, with the hiking theme (and more) entirely developed, updated and monitored by the volunteers of the CAI section directly on the OSM platform. We want to describe the entire process of creating the maps, starting from data processing and cartographic techniques, up to printing in the typography.',
       },
     ],
   },
@@ -620,7 +620,7 @@ export const raw = [
         description:
           'OpenStreetMap has undergone many changes since its beginnings. Coming from social and digital geography, this contribution focuses on the social, technical, and political changes within the project over the past few years. As OpenStreetMap grows, new challenges emerge for the project, the data, and the community as a whole. One of those challenges arises from the growing role of institutional/commercial actors. When understood as a digital commons, OpenStreetMap is characterized as relatively resilient and independent of other interested parties, allowing the project to continue to assert itself as an alternative in the larger context of the geospatial data industry.',
         Authors:
-          'Susanne Schräder-Bergen; Friedrich-Alexander-Universtität, Erlangen-Nürnberg, Germany',
+          'Susanne Schröder-Bergen; Friedrich-Alexander-Universtität, Erlangen-Nürnberg, Germany',
       },
     ],
   },

@@ -183,7 +183,7 @@ export const descriptiveTable = {
     ],
     date: '11/11/2023',
     time: '13:30 - 14:00',
-    place: 'Orangerie',
+    place: 'Marco Polo',
   },
   'the-art-of-openstreetmap': {
     name: 'Gregory Marler',
@@ -283,14 +283,14 @@ export const descriptiveTable = {
     },
   'mapy-cz-digital-traditional-hiking-map-of-the-whole-world': {
     name: 'Jakub Zmrzlik',
-    title: 'Mapy.cz – digital traditional hiking map of whole World',
+    title: 'Mapy.cz – digital traditional hiking map of the whole World',
     details: [
       {
         description:
           'Mapy.cz - most popular map portal and mobile phone app in Czech Republic and Slovakia with users over whole Europe visualizes OpenStreetMap data for whole World (except territory of Czech Republic). Main goal is to offer users map in a map key that they have been using for many years in paper form. In a map you can find all infrastructure and suprastructure for outdoor tourism – for hiking, cycling or winter tourism. App and map portal is for free. Map contains interactive points from OpenStreetMap with photos from users and Wikimedia Commons, texts from Wikipedia and additional information from Wikidata, which make map a comprehensive lexicon about our Earth.\n\nWe would like to introduce map portal and app mapy.cz, features used in portal and app, focusing on use of OpenStreetMap data and other open data such as Wikipedia and Wikidata. We will describe process of creating and updating maps and data and mention feedback from milions of mapy.cz users, which can improve OpenStreetMap data as well.\n\nWe will introduce you also our CSR activity – tactile maps as part of mapy.cz, which give blind people opportunity to read and navigate maps by touch. Worldwide and free. Built on OpenStreetMaps data.\n\nhttps://en.mapy.cz/\nhttps://tactilemaps.eu/',
       },
     ],
-    date: '11/11/2023',
+    date: '11/12/2023',
     time: '15:00 - 15:30',
     place: 'Orangerie',
   },
@@ -328,7 +328,7 @@ export const descriptiveTable = {
       details: [
         {
           description:
-            'In this hands-on workshop we will share ideas for collaborating with the Communication Working Group to tell the global OpenStreetMap story, as well as tips and tricks for creating great digital and social media content. Then, we will launch a community-wide OpenStreetMap storytelling project.',
+            "In this session, we will share ideas for telling the global OpenStreetMap story. We will share insights from the early days of OSM ambassadorship and look at current examples of great storytelling. We will help you learn how to create great stories that will inspire others on the many social media channels used by OSM'ers worldwide. And, we will offer insights on how to promote local and regional events, including outreach to potential sponsors.",
         },
       ],
       date: '11/11/2023',
@@ -405,7 +405,7 @@ export const descriptiveTable = {
   },
   'mapping-pedestrian-network-accessibility-on-openstreetmap': {
     name: 'Kauê de Moraes Vestena',
-    title: 'Mapping Pedestrian Network Acessibility on OpenStreetMap',
+    title: 'Mapping Pedestrian Network Accessibility on OpenStreetMap',
     details: [
       {
         description:
@@ -413,12 +413,12 @@ export const descriptiveTable = {
       },
     ],
     date: '11/12/2023',
-    time: '09:30 - 10:00',
-    place: 'Orangerie',
+    time: '11:30 - 12:30',
+    place: 'Sacagawea',
   },
   'openstreetmap-and-overture-the-case-for-collaboration': {
     name: 'Marc Prioleau',
-    title: 'OpenStreetMap and Overture:The case for collaboration.',
+    title: 'OOpenStreetMap and Overture: The case for collaboration',
     details: [
       {
         description:
@@ -426,8 +426,8 @@ export const descriptiveTable = {
       },
     ],
     date: '11/12/2023',
-    time: '09:30 - 10:30',
-    place: 'Sacagawea',
+    time: '10:00 - 10:30',
+    place: 'Marco Polo',
   },
   'stadia-x-stamen-a-new-era-for-stamen-map-tiles': {
     name: 'Luke Seelenbinder & Stephanie May',
@@ -545,7 +545,7 @@ export const descriptiveTable = {
     details: [
       {
         description:
-          'In 2022 the section of Parma of the Club Alpino Italiano (CAI) created a new 1:25,000 scale hiking trails map of the Parma Apennines. It is a series of 7 printed maps of 70x100 cm format with front/back cartography. The maps were created using OpenStreetMap (OSM) data, with the hiking theme (and more) entirely developed, updated and monitored by the volunteers of the CAI section directly on the OSM platform. We want to describe the entire process of creating the maps, starting from data processing and cartographic techniques, up to printing in the typography.\n\ndescription',
+          'In 2022 the section of Parma of the Club Alpino Italiano (CAI) created a new 1:25,000 scale hiking trails map of the Parma Apennines. It is a series of 7 printed maps of 70x100 cm format with front/back cartography. The maps were created using OpenStreetMap (OSM) data, with the hiking theme (and more) entirely developed, updated and monitored by the volunteers of the CAI section directly on the OSM platform. We want to describe the entire process of creating the maps, starting from data processing and cartographic techniques, up to printing in the typography.',
       },
     ],
     date: '11/11/2023',
@@ -809,7 +809,7 @@ export const descriptiveTable = {
           description:
             'OpenStreetMap has undergone many changes since its beginnings. Coming from social and digital geography, this contribution focuses on the social, technical, and political changes within the project over the past few years. As OpenStreetMap grows, new challenges emerge for the project, the data, and the community as a whole. One of those challenges arises from the growing role of institutional/commercial actors. When understood as a digital commons, OpenStreetMap is characterized as relatively resilient and independent of other interested parties, allowing the project to continue to assert itself as an alternative in the larger context of the geospatial data industry.',
           authors:
-            'Susanne Schräder-Bergen; Friedrich-Alexander-Universtität, Erlangen-Nürnberg, Germany',
+            'Susanne Schröder-Bergen; Friedrich-Alexander-Universtität, Erlangen-Nürnberg, Germany',
         },
       ],
       date: '11/12/2023',
