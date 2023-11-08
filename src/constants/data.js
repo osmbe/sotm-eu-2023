@@ -320,11 +320,11 @@ export const descriptiveTable = {
     time: '15:30 - 16:00',
     place: 'Marco Polo',
   },
-  'how-to-be-an-openstreetmap-social-media-ambassador-using-storytelling-to-build-community':
+  'how-to-be-an-osm-ambassador-insights-into-building-your-community-through-storytelling':
     {
-      name: 'Courtney Williamson & Kate Varfalameyeva',
+      name: 'Courtney Williamson & Steve Coast',
       title:
-        'How to be an OpenStreetMap Social Media Ambassador: Using Storytelling to Build Community',
+        'How to be an OSM Ambassador: insights into building your community through storytelling',
       details: [
         {
           description:

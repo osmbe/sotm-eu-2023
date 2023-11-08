@@ -282,10 +282,10 @@ export function Schedule({ id }) {
                 />
                 <YellowCell
                   rowSpan={2}
-                  suptitle="How to be an OpenStreetMap Social Media Ambassador: Using Storytelling to Build Community"
+                  suptitle="How to be an OSM Ambassador: insights into building your community through storytelling"
                   title="WORKSHOP"
-                  text="by Courtney Williamson & Kate Varfalameyeva"
-                  link="program/how-to-be-an-openstreetmap-social-media-ambassador-using-storytelling-to-build-community"
+                  text="by Courtney Williamson & Steve Coast"
+                  link="program/how-to-be-an-osm-ambassador-insights-into-building-your-community-through-storytelling"
                 />
                 <YellowCell
                   rowSpan={2}
@@ -581,7 +581,7 @@ export function Schedule({ id }) {
                 <FourColumnGreyCell title="Break" />
               </tr>
               <tr className="text-center">
-                <TimeCell title="16:00 - 16:30" />
+                <TimeCell title="16:00 - 17:00" />
                 <YellowCell
                   title="Closing Session"
                   text="by SotM EU Team"
