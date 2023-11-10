@@ -5,7 +5,8 @@ import { descriptiveTable } from '../../constants/data'
 import { ProgramDetail } from '@/components/ProgramDetail'
 
 export default function Page({ program }) {
-  const { name, title, details, date, time, place } = program
+  const { name, title, details, date, time, place, secondTitle, secondName } =
+    program
 
   return (
     <>
@@ -25,6 +26,8 @@ export default function Page({ program }) {
           details={details}
           time={time}
           place={place}
+          secondTitle={secondTitle}
+          secondName={secondName}
         />
       </main>
       <Footer />
