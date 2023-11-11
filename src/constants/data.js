@@ -768,29 +768,29 @@ export const descriptiveTable = {
         description:
           'SPOT: A Natural Language Interface for Geospatial Searches in OSM',
         authors:
-          'Lynn Khellaf; Deutsche Welle - Research and Cooperation Projects\nIpek Baris Schlicht; Deutsche Welle - Research and Cooperation Projects\nRuben Bouwmeester; Deutsche Welle - Research and Cooperation Projects\nTilman MiraÃŸ; Deutsche Welle - Research and Cooperation Projects\nJulia Bayer; Deutsche Welle - Research and Cooperation Projects\nTilman Wagner; Deutsche Welle - Research and Cooperation Projects',
+          'Lynn Khellaf; Deutsche Welle - Research and Cooperation Projects\nIpek Baris Schlicht; Deutsche Welle - Research and Cooperation Projects\nRuben Bouwmeester; Deutsche Welle - Research and Cooperation Projects\nJulia Bayer; Deutsche Welle - Research and Cooperation Projects\nTilman Wagner; Deutsche Welle - Research and Cooperation Projects',
       },
       {
         description:
-          'Building a baseline of health facility data with OpenStreetMap',
+          'Building a baseline of health facility data with OpenStreetMap [ONLINE]',
         authors:
           'Mark Herringer - The Global healthsites Mapping project (healthsites.io)\nLamine Ndiaye - OpenStreetmap Senegal\nAndy South - Afrimapr',
       },
       {
         description:
-          'Beyond Two Dimensions: Large-Scale Building Height Mapping in OpenStreetMap via Synthetic Aperture Radar and Street-View Imagery',
+          'Beyond Two Dimensions: Large-Scale Building Height Mapping in OpenStreetMap via Synthetic Aperture Radar and Street-View Imagery [ONLINE]',
         authors:
           'Dr. Yao Sun; Chair of Data Science in Earth Observation, Technical University of Munich;\nDr. Hao Li; Professorship of Big Geospatial Data Management, Technical University of Munich;',
       },
       {
         description:
-          'Utilising OSM data in geospatial representation learning [possibly ONLINE]',
+          'Utilising OSM data in geospatial representation learning [ONLINE]',
         authors:
           'Piotr Gramacki; Wrocław University of Science and Technology;\nKacper Leśniara; Wrocław University of Science and Technology;\nKamil Raczycki; Wrocław University of Science and Technology;\nSzymon Woźniak; Wrocław University of Science and Technology;\nPiotr Szymański; Wrocław University of Science and Technology',
       },
       {
         description:
-          'Rural water point mapping with/in OSM: implications of recent research in Malawi [possibly ONLINE]',
+          'Rural water point mapping with/in OSM: implications of recent research in Malawi [ONLINE]',
         authors:
           'Dr Alistair Geddes, , Geography, Division of Energy, Environment & Society, School of Humanities, Social Sciences & Law, University of Dundee, UK.',
       },
